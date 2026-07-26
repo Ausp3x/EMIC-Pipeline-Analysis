@@ -1,0 +1,262 @@
+EMIC / Keystage II changelog
+
+Changelog:
+- 2026-07-09: Added official-page extraction, HTML caching, duplicate-row removal, medal summaries, and unique-contestant output.
+- 2026-07-09: Added confirmed medal buckets, rank-average, percentile estimates, and total-participant audit output.
+- 2026-07-10: Renamed processed outputs for Keystage II, trimmed audit/debug columns, title-cased all-uppercase display names/countries, and moved denominator notes into this changelog.
+- 2026-07-10: Renamed audit and medal-bucket outputs, normalized country names to IMO country-list names, and resolved international-team contestants to countries.
+- 2026-07-11: Added name_last_first, converted comma-order names to first-name-last-name in name_clean, stripped obvious title/country artifacts, and canonicalized reviewed name aliases.
+- 2026-07-11: Proper-cased lower-case source name tokens and normalized Mainland Chinese and Korean family-name-first rows to first-name-last-name display order.
+- 2026-07-18: Re-audited name order across every contestant, added shared East Asian country/year rules, applied exact-token IMO given-name/surname references, and separated unresolved same-year homonyms.
+- 2026-07-18: Corrected compacted Korean source-order equivalence, restored reviewed Mexican/Romanian diacritics, and reran the full row-level name audit.
+- 2026-07-18: Added Malaysia/Singapore Chinese-name rules for family-first, English-given-first, and Chinese-name-comma-English-name source formats.
+- 2026-07-18: Added reviewed country/year surname-order rules for Bulgaria, Cyprus, Kazakhstan, Mongolia, Romania, Tajikistan, and suffix-supported Uzbek family-first rows.
+- 2026-07-18: Corrected Mexico/Peru/Bolivia name_last_first values to retain both Hispanic surnames when no explicit comma or IMO surname field is available.
+- 2026-07-18: Propagated unambiguous comma-explicit surname boundaries across matching appearances so full and unique outputs use the same compound surname.
+- 2026-07-18: Reconciled cross-year source-order reversals, including Alimzhan Adil, and added Bulgarian surname-first detection for mixed 2017-2019 lists.
+- 2026-07-18: Corrected Cuong Viet Do from the official RMM roster and extended Bulgarian surname-first detection to later lists.
+- 2026-07-18: Canonicalized high-confidence identities shared with Keystage III; shorter/conflicting source forms remain in name_variants.
+- 2026-07-18: Completed a reproducible full-output surname, casing, history, and conservation audit; Japanese source order is now an explicit shared rule.
+- 2026-07-18: Merged four high-confidence consecutive-year spelling/romanization identities found by the final within-stage near-match review.
+- 2026-07-19: Expanded Kwan Chan to the official IMO full name Kwan Yu Chan; the shorter EMIC source form remains in name_variants.
+- 2026-07-22: Completed the final country-by-country duplicate pass; merged supported abbreviated, omitted-patronymic, and romanization identities through shared rules while retaining source spellings in name_variants.
+- 2026-07-22: Expanded four Sri Lankan initials-only names from official IMO, APMO, FIDE, and Sri Lanka Olympiad Mathematics Foundation records.
+- 2026-07-22: Added a two-year maximum same-stage identity span; split the unrelated Ivan Safonov records from 2013 and 2023 that exact-name grouping had previously combined.
+- 2026-07-23: Refreshed the IMO surname reference through 2026 and corrected Minal Thattamparambil Ranjith's surname boundary to 'Thattamparambil Ranjith, Minal'.
+
+Country normalization source:
+- IMO country list: https://www.imo-official.org/countries/
+
+IMO country-name changes applied:
+- China -> People's Republic of China
+- Hong Kong, China -> Hong Kong
+- Iran -> Islamic Republic of Iran
+- Korea -> Republic of Korea
+- Macau, China -> Macau
+- Russia -> Russian Federation
+- USA/U.S.A./United States -> United States of America
+
+International-team country resolutions:
+- Source: official result-page contestant IDs and international-team labels; 2013 rows without IDs were resolved from the listed mixed-team label plus contestant name.
+- Kim Ji Tae -> Republic of Korea
+- Goo Ga Rin -> Republic of Korea
+- Viktor Petrov Baltin -> Bulgaria
+- Joo Hae Jin -> Republic of Korea
+- Kristian Emilov Minchev -> Bulgaria
+- Kim Jeong Woo -> Republic of Korea
+- Meng Wei Qi -> People's Republic of China
+- Cao Thuy An -> Vietnam
+- Matawee Leelalertwong -> Thailand
+- Pak, Mi Jung -> Philippines
+- Mihaylova Kamelia Svetoslsvsva -> Bulgaria
+- Aidan Ong Ming Feng -> Malaysia
+- Sharafetdinova Galiia -> Russian Federation
+- Nguyen Dang Huyen My -> Vietnam
+- Madrazo, Angelene Erika T. -> Philippines
+- Josiah Kho Rui Ming -> Malaysia
+
+Name cleaning and canonicalization changes:
+- Comma-order names are converted to first-name-last-name in name_clean; the sortable last-name-first form is written to name_last_first.
+- Thai title prefixes Master, Miss/Miss., and the observed typo Maser are removed from name_clean.
+- Trailing country labels in parentheses are removed only when they match the resolved contestant country.
+- 2013 United States comma rows that were written as given-name, surname are handled as special cases.
+- People's Republic of China rows without commas are treated as family-name-first; their given-name syllables are compacted, e.g. Zhou Si Qi -> Siqi Zhou.
+- Republic of Korea rows with a recognized Korean surname are normalized to first-name-last-name; non-hyphenated given-name syllables are compacted, e.g. Kang Seung Ho -> Seungho Kang.
+- Taiwan comma rows use the text before the comma as surname, except the reviewed source reversal En-Yu, Lin.
+- Hong Kong uncommaed rows are treated as family-name-first unless a recognized Chinese surname occurs only at the end; Cantonese and English given-name components retain their source spacing/order.
+- Macau uses the delegation's observed source convention by year: 2021-2022 are given-name-first, while uncommaed 2014, 2016, 2018, 2019, and 2023 rows are family-name-first.
+- Japanese rows are already given-name-first in the official EMIC source and are retained in that order.
+- Vietnamese rows are normalized from family-name-first source order without compacting their given-name components.
+- Malaysian and Singaporean Chinese names are normalized by the observed surname position: family first, or second after an English given name; comma rows of the form Chinese name, English name use the first Chinese token as surname.
+- Country/year family-first rules are applied only where repeated identities or exact IMO surname fields establish the delegation's source convention; mixed years use reviewed named exceptions.
+- Mexican, Peruvian, and Bolivian non-comma names retain their final two surname components (plus an attached surname particle); explicit comma and exact IMO fields take precedence.
+- Delegation-specific surname rules take precedence when an IMO profile's separate name fields conflict with the contestant's cultural/source order; this affects one Vietnamese reference match.
+- For Mongolian names, name_last_first uses the source-established patronymic/family-like component as the sort key; this is not necessarily a Western hereditary surname.
+- Radian (Indonesia, 2013) is listed by the official source as a mononym, so name_last_first also remains Radian rather than inventing a surname.
+- Exact token-set matches to IMO contestants use the IMO site's separate given-name and surname fields; the original EMIC spelling remains in name_variants when it differs.
+- IMO name-order reference: https://www.imo-official.org/results/individual/country/{country-code}/
+- Mexican 2021 spelling/diacritic reference: https://www.ommenlinea.org/wp-content/uploads/2021/12/Tzaloa-4-2021.pdf
+- Corina-Anamaria Bunău surname/diacritic reference: https://www.edums.ro/onm2024/downloads/repartizare-onm-2024.pdf
+- Cuong Viet Do name-order reference: https://rmms.lbi.ro/rmm2019/index.php?id=participants_math
+- Jakhongir Norboev spelling reference: https://www.imo-official.org/hall-of-fame/UZB/
+- Deyan Deyanov Hadzhi-Manich spelling reference: https://ioai-official.org/bulgaria-2024/2024-bulgaria-teams/
+- Nyamdavaa Amar name-order reference: https://imo-official.org/team_r.aspx?code=MNG&column=p6&language=en&order=desc&year=2020
+- Luthfi Bima Putra spacing reference: https://cdnc.heyzine.com/files/uploaded/v2/954cb37d1f67ad440006cd838836f7a0a2198129.pdf
+- Felicia Grace Angelyn Ferdianto full-name reference: https://humas.jatengprov.go.id/detail_berita_gubernur?id=2649
+- Bunau Corina Anamaria -> Corina-Anamaria Bunău (surname and diacritics verified from Romanian national-olympiad records)
+- Franco Rinaldi -> Franco Miguel Rinaldi Copa
+- Aditya Ilham K.S -> Aditya Ilham Khairullah Seger
+- M. Surya Siddiq -> Muhammad Surya Siddiq
+- Sakarev Bozhidar Aleksandrov -> Bozhidar Aleksandrov Sakarev
+- Angelov Boris Dimitrov -> Boris Dimitrov Angelov
+- Noman Iliyas Bashir -> Iliyas Bashir Noman
+- Do Viet Cuong / Viet Do Cuong -> Cuong Viet Do (official RMM roster spelling/order)
+- Marinova Darina Spartak -> Darina Spartak Marinova
+- Ivanov Venislav Emanoelov -> Venislav Emanoelov Ivanov
+- Stefanov Emiliyan Ventsislavov -> Emiliyan Ventsislavov Stefanov
+- Petrova Stanislava Georgieva -> Stanislava Georgieva Petrova
+- Mladenova Yoana Plamenova -> Yoana Plamenova Mladenova
+- Alyara Mahmudova -> Alyara Alkanova Mahmudova
+- Angel Hristov -> Angel Antonov Hristov
+- Hristov Dimitar / Hristov Dimitar Dimitrov -> Dimitar Dimitrov Hristov
+- Shumanov Milen / Shumanov Milen Milenov -> Milen Milenov Shumanov
+- Adil Alimzhan -> Alimzhan Adil (surname Adil established by the 2014-2016 source-order reversal)
+- Beremkulov Alan -> Alan Beremkulov
+- Tsekhovoy Alexey -> Alexey Tsekhovoy
+- Amanbayeva Aruzhan -> Aruzhan Amanbayeva
+- Baimuldin Danil -> Danil Baimuldin
+- Kabdygali Miras -> Miras Kabdygali
+- Cheang Cheok Lam / Cheok Lam CHEANG -> Cheok Lam Cheang
+- Choi Chi Lok -> Chi Lok Choi
+- Fong Pak Io -> Pak Io Fong
+- Kwan Chan -> Kwan Yu Chan (full official IMO given name)
+- Nyamdavaa Amar -> Amar Nyamdavaa
+- Baasannorov Temuulen -> Temuulen Baasannorov
+- Otgonbayar Misheel -> Misheel Otgonbayar
+- Adhikari Anweshan -> Anweshan Adhikari
+- Lance Gabriel T. Madrazo -> Lance Gabriel Torion Madrazo
+- Paul Vincent Leandrei L. Navarro -> Paul Vincent Leandrei Laylo Navarro
+- Shaun Lawrence T. Poh Leung -> Shaun Lawrence Tiong Poh Leung
+- Robert Frederik D. Uy -> Robert Frederik Diaz Uy
+- Wesley Gavin Palomar -> Wesley Gavin G. Palomar
+- Shawn Darren Chua -> Shawn Darren S. Chua
+- Frederick Ivan T. Tan -> Frederick Ivan Tiong Tan
+- Caitlin E. Lopingco -> Caitlin Enrile Lopingco
+- Radu Ilinca Rucsandra / Radu Ilinca Ruxandra -> Ilinca Ruxandra Radu
+- Arseny Yenatsky -> Arseniy Yenatskiy
+- Safonov Ivan -> Ivan Safonov
+- S.A. Arbith Ahamed -> Seinul Asamdeen Arbith Ahamed
+- Punnisa Wongwanitchagorn -> Punnisa Wongvanitchakorn
+- Phollaphat Watthanaudom -> Phonlaphat Watthanaudom
+- Zariffe Yamel C?spedes Pelayo -> Zariffe Yamel Céspedes Pelayo
+- Artie Aar?n Ram?rez Villa -> Artie Aarón Ramírez Villa
+- Takumi Higashida Mart?nez -> Takumi Higashida Martínez
+- Antonio Guti?rrez Melendez -> Antonio Gutiérrez Meléndez
+- Olaf Daniel Magos Hern?ndez -> Olaf Daniel Magos Hernández
+- Olimzhon Tukhtarov -> Olimdzhon Tukhtarov (IMO spelling; consecutive-year identity)
+- Myongjin Seo -> Myoungjin Seo (consecutive-year romanization variant)
+- Doyoup Lee -> Doyeup Lee (consecutive-year romanization variant)
+- Lance Henrich Sy Lim / Lance Heinrich S. Lim -> Lance Heinrich Sy Lim (consecutive-year full-name reconciliation)
+- Trisha Danielle K. Sia -> Trisha Danielle Ko Sia
+- Fedrick Lance R. Lim -> Fredrick Lance R. Lim (source spelling conflict; earlier full source retained)
+- Sean Kendrick N. Yeo -> Sean Kendrick Ng Yeo
+- Immanuel Josiah A. Balete -> Immanuel Josiah Ang Balete
+- Bryce Ainsley A. Sanchez -> Bryce Ainsley Ang Sanchez
+- Stephen James L. Ty -> Stephen James Lim Ty
+- Jaymi Mae L. Ching -> Jaymi Mae Lim Ching
+- Jared Cobe W. Ng -> Jared Cobe Woo Ng
+- Kate Dominique K. Siaco -> Kate Dominique Kung Siaco
+- Ryan Mark Shao -> Ryan Mark L. Shao
+- Kei Hang Derek Chan -> Kei Hang Derek Hao Chan
+- Ambrose James G. Torreon -> Ambrose James Garcia Torreon
+- Alyana Zoie S. Chua -> Alyana Zoie Siytiu Chua
+- Ethan Jared Chan -> Ethan Jared Reyes Chan
+- Neo A. Gatlabayan -> Neo Angelo G. Gatlabayan
+- Luthfi Bimaputra -> Luthfi Bima Putra (Indonesian school records)
+- Felicia Grace Angelyn F -> Felicia Grace Angelyn Ferdianto (Indonesian government/school records)
+- Jahongir Norboev -> Jakhongir Norboev (IMO spelling)
+- Deyan Deyanov Hadji-Manich / Hadzhi Manich -> Deyan Deyanov Hadzhi-Manich (official IOAI spelling)
+- Geohgi Atanasov -> Georgi Atanasov
+- Evgeni Staev Kairakov -> Evgeni Staev Kayryakov (official RMM spelling)
+- Ivan-Aleksandar Mavrov -> Ivan-Aleksandar Veselinov Mavrov
+- Aleksandar Georgiev -> Aleksandar Georgiev Georgiev
+- Kaloyan Fachikov -> Kaloyan Todorov Fachikov
+- Vanesa Kalinkova -> Vanesa Angelova Kalinkova
+- Marin Hristov -> Marin Hristov Hristov
+- Kittipong Ruemsub -> Kittipong Ruamsub (later source spelling)
+- Nattaphat Pathanapiradech -> Nattaphat Phattanapiradech
+- Thanakorn Auttawatchakui -> Thanakorn Auttawetchakul
+- Razvan Morariu -> Răzvan Andrei Morariu
+- Bogdan Duminica -> Bogdan-Stelian Duminică (same ROU2A01 contestant ID in consecutive years)
+- Nyamdavaa Amar / Amar Nyamdavaa -> Amar Nyamdavaa (cross-stage source-order reversal; official IMO display order confirms Nyamdavaa Amar)
+- Doriush Khairidinov -> Doriush Khayridinov (IMO spelling; shared cross-stage identity)
+- Dobromir Angelov -> Dobromir Dobromirov Angelov (full patronymic source; EMIC 2019 to IWYMIC 2021-2023 progression)
+- Kiril Bangachev -> Kiril Atanasov Bangachev (full patronymic source; later IMO short form confirms the identity)
+- Boris Barbov -> Boris Aleksandrov Barbov (full patronymic source; consecutive age-stage progression)
+- Martin Dimitrov -> Martin Dimitrov Dimitrov (full patronymic source; consecutive IWYMIC appearances)
+- Ivan Georgiev -> Ivan Ventsislavov Georgiev (full patronymic source; EMIC-to-IWYMIC progression; Ivan Todorov Georgiev remains distinct)
+- Boris Gerginov -> Boris Velkov Gerginov (full patronymic source; EMIC-to-IWYMIC progression)
+- Asel Ismoldaeva -> Asel Irlanovna Ismoldaeva (full patronymic source; non-overlapping IWYMIC appearances)
+- Zlatina Mileva -> Zlatina Todorova Mileva (full patronymic source; independently listed in Mathematics Without Borders results)
+- Irina Sofronova -> Irina Julianova Sofronova (full patronymic source; EMIC-to-IWYMIC progression)
+- Kaloyan Tsanev -> Kaloyan Vladislavov Tsanev (full patronymic source; independently listed in Bulgarian mathematics results)
+- Neli Tsokanova -> Neli Tsvetanova Tsokanova (full patronymic source; EMIC-to-IWYMIC progression)
+- Andrew Carlson -> Andrew Chunwing Carlson (full middle-name source; EMIC 2014 to IWYMIC 2016-2018 progression)
+- M. Abdurrahman B. -> Muhammad Abdurrahman Basyah (initials expand exactly; consecutive EMIC/IWYMIC source progression)
+- Iek Hin Ng -> Iek Hin Bosco Ng (full English middle-name source; EMIC-to-IWYMIC progression)
+- Chi Hou Leung -> Chi Hou Leong (Leung/Leong surname romanization; exact given name in non-overlapping IWYMIC appearances)
+- Seongjoon Jo -> Seongjoon Cho (Jo/Cho surname romanization; exact given name in consecutive IWYMIC appearances)
+- H.M.M.A. Bandara -> Hitihami Mudiyanselage Mihiru Anushka Bandara (official IMO full name; APMO short form)
+- R.M.M. Manuja Jayasekara -> Ramanayake Mudiyanselage Minindu Manuja Jayasekara (Sri Lanka Olympiad Mathematics Foundation full name)
+- R.T.U. Jayasena -> Tharaka Udayanga Jayasena (official APMO and FIDE full name)
+- W.S. Nethmina Perera -> Welikadage Sithusha Nethmina Perera (Sri Lanka Olympiad Mathematics Foundation full name)
+- S.A. Kotuwewatta -> Sithija Abhishek Kotuwewatta (initials, chronology, and official APMO/IMO records)
+- S.B. Marapana -> Sanupa Bimsath Marapana (initials, chronology, and official APMO record)
+- P.L.D. Pathirana / Luchitha Disal Pathirana -> Pathirannehelage Luchitha Disal Pathirana (initials, chronology, and official APMO/IMO records)
+- G.M.B. Perera -> Gonaduwage Maneth Banula Perera (initials, chronology, and official APMO/IMO records)
+- T.V.N. Vithanachchi -> Thellabura Vithanachchige Nelushi Vithanachchi (initials, chronology, and official APMO/IMO records)
+- C.T.B. Wanasinghe -> Chandhopama Thidas Bandara Wanasinghe (initials, chronology, and official APMO/IMO records)
+- Abdurauf Abdurasulov -> Abdurauf Zinatulloevich Abdurasulov (full patronymic source; EMIC-to-IWYMIC progression)
+
+Reviewed similar names kept separate:
+- Robert Gerard D. Uy and Robert Henrik Diaz Uy were kept separate from Robert Frederik Diaz Uy because the given/middle names differ.
+- Herath Mudiyanselage Anjana Kavindu Herath and Herath Mudiyanselage Anjula Yasiru Herath were kept separate because the given names differ.
+
+Peculiar fuzzy matches flagged for later review:
+- Hong Kong: Yip Chun Hei and Yiu Chun Hei are close spellings across adjacent years, but the surname differs, so they remain separate.
+- Hong Kong: Wong Pak Qiu and Wong Pak Yu share surname and one given-name syllable, but the final syllable differs, so they remain separate.
+- Republic of Korea: Kim Jeongwoo, Kim Jongwoo, and Kim Jungwoo look similar, but the appearances span separated cohorts, so they remain separate.
+
+Source result posts:
+- 2013: https://chiuchang.org/imc/en/2018/04/13/bimc-2013-results-3/
+- 2014: https://chiuchang.org/imc/en/2018/04/13/kimc-2014-results-2/
+- 2015: https://chiuchang.org/imc/en/2018/04/12/cimc-2015-information-and-results-3/
+- 2016: https://chiuchang.org/imc/en/2018/04/12/timc-2016-information-and-results-2/
+- 2017: https://chiuchang.org/imc/en/2018/04/12/inimc-2017-information-and-results-2/
+- 2018: https://chiuchang.org/imc/en/2018/07/24/bimc-2018-results-2/
+- 2019: https://chiuchang.org/imc/en/2019/08/12/saimc-2019-results/
+- 2021: https://chiuchang.org/imc/en/2021/08/02/iimc-2021-results-3/
+- 2022: https://chiuchang.org/imc/en/2022/07/19/iimc-2022-results/
+- 2023: https://chiuchang.org/imc/en/2023/07/26/bimc-2023-results/
+
+Awarded rows extracted by year:
+- 2013: 197
+- 2014: 192
+- 2015: 214
+- 2016: 196
+- 2017: 177
+- 2018: 202
+- 2019: 165
+- 2021: 211
+- 2022: 216
+- 2023: 238
+
+Total awarded appearances: 2008
+Conservative unique contestant records: 1814
+Exact duplicate source rows removed: 5
+
+Same-name collision handling:
+- 2017 Vietnam: Nhat Minh Nguyen appears under distinct contestant IDs VIE2A02, VIE2C02; these appearances are kept as separate identities.
+- 2023 Bulgaria: Georgi Dimitrov Dimitrov appears under distinct contestant IDs BGR2G-P01, BGR2H-P04; these appearances are kept as separate identities.
+
+Total participant denominator:
+- Source used: friend_researched_total
+- The official result pages list awarded contestants but do not list every non-awarded contestant.
+- No total-participant corrections were derivable from these result pages alone.
+- This note was removed from emic_total_participants_audit.csv and preserved here instead.
+
+Bucket validation:
+- All computed bucket sizes match the friend screenshot.
+
+Cleaning notes:
+- Unicode is normalized with NFKC; non-breaking spaces and repeated whitespace are collapsed.
+- name_clean is the canonical first-name-last-name display value after reviewed name-order and spelling cleanup.
+- name_last_first is the companion last-name-first display value for sorting/review.
+- Run python "2 Processing Scripts/audit_emic_name_outputs.py" after regeneration to repeat the full name/history audit across both stages and the combined output.
+- name_variants is left empty only when the row-specific cleaned display spelling exactly matches name_clean.
+- Matching keys are lowercase, accent-insensitive, and punctuation-insensitive.
+- Countries are mostly preserved as shown by chiuchang.org; only obvious aliases like USA are expanded.
+- Only IDs whose division marker is 2 are kept, i.e. Keystage II / EMIC.
+- Exact repeated rows in the source HTML are removed before writing the processed CSVs.
+- Exact same-country names more than two years apart are kept as separate Keystage II identities unless a future explicit reviewed rule establishes otherwise.
+- Rank buckets are applied from the confirmed bucket-size table and checked against official medal row counts.

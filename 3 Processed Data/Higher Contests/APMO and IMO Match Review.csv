@@ -1,0 +1,353 @@
+contest,official_name,official_name_last_first,official_country,official_years,candidate_scope,candidate_combined_id,candidate_name_clean,candidate_name_last_first,candidate_country_clean,similarity,candidate_emic_years,candidate_iwymic_years
+APMO,SeungHwan Lee,"Lee, SeungHwan",Republic of Korea,2021,same_country,1937,Seungchan Lee,"Lee, Seungchan",Republic of Korea,0.9166666667,2013,
+APMO,HUNG-YU CHEN,"CHEN, HUNG-YU",Taiwan,2020;2021,same_country,2371,Yu-Cheng Huang,"Huang, Yu-Cheng",Taiwan,0.9090909091,2021;2022;2023,
+APMO,Anthony Wang,"Wang, Anthony",United States of America,2023,same_country,2901,Anthony Yang,"Yang, Anthony",United States of America,0.9090909091,,2021;2022
+APMO,Hoàng Phương Nguyễn,"Nguyễn, Hoàng Phương",Vietnam,2026,same_country,3038,Hoang Duong Nguyen,"Nguyen, Hoang Duong",Vietnam,0.9090909091,2016,
+APMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2026,same_country,1906,Dohyun Kim,"Kim, Dohyun",Republic of Korea,0.9,2022,
+APMO,I-Chan Chang,"Chang, I-Chan",Taiwan,2023,same_country,2269,Chi-An Chang,"Chang, Chi-An",Taiwan,0.9,,2021
+APMO,Jihwan Lee,"Lee, Jihwan",Republic of Korea,2026,same_country,1935,Juhwan Lee,"Lee, Juhwan",Republic of Korea,0.8888888889,2014,
+APMO,Seojin Kim,"Kim, Seojin",Republic of Korea,2019,same_country,1921,Seojun Kim,"Kim, Seojun",Republic of Korea,0.8888888889,2022;2023,
+APMO,Xinyi Shen,"Shen, Xinyi",Singapore,2020,same_country,2088,Xinyi Chen,"Chen, Xinyi",Singapore,0.8888888889,2014,2017
+APMO,Hong-Ruei Jhang,"Jhang, Hong-Ruei",Taiwan,2023,same_country,2483,Hong-Ruei Wang,"Wang, Hong-Ruei",Taiwan,0.88,2016,
+APMO,Kevin Min,"Min, Kevin",Canada,2021;2022,same_country,387,Kevin Lin,"Lin, Kevin",Canada,0.875,,2016
+APMO,Yu-An Cho,"Cho, Yu-An",Taiwan,2023;2024,same_country,2323,Yu-Fan Chou,"Chou, Yu-Fan",Taiwan,0.875,,2021
+APMO,Seunhwan Lee,"Lee, Seunhwan",Republic of Korea,2022,same_country,1937,Seungchan Lee,"Lee, Seungchan",Republic of Korea,0.8695652174,2013,
+APMO,I-Chan Chang,"Chang, I-Chan",Taiwan,2023,same_country,2275,Hsiu-Chan Chang,"Chang, Hsiu-Chan",Taiwan,0.8695652174,,2016
+APMO,WEI-CHUNG CHEN,"CHEN, WEI-CHUNG",Taiwan,2021,same_country,2267,Wei-Chun Chan,"Chan, Wei-Chun",Taiwan,0.8695652174,2021,
+APMO,Anh Quân Trần,"Trần, Anh Quân",Vietnam,2026,same_country,3093,Dinh Quan Tran,"Tran, Dinh Quan",Vietnam,0.8695652174,2015;2016,
+APMO,Christopher Li,"Li, Christopher",Canada,2025;2026,same_country,393,Christopher Situ,"Situ, Christopher",Canada,0.8571428571,,2019
+APMO,Evan Nathanael,"Nathanael, Evan",Indonesia,2024,same_country,730,Kelven Nathanael,"Nathanael, Kelven",Indonesia,0.8571428571,,2021
+APMO,Amirhossein Bagheri,"Bagheri, Amirhossein",Islamic Republic of Iran,2019,same_country,837,Amirhossein Bateni,"Bateni, Amirhossein",Islamic Republic of Iran,0.8571428571,2014,
+APMO,Amirhossein Bagheri,"Bagheri, Amirhossein",Islamic Republic of Iran,2019,same_country,854,Amirhossein Ghaedi,"Ghaedi, Amirhossein",Islamic Republic of Iran,0.8571428571,2015,
+APMO,Arian Zandi,"Zandi, Arian",Islamic Republic of Iran,2026,same_country,958,Arian Zamani,"Zamani, Arian",Islamic Republic of Iran,0.8571428571,2015,
+APMO,Jaehoon Shin,"Shin, Jaehoon",Republic of Korea,2021,same_country,1960,Raehoon Sin,"Sin, Raehoon",Republic of Korea,0.8571428571,,2014
+APMO,Cheng-Han Li,"Li, Cheng-Han",Taiwan,2022;2023,same_country,2399,Cheng-Han Lee,"Lee, Cheng-Han",Taiwan,0.8571428571,,2015
+APMO,Yi-Hsun Chen,"Chen, Yi-Hsun",Taiwan,2025,same_country,2302,Yi-Chuan Chen,"Chen, Yi-Chuan",Taiwan,0.8571428571,2017,
+APMO,Yu-Hung Hsueh,"Hsueh, Yu-Hung",Taiwan,2025,same_country,2519,Hung-Hsun Yu,"Yu, Hung-Hsun",Taiwan,0.8571428571,,2013
+APMO,Đình Tùng Nguyễn,"Nguyễn, Đình Tùng",Vietnam,2026,same_country,3051,Minh Tuan Nguyen,"Nguyen, Minh Tuan",Vietnam,0.8571428571,,2015
+APMO,Rakhmon Sabirov,"Sabirov, Rakhmon",Tajikistan,2018,same_country,2569,Rakhmondzhon Sabirov,"Sabirov, Rakhmondzhon",Tajikistan,0.8484848485,,2018
+APMO,Hoàng Phương Nguyễn,"Nguyễn, Hoàng Phương",Vietnam,2026,same_country,3039,Hoang Trung Nguyen,"Nguyen, Hoang Trung",Vietnam,0.8484848485,2017,
+APMO,Hoàng Phương Nguyễn,"Nguyễn, Hoàng Phương",Vietnam,2026,same_country,3043,Khanh Duong Nguyen,"Nguyen, Khanh Duong",Vietnam,0.8484848485,,2021
+APMO,Himanshu Singh,"Singh, Himanshu",India,2018,same_country,620,Shivansh Singh,"Singh, Shivansh",India,0.8461538462,,2017
+APMO,Steven Reyes,"Reyes, Steven",Philippines,2018;2019;2021,same_country,1805,Steven Ting Reyes,"Reyes, Steven Ting",Philippines,0.8461538462,2015,
+APMO,Wei-Cheng Chuang,"Chuang, Wei-Cheng",Taiwan,2025,same_country,2324,Li-Heng Chuang,"Chuang, Li-Heng",Taiwan,0.8461538462,2022,
+APMO,Amir Mohammad Bandari,"Bandari, Amir Mohammad",Islamic Republic of Iran,2021,same_country,864,Amirmohammad Heidari,"Heidari, Amirmohammad",Islamic Republic of Iran,0.8421052632,2016,
+APMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2026,same_country,1908,Doyun Kim,"Kim, Doyun",Republic of Korea,0.8421052632,2022,
+APMO,Jun Gon Kim,"Kim, Jun Gon",Republic of Korea,2017,same_country,1916,Jungmin Kim,"Kim, Jungmin",Republic of Korea,0.8421052632,2015,
+APMO,Jun Gon Kim,"Kim, Jun Gon",Republic of Korea,2017,same_country,1917,Jungwoo Kim,"Kim, Jungwoo",Republic of Korea,0.8421052632,2018;2019,
+APMO,Woohyun Kim,"Kim, Woohyun",Republic of Korea,2024,same_country,1906,Dohyun Kim,"Kim, Dohyun",Republic of Korea,0.8421052632,2022,
+APMO,HUNG-YU CHEN,"CHEN, HUNG-YU",Taiwan,2020;2021,same_country,2354,Yu-Cheng Hu,"Hu, Yu-Cheng",Taiwan,0.8421052632,2021,2023
+APMO,Naimdjon Khondjonov,"Khondjonov, Naimdjon",Tajikistan,2018,same_country,2554,Naimdzhon Khondzhonov,"Khondzhonov, Naimdzhon",Tajikistan,0.8421052632,,2016;2017;2018
+APMO,Daniel Yuan,"Yuan, Daniel",United States of America,2022,same_country,2897,Daniel Sun,"Sun, Daniel",United States of America,0.8421052632,2023,
+APMO,Henry Jiang,"Jiang, Henry",United States of America,2025,same_country,2899,Henry Wang,"Wang, Henry",United States of America,0.8421052632,2023,
+APMO,Jahongir Urakov,"Urakov, Jahongir",Tajikistan,2019,same_country,2578,Dzhakhongir Urakov,"Urakov, Dzhakhongir",Tajikistan,0.8387096774,,2017;2018
+APMO,Mashrafdzhon Inomov,"Inomov, Mashrafdzhon",Tajikistan,2023,same_country,2546,Mashraf Inomov,"Inomov, Mashraf",Tajikistan,0.8387096774,2021,2023
+APMO,Amir Mohammad Ghavi,"Ghavi, Amir Mohammad",Islamic Republic of Iran,2021,same_country,864,Amirmohammad Heidari,"Heidari, Amirmohammad",Islamic Republic of Iran,0.8333333333,2016,
+APMO,Ehsan Heidari,"Heidari, Ehsan",Islamic Republic of Iran,2022,same_country,865,Mahan Heidari,"Heidari, Mahan",Islamic Republic of Iran,0.8333333333,,2019
+APMO,Joo Young Park,"Park, Joo Young",Republic of Korea,2016,same_country,1953,Junyoung Park,"Park, Junyoung",Republic of Korea,0.8333333333,,2014
+APMO,SeungHwan Lee,"Lee, SeungHwan",Republic of Korea,2021,same_country,1938,Seungheon Lee,"Lee, Seungheon",Republic of Korea,0.8333333333,2015,
+APMO,Sunghyun Kwon,"Kwon, Sunghyun",Republic of Korea,2018,same_country,1931,Donghyun Kwon,"Kwon, Donghyun",Republic of Korea,0.8333333333,2014,
+APMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2016;2017;2018,same_country,2464,Yu-Cheng Tien,"Tien, Yu-Cheng",Taiwan,0.8333333333,2014,
+APMO,Deyan Hadzhi-Manich,"Hadzhi-Manich, Deyan",Bulgaria,2023,same_country,135,Deyan Deyanov Hadzhi-Manich,"Hadzhi-Manich, Deyan Deyanov",Bulgaria,0.8292682927,2018,2022
+APMO,Mohammad Shahverdi,"Shahverdi, Mohammad",Islamic Republic of Iran,2018,same_country,943,Mohammad Shahverdikondori,"Shahverdikondori, Mohammad",Islamic Republic of Iran,0.8292682927,,2016
+APMO,O'lmasbek Xudoyberdiyev,"Xudoyberdiyev, O'lmasbek",Uzbekistan,2023,same_country,2926,Ulmasbek Khudoberdiev,"Khudoberdiev, Ulmasbek",Uzbekistan,0.8292682927,,2021
+APMO,Hon Tsun Hanks Chong,"Chong, Hon Tsun Hanks",Hong Kong,2021,same_country,475,Hon Tsun Chong,"Chong, Hon Tsun",Hong Kong,0.8275862069,2019,
+APMO,Tsz Sing Jason Chong,"Chong, Tsz Sing Jason",Hong Kong,2023,same_country,476,Tsz Sing Chong,"Chong, Tsz Sing",Hong Kong,0.8275862069,2019,2023
+APMO,CHUN-CHUNG HUANG,"HUANG, CHUN-CHUNG",Taiwan,2019;2021;2022,same_country,2359,Chung-Chien Huang,"Huang, Chung-Chien",Taiwan,0.8275862069,2021,
+APMO,Bảo Khánh Nguyễn,"Nguyễn, Bảo Khánh",Vietnam,2026,same_country,3026,Dang Khanh Nguyen,"Nguyen, Dang Khanh",Vietnam,0.8275862069,2022,2023
+APMO,Đình Tùng Nguyễn,"Nguyễn, Đình Tùng",Vietnam,2026,same_country,3067,Nhat Quang Nguyen,"Nguyen, Nhat Quang",Vietnam,0.8275862069,2014,
+APMO,Minjun Kim,"Kim, Minjun",Republic of Korea,2021,same_country,1920,Minsu Kim,"Kim, Minsu",Republic of Korea,0.8235294118,2015,
+APMO,Sehun Kim,"Kim, Sehun",Republic of Korea,2016;2017,same_country,1921,Seojun Kim,"Kim, Seojun",Republic of Korea,0.8235294118,2022;2023,
+APMO,Yu-Pin Chiu,"Chiu, Yu-Pin",Taiwan,2016;2017,same_country,2317,Yu-An Chiu,"Chiu, Yu-An",Taiwan,0.8235294118,2022;2023,
+APMO,Nattakorn Kittisut,"Kittisut, Nattakorn",Thailand,2017,same_country,2665,Natchakoj Kittisut,"Kittisut, Natchakoj",Thailand,0.8235294118,,2015
+APMO,Allen Wang,"Wang, Allen",United States of America,2024,same_country,2898,Alex Wang,"Wang, Alex",United States of America,0.8235294118,,2023
+APMO,Andrew Gu,"Gu, Andrew",United States of America,2018;2021;2022,same_country,2881,Andrew Lau,"Lau, Andrew",United States of America,0.8235294118,2023,
+APMO,Daniel Hu,"Hu, Daniel",United States of America,2019,same_country,2897,Daniel Sun,"Sun, Daniel",United States of America,0.8235294118,2023,
+APMO,Kevin Ren,"Ren, Kevin",United States of America,2016;2017,same_country,2868,Kevin Chen,"Chen, Kevin",United States of America,0.8235294118,2013,
+APMO,Mohammad Ermia Ghaseri,"Ghaseri, Mohammad Ermia",Islamic Republic of Iran,2022,same_country,857,Mohammad Amin Ghasemi,"Ghasemi, Mohammad Amin",Islamic Republic of Iran,0.8205128205,,2017
+APMO,Sabbir Rahman,"Rahman, Sabbir",Bangladesh,2017,same_country,21,Aira Rahman,"Rahman, Aira",Bangladesh,0.8181818182,2022,
+APMO,Boris Markov,"Markov, Boris",Bulgaria,2026,same_country,59,Boris Aleksandrov Barbov,"Barbov, Boris Aleksandrov",Bulgaria,0.8181818182,2014,2016
+APMO,Nick Cheng,"Cheng, Nick",Hong Kong,2022,same_country,462,Nick Hang Cheng,"Cheng, Nick Hang",Hong Kong,0.8181818182,2014;2015;2016,2018;2019
+APMO,Nakayama Yuta,"Yuta, Nakayama",Japan,2016,same_country,970,Yuta Takaya,"Takaya, Yuta",Japan,0.8181818182,,2014
+APMO,Sin Hang Tang,"Tang, Sin Hang",Macau,2025;2026,same_country,1121,Si Hang Liang,"Liang, Si Hang",Macau,0.8181818182,,2023
+APMO,Seung Ho Song,"Song, Seung Ho",Republic of Korea,2017,same_country,1901,Seungho Kang,"Kang, Seungho",Republic of Korea,0.8181818182,2014,
+APMO,Seunguk Hong,"Hong, Seunguk",Republic of Korea,2026,same_country,1901,Seungho Kang,"Kang, Seungho",Republic of Korea,0.8181818182,2014,
+APMO,Seinul Arbith Ahamed,"Ahamed, Seinul Arbith",Sri Lanka,2022,same_country,2213,Seinul Asamdeen Arbith Ahamed,"Ahamed, Seinul Asamdeen Arbith",Sri Lanka,0.8181818182,2018;2019,2022
+APMO,Bing-Kun Lin,"Lin, Bing-Kun",Taiwan,2026,same_country,2423,Ting-Kuang Lin,"Lin, Ting-Kuang",Taiwan,0.8181818182,,2021
+APMO,Cheng-Han Li,"Li, Cheng-Han",Taiwan,2022;2023,same_country,2324,Li-Heng Chuang,"Chuang, Li-Heng",Taiwan,0.8181818182,2022,
+APMO,Chia-Sheng Li,"Li, Chia-Sheng",Taiwan,2024,same_country,2476,Yi-Chia Tseng,"Tseng, Yi-Chia",Taiwan,0.8181818182,,2023
+APMO,HSIN-JUI CHEN,"CHEN, HSIN-JUI",Taiwan,2021;2022,same_country,2297,Ping-Jui Chen,"Chen, Ping-Jui",Taiwan,0.8181818182,,2017
+APMO,HUNG-YU CHEN,"CHEN, HUNG-YU",Taiwan,2020;2021,same_country,2372,Yu-Sheng Huang,"Huang, Yu-Sheng",Taiwan,0.8181818182,,2019
+APMO,WEI-CHUNG CHEN,"CHEN, WEI-CHUNG",Taiwan,2021,same_country,2327,Chi-En Chung,"Chung, Chi-En",Taiwan,0.8181818182,2016,2018
+APMO,ISHANK AGRAWAL,"AGRAWAL, ISHANK",India,2020;2022,same_country,594,Rishabh Agrawal,"Agrawal, Rishabh",India,0.8148148148,2021;2023,
+APMO,Aaron Alvarado Kristanto Julistiono,"Julistiono, Aaron Alvarado Kristanto",Indonesia,2019;2020,same_country,708,Aaron Alvarado Kristanto,"Kristanto, Aaron Alvarado",Indonesia,0.8148148148,2015,2016
+APMO,Alireza Sharifi,"Sharifi, Alireza",Islamic Republic of Iran,2026,same_country,936,Alireza Samimi,"Samimi, Alireza",Islamic Republic of Iran,0.8148148148,2017,
+APMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2016;2017;2018,same_country,2310,Tien-Sheng Cheng,"Cheng, Tien-Sheng",Taiwan,0.8148148148,2014,2015
+APMO,Wei-Cheng Chuang,"Chuang, Wei-Cheng",Taiwan,2025,same_country,2281,Wei-Chieh Chang,"Chang, Wei-Chieh",Taiwan,0.8148148148,2015,
+APMO,Bảo Khánh Nguyễn,"Nguyễn, Bảo Khánh",Vietnam,2026,same_country,3020,Bao Minh Nguyen,"Nguyen, Bao Minh",Vietnam,0.8148148148,2015;2016,
+APMO,Đình Tùng Nguyễn,"Nguyễn, Đình Tùng",Vietnam,2026,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8148148148,2021,
+APMO,Nikola Nikolov,"Nikolov, Nikola",Bulgaria,2026,same_country,131,Nikola Nikolaev Getov,"Getov, Nikola Nikolaev",Bulgaria,0.8125,,2023
+APMO,Tamerlan Makhmutov,"Makhmutov, Tamerlan",Kazakhstan,2017,same_country,1011,Merey Makhmutova,"Makhmutova, Merey",Kazakhstan,0.8125,2016,
+APMO,Amir Mohammad Bandari,"Bandari, Amir Mohammad",Islamic Republic of Iran,2021,same_country,877,Amirmohammad Karimi,"Karimi, Amirmohammad",Islamic Republic of Iran,0.8108108108,2016,
+APMO,Farras M. Hibban Faddila,"Faddila, Farras M. Hibban",Indonesia,2016;2018,same_country,675,Farras Mohammad Hibban Fadilla,"Fadilla, Farras Mohammad Hibban",Indonesia,0.8085106383,,2013
+APMO,AmirHossein Mohammadzadeh,"Mohammadzadeh, AmirHossein",Islamic Republic of Iran,2024,same_country,826,Amirhossein Alimohammadi,"Alimohammadi, Amirhossein",Islamic Republic of Iran,0.8085106383,,2015;2016
+APMO,Pulitha Thiyasara Gunawardana,"Gunawardana, Pulitha Thiyasara",Sri Lanka,2021,same_country,2223,Imiya Mudalige Pulitha Thiyasara Gunawardana,"Gunawardana, Imiya Mudalige Pulitha Thiyasara",Sri Lanka,0.8059701493,2015,
+APMO,Ilia Vassilev,"Vassilev, Ilia",Bulgaria,2023;2025,same_country,355,Iavor Vassilev,"Vassilev, Iavor",Bulgaria,0.8,2019,
+APMO,Simona Gagarova,"Gagarova, Simona",Bulgaria,2025,same_country,109,Simona Petrova Gagarova,"Gagarova, Simona Petrova",Bulgaria,0.8,,2023
+APMO,Tsz Oi Ip,"Ip, Tsz Oi",Hong Kong,2021;2022,same_country,497,Tsz Lok Ip,"Ip, Tsz Lok",Hong Kong,0.8,,2015;2016
+APMO,Evan Nathanael,"Nathanael, Evan",Indonesia,2024,same_country,731,Kyv Nathanael,"Nathanael, Kyv",Indonesia,0.8,2021,
+APMO,Julistiono Aaron Alvarado,"Aaron Alvarado, Julistiono",Indonesia,2021,same_country,708,Aaron Alvarado Kristanto,"Kristanto, Aaron Alvarado",Indonesia,0.8,2015,2016
+APMO,Amir Mohammad Ghavi,"Ghavi, Amir Mohammad",Islamic Republic of Iran,2021,same_country,877,Amirmohammad Karimi,"Karimi, Amirmohammad",Islamic Republic of Iran,0.8,2016,
+APMO,CHONG HONG YEE,"HONG YEE, CHONG",Malaysia,2020;2022,same_country,1182,Chong Hong Choy,"Choy, Chong Hong",Malaysia,0.8,2021;2022,
+APMO,Da In Kim,"Kim, Da In",Republic of Korea,2017,same_country,1905,Dohan Kim,"Kim, Dohan",Republic of Korea,0.8,,2014
+APMO,Dain Kim,"Kim, Dain",Republic of Korea,2018,same_country,1905,Dohan Kim,"Kim, Dohan",Republic of Korea,0.8,,2014
+APMO,Seunghoon Kim,"Kim, Seunghoon",Republic of Korea,2025,same_country,1923,Sunho Kim,"Kim, Sunho",Republic of Korea,0.8,,2014
+APMO,Seunhwan Lee,"Lee, Seunhwan",Republic of Korea,2022,same_country,1935,Juhwan Lee,"Lee, Juhwan",Republic of Korea,0.8,2014,
+APMO,Nikita Kolbin,"Kolbin, Nikita",Russian Federation,2018,same_country,2067,Polivin Nikita,"Nikita, Polivin",Russian Federation,0.8,2018,
+APMO,Ruwimal Pathiraja,"Pathiraja, Ruwimal",Sri Lanka,2016;2017,same_country,2239,Ruwimal Yasantha Pathiraja,"Pathiraja, Ruwimal Yasantha",Sri Lanka,0.8,,2013;2014;2015
+APMO,CHENG-HAO YANG,"YANG, CHENG-HAO",Taiwan,2019;2020,same_country,2306,Chiao-Yun Cheng,"Cheng, Chiao-Yun",Taiwan,0.8,2014,
+APMO,CHENG-YING CHANG,"CHANG, CHENG-YING",Taiwan,2020,same_country,2274,Heng-Yu Chang,"Chang, Heng-Yu",Taiwan,0.8,,2013
+APMO,CHENG-YING CHANG,"CHANG, CHENG-YING",Taiwan,2020,same_country,2302,Yi-Chuan Chen,"Chen, Yi-Chuan",Taiwan,0.8,2017,
+APMO,Cheng-Han Li,"Li, Cheng-Han",Taiwan,2022;2023,same_country,2309,Pai-Li Cheng,"Cheng, Pai-Li",Taiwan,0.8,2014,2016
+APMO,Chia-Sheng Li,"Li, Chia-Sheng",Taiwan,2024,same_country,2404,Chi-Hung Li,"Li, Chi-Hung",Taiwan,0.8,2016,
+APMO,De-Hung Wang,"Wang, De-Hung",Taiwan,2024,same_country,2479,Bo-Hung Wang,"Wang, Bo-Hung",Taiwan,0.8,2015,
+APMO,Jung-Tao Cheng,"Cheng, Jung-Tao",Taiwan,2016;2017;2018,same_country,2308,Chung-Yao Cheng,"Cheng, Chung-Yao",Taiwan,0.8,,2013
+APMO,Wei-Cheng Chuang,"Chuang, Wei-Cheng",Taiwan,2025,same_country,2267,Wei-Chun Chan,"Chan, Wei-Chun",Taiwan,0.8,2021,
+APMO,Yi-Yong Wang,"Wang, Yi-Yong",Taiwan,2026,same_country,2490,Yu-Yung Wang,"Wang, Yu-Yung",Taiwan,0.8,,2014
+APMO,Yu-An Cho,"Cho, Yu-An",Taiwan,2023;2024,same_country,2317,Yu-An Chiu,"Chiu, Yu-An",Taiwan,0.8,2022;2023,
+APMO,Brandon Wang,"Wang, Brandon",United States of America,2018;2019;2020,same_country,2890,Brandon Ni,"Ni, Brandon",United States of America,0.8,2023,
+APMO,Anh Quân Trần,"Trần, Anh Quân",Vietnam,2026,same_country,3105,Manh Quan Truong,"Truong, Manh Quan",Vietnam,0.8,2023,
+APMO,Muhammad Faiq Fauzi,"Fauzi, Muhammad Faiq",Indonesia,2019;2020,same_country,679,Muhammad Fatih Firdausi,"Firdausi, Muhammad Fatih",Indonesia,0.7894736842,2023,
+APMO,Amir Mohammad Ghavi,"Ghavi, Amir Mohammad",Islamic Republic of Iran,2021,same_country,903,Amirreza Mohammadkhani,"Mohammadkhani, Amirreza",Islamic Republic of Iran,0.7894736842,,2016
+APMO,Mohammad Amin Sharifi,"Sharifi, Mohammad Amin",Islamic Republic of Iran,2018,same_country,828,Mohammadmatin Ansari,"Ansari, Mohammadmatin",Islamic Republic of Iran,0.7894736842,2018,2019
+APMO,Mohammad Amin Sharifi,"Sharifi, Mohammad Amin",Islamic Republic of Iran,2018,same_country,857,Mohammad Amin Ghasemi,"Ghasemi, Mohammad Amin",Islamic Republic of Iran,0.7894736842,,2017
+APMO,Mohammad Shahverdi,"Shahverdi, Mohammad",Islamic Republic of Iran,2018,same_country,938,Mohammadshahab Sepehri,"Sepehri, Mohammadshahab",Islamic Republic of Iran,0.7894736842,,2015
+APMO,Batzorig Bayarsaikhan,"Bayarsaikhan, Batzorig",Mongolia,2026,same_country,1347,Bayarsaikhan Jargal,"Jargal, Bayarsaikhan",Mongolia,0.7894736842,2016,
+APMO,George Nikolov,"Nikolov, George",Bulgaria,2025;2026,same_country,116,Boris Nikolov Georgiev,"Georgiev, Boris Nikolov",Bulgaria,0.7878787879,2023,
+APMO,George Nikolov,"Nikolov, George",Bulgaria,2025;2026,same_country,237,George Stavrev Nikolov,"Nikolov, George Stavrev",Bulgaria,0.7878787879,,2023
+APMO,Lazar D Todorov,"Todorov, Lazar D",Bulgaria,2025,same_country,331,Lazar Delyanov Todorov,"Todorov, Lazar Delyanov",Bulgaria,0.7878787879,,2023
+APMO,Nikola Nikolov,"Nikolov, Nikola",Bulgaria,2026,same_country,238,Nikola Angelov Nikolov,"Nikolov, Nikola Angelov",Bulgaria,0.7878787879,2023,
+APMO,Nikola Nikolov,"Nikolov, Nikola",Bulgaria,2026,same_country,360,Nikola Nikolov Yaramov,"Yaramov, Nikola Nikolov",Bulgaria,0.7878787879,2023,
+APMO,AmirHossein Tayeb,"Tayeb, AmirHossein",Islamic Republic of Iran,2026,same_country,854,Amirhossein Ghaedi,"Ghaedi, Amirhossein",Islamic Republic of Iran,0.7878787879,2015,
+APMO,AmirHossein Tayeb,"Tayeb, AmirHossein",Islamic Republic of Iran,2026,same_country,876,Amir Hossein Kalabi,"Kalabi, Amir Hossein",Islamic Republic of Iran,0.7878787879,,2017
+APMO,Batyrkhan Sakenov,"Sakenov, Batyrkhan",Kazakhstan,2022,same_country,988,Batyrkhan Baiganov,"Baiganov, Batyrkhan",Kazakhstan,0.7878787879,2023,
+APMO,Misheel Ankhbayar,"Ankhbayar, Misheel",Mongolia,2025,same_country,1365,Misheel Otgonbayar,"Otgonbayar, Misheel",Mongolia,0.7878787879,2013;2014;2015,2016;2017
+APMO,Iliyas Noman,"Noman, Iliyas",Bulgaria,2023,same_country,243,Iliyas Bashir Noman,"Noman, Iliyas Bashir",Bulgaria,0.7857142857,2017;2018,
+APMO,Presiyan Georgiev,"Georgiev, Presiyan",Bulgaria,2026,same_country,119,Ivan Ventsislavov Georgiev,"Georgiev, Ivan Ventsislavov",Bulgaria,0.7857142857,2015;2016,2018;2019
+APMO,Watanabe Naoki,"Naoki, Watanabe",Japan,2019,same_country,971,Akihiro Watanabe,"Watanabe, Akihiro",Japan,0.7857142857,,2014
+APMO,Oriol Solé Pi,"Solé Pi, Oriol",Mexico,2017,same_country,1302,Oriol Andreu Sole Pi,"Sole Pi, Oriol Andreu",Mexico,0.7857142857,,2015
+APMO,CHENG-YING CHANG,"CHANG, CHENG-YING",Taiwan,2020,same_country,2307,Ching-Hong Cheng,"Cheng, Ching-Hong",Taiwan,0.7857142857,,2013
+APMO,Jamshed Usmoni,"Usmoni, Jamshed",Tajikistan,2026,same_country,2568,Jamshed Rustamov,"Rustamov, Jamshed",Tajikistan,0.7857142857,2017,2018
+APMO,Bảo Khánh Nguyễn,"Nguyễn, Bảo Khánh",Vietnam,2026,same_country,3044,Khanh Thu Nguyen,"Nguyen, Khanh Thu",Vietnam,0.7857142857,2023,
+APMO,Ali Reza Rezaei,"Rezaei, Ali Reza",Islamic Republic of Iran,2021,same_country,925,Ilia Rezaei,"Rezaei, Ilia",Islamic Republic of Iran,0.7826086957,,2019;2021
+APMO,Chanwook Park,"Park, Chanwook",Republic of Korea,2025,same_country,1870,Chanwoo Baek,"Baek, Chanwoo",Republic of Korea,0.7826086957,2019,
+APMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2026,same_country,1931,Donghyun Kwon,"Kwon, Donghyun",Republic of Korea,0.7826086957,2014,
+APMO,Hongnyung Kim,"Kim, Hongnyung",Republic of Korea,2018;2019,same_country,1911,Hyeongun Kim,"Kim, Hyeongun",Republic of Korea,0.7826086957,2014;2015,
+APMO,SeungHwan Lee,"Lee, SeungHwan",Republic of Korea,2021,same_country,1939,Seungwoo Lee,"Lee, Seungwoo",Republic of Korea,0.7826086957,,2014
+APMO,Seunguk Hong,"Hong, Seunguk",Republic of Korea,2026,same_country,1893,Seungun Jeong,"Jeong, Seungun",Republic of Korea,0.7826086957,,2014
+APMO,Seungwoo Cho,"Cho, Seungwoo",Republic of Korea,2018,same_country,1875,Seongjoon Cho,"Cho, Seongjoon",Republic of Korea,0.7826086957,,2014;2015
+APMO,Seunhwan Lee,"Lee, Seunhwan",Republic of Korea,2022,same_country,1938,Seungheon Lee,"Lee, Seungheon",Republic of Korea,0.7826086957,2015,
+APMO,Taeyeong Noh,"Noh, Taeyeong",Republic of Korea,2019,same_country,1903,Taeyeong Kang,"Kang, Taeyeong",Republic of Korea,0.7826086957,2023,
+APMO,HSIN-JUI CHEN,"CHEN, HSIN-JUI",Taiwan,2021;2022,same_country,2378,Jui-Chien Hung,"Hung, Jui-Chien",Taiwan,0.7826086957,,2014
+APMO,Ho Hsiang Jen,"Jen, Ho Hsiang",Taiwan,2024,same_country,2321,Hsiang-Ni Chou,"Chou, Hsiang-Ni",Taiwan,0.7826086957,2022,
+APMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2016;2017;2018,same_country,2327,Chi-En Chung,"Chung, Chi-En",Taiwan,0.7826086957,2016,2018
+APMO,Ting-Chun Lin,"Lin, Ting-Chun",Taiwan,2016,same_country,2422,Siang-Chen Lin,"Lin, Siang-Chen",Taiwan,0.7826086957,,2016
+APMO,Ting-Chun Lin,"Lin, Ting-Chun",Taiwan,2016,same_country,2423,Ting-Kuang Lin,"Lin, Ting-Kuang",Taiwan,0.7826086957,,2021
+APMO,Ting-Feng Lin,"Lin, Ting-Feng",Taiwan,2018,same_country,2423,Ting-Kuang Lin,"Lin, Ting-Kuang",Taiwan,0.7826086957,,2021
+APMO,WEI-CHUNG CHEN,"CHEN, WEI-CHUNG",Taiwan,2021,same_country,2302,Yi-Chuan Chen,"Chen, Yi-Chuan",Taiwan,0.7826086957,2017,
+APMO,Wei-Ping Huang,"Huang, Wei-Ping",Taiwan,2018,same_country,2460,Ping-Hua Sung,"Sung, Ping-Hua",Taiwan,0.7826086957,2015,
+APMO,Xinyang Chen,"Chen, Xinyang",United States of America,2021,same_country,2902,Channing Yang,"Yang, Channing",United States of America,0.7826086957,,2022
+APMO,Bilyana Dimitrova,"Dimitrova, Bilyana",Bulgaria,2023,same_country,90,Bilyana Dimitrova Dimitrova,"Dimitrova, Bilyana Dimitrova",Bulgaria,0.7804878049,,2021
+APMO,Mohammad Reza Khosravian,"Khosravian, Mohammad Reza",Islamic Republic of Iran,2021,same_country,827,Mohammad Reza Aminian,"Aminian, Mohammad Reza",Islamic Republic of Iran,0.7804878049,,2014
+APMO,Ghaura Mahabaduge,"Mahabaduge, Ghaura",Sri Lanka,2018,same_country,2236,Ghaura Abheendra Mahabaduge,"Mahabaduge, Ghaura Abheendra",Sri Lanka,0.7804878049,,2017;2018
+IMO,Mạnh Tuấn Trương,"Trương, Mạnh Tuấn",Vietnam,2018,same_country,3105,Manh Quan Truong,"Truong, Manh Quan",Vietnam,0.9285714286,2023,
+IMO,Hoang Phuong Nguyen,"Nguyen, Hoang Phuong",Vietnam,2026,same_country,3038,Hoang Duong Nguyen,"Nguyen, Hoang Duong",Vietnam,0.9090909091,2016,
+IMO,Yixuan Wang,"Wang, Yixuan",People's Republic of China,2016,same_country,1556,Qixuan Wang,"Wang, Qixuan",People's Republic of China,0.9,2016,
+IMO,Yixuan Wang,"Wang, Yixuan",People's Republic of China,2016,same_country,1567,Zixuan Wang,"Wang, Zixuan",People's Republic of China,0.9,,2019
+IMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2020;2022;2026,same_country,1906,Dohyun Kim,"Kim, Dohyun",Republic of Korea,0.9,2022,
+IMO,Chung-Chun Huang,"Huang, Chung-Chun",Taiwan,2019,same_country,2359,Chung-Chien Huang,"Huang, Chung-Chien",Taiwan,0.8965517241,2021,
+IMO,Van Hoang Nguyen,"Nguyen, Van Hoang",Vietnam,2024,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.8965517241,2014;2015,2016
+IMO,Chen Yang,"Yang, Chen",People's Republic of China,2026,same_country,1417,Ziyang Chen,"Chen, Ziyang",People's Republic of China,0.8888888889,2014,
+IMO,Chen Yang,"Yang, Chen",People's Republic of China,2026,same_country,1594,Yichen Yang,"Yang, Yichen",People's Republic of China,0.8888888889,2021,
+IMO,Zheng Wang,"Wang, Zheng",People's Republic of China,2015,same_country,1550,Cheng Wang,"Wang, Cheng",People's Republic of China,0.8888888889,,2016
+IMO,Zheng Wang,"Wang, Zheng",People's Republic of China,2015,same_country,1596,Zheng Yang,"Yang, Zheng",People's Republic of China,0.8888888889,2014,
+IMO,Nguyễn Mạnh Phạm,"Phạm, Nguyễn Mạnh",Vietnam,2016,same_country,3048,Manh Lam Nguyen,"Nguyen, Manh Lam",Vietnam,0.8888888889,2021,
+IMO,Adán Medrano Martín del Campo,"Medrano Martín del Campo, Adán",Mexico,2013,same_country,1285,Olga Medrano Martín del Campo,"Medrano Martín del Campo, Olga",Mexico,0.88,,2013
+IMO,Minh Hoang Tran,"Tran, Minh Hoang",Vietnam,2024;2025,same_country,2993,Anh Minh Hoang,"Hoang, Anh Minh",Vietnam,0.88,,2014
+IMO,Kevin Min,"Min, Kevin",Canada,2021;2022,same_country,387,Kevin Lin,"Lin, Kevin",Canada,0.875,,2016
+IMO,Jiayu Liu,"Liu, Jiayu",People's Republic of China,2022,same_country,1484,Jiayi Liu,"Liu, Jiayi",People's Republic of China,0.875,2023,
+IMO,Xiao Liu,"Liu, Xiao",People's Republic of China,2013,same_country,1489,Xiaoli Liu,"Liu, Xiaoli",People's Republic of China,0.875,2016,
+IMO,Yu-An Cho,"Cho, Yu-An",Taiwan,2023;2024,same_country,2323,Yu-Fan Chou,"Chou, Yu-Fan",Taiwan,0.875,,2021
+IMO,Huy Hoàng Nguyễn,"Nguyễn, Huy Hoàng",Vietnam,2015,same_country,3042,Huy Hoang Long Nguyen,"Nguyen, Huy Hoang Long",Vietnam,0.875,2021,
+IMO,Hải Đăng Nguyễn Tuấn,"Nguyễn Tuấn, Hải Đăng",Vietnam,2015,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.875,2014;2015,2016
+IMO,Sung Jin Park,"Park, Sung Jin",Republic of Korea,2013,same_country,1955,Seungmin Park,"Park, Seungmin",Republic of Korea,0.8695652174,2015,
+IMO,Cảnh Hoàng Nguyễn,"Nguyễn, Cảnh Hoàng",Vietnam,2017,same_country,3024,Canh Duong Nguyen,"Nguyen, Canh Duong",Vietnam,0.8666666667,,2021
+IMO,Cảnh Hoàng Nguyễn,"Nguyễn, Cảnh Hoàng",Vietnam,2017,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.8666666667,2014;2015,2016
+IMO,Dang Dung Nguyen,"Nguyen, Dang Dung",Vietnam,2024;2025,same_country,3038,Hoang Duong Nguyen,"Nguyen, Hoang Duong",Vietnam,0.8666666667,2016,
+IMO,Thuan Hung Nguyen,"Nguyen, Thuan Hung",Vietnam,2019,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.8666666667,2014;2015,2016
+IMO,Christopher Li,"Li, Christopher",Canada,2026,same_country,393,Christopher Situ,"Situ, Christopher",Canada,0.8571428571,,2019
+IMO,Evan Nathanael,"Nathanael, Evan",Indonesia,2023,same_country,730,Kelven Nathanael,"Nathanael, Kelven",Indonesia,0.8571428571,,2021
+IMO,Arian Zandi,"Zandi, Arian",Islamic Republic of Iran,2026,same_country,958,Arian Zamani,"Zamani, Arian",Islamic Republic of Iran,0.8571428571,2015,
+IMO,Yebo Peng,"Peng, Yebo",People's Republic of China,2021,same_country,1520,Bo Peng,"Peng, Bo",People's Republic of China,0.8571428571,,2014
+IMO,Yichuan Wang,"Wang, Yichuan",People's Republic of China,2021,same_country,1562,Yichen Wang,"Wang, Yichen",People's Republic of China,0.8571428571,2014,
+IMO,Che-An Kang,"Kang, Che-An",Taiwan,2026,same_country,2329,Kang-Chieh Fan,"Fan, Kang-Chieh",Taiwan,0.8571428571,2015,2018
+IMO,Cảnh Hoàng Nguyễn,"Nguyễn, Cảnh Hoàng",Vietnam,2017,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8571428571,2021,
+IMO,Dinh Kien Nguyen,"Nguyen, Dinh Kien",Vietnam,2023,same_country,3029,Dinh Hieu Nguyen,"Nguyen, Dinh Hieu",Vietnam,0.8571428571,2015,
+IMO,Dinh Tung Nguyen,"Nguyen, Dinh Tung",Vietnam,2025;2026,same_country,3051,Minh Tuan Nguyen,"Nguyen, Minh Tuan",Vietnam,0.8571428571,,2015
+IMO,Nguyen Nguyen,"Nguyen, Nguyen",Vietnam,2019,same_country,3030,Dong Nguyen Nguyen,"Nguyen, Dong Nguyen",Vietnam,0.8571428571,2016;2017,
+IMO,Nhat Minh Tran,"Tran, Nhat Minh",Vietnam,2020,same_country,3098,Ngoc Nhat Minh Tran,"Tran, Ngoc Nhat Minh",Vietnam,0.8571428571,,2021
+IMO,Quang Bin Nguyễn,"Nguyễn, Quang Bin",Vietnam,2018,same_country,3071,Quang Anh Nguyen,"Nguyen, Quang Anh",Vietnam,0.8571428571,2019,
+IMO,Thuan Hung Nguyen,"Nguyen, Thuan Hung",Vietnam,2019,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8571428571,2021,
+IMO,Tien Nguyen Hoang,"Hoang, Tien Nguyen",Vietnam,2022,same_country,3036,Hoang An Nguyen,"Nguyen, Hoang An",Vietnam,0.8571428571,,2017
+IMO,Tien Nguyen Hoang,"Hoang, Tien Nguyen",Vietnam,2022,same_country,3037,Hoang An Nguyen,"Nguyen, Hoang An",Vietnam,0.8571428571,,2017
+IMO,Amirhossein Zarei,"Zarei, Amirhossein",Islamic Republic of Iran,2025,same_country,837,Amirhossein Bateni,"Bateni, Amirhossein",Islamic Republic of Iran,0.8484848485,2014,
+IMO,Amirhossein Zarei,"Zarei, Amirhossein",Islamic Republic of Iran,2025,same_country,854,Amirhossein Ghaedi,"Ghaedi, Amirhossein",Islamic Republic of Iran,0.8484848485,2015,
+IMO,Hoang Phuong Nguyen,"Nguyen, Hoang Phuong",Vietnam,2026,same_country,3039,Hoang Trung Nguyen,"Nguyen, Hoang Trung",Vietnam,0.8484848485,2017,
+IMO,Hoang Phuong Nguyen,"Nguyen, Hoang Phuong",Vietnam,2026,same_country,3043,Khanh Duong Nguyen,"Nguyen, Khanh Duong",Vietnam,0.8484848485,,2021
+IMO,Kha Nhat Long Nguyen,"Nguyen, Kha Nhat Long",Vietnam,2019,same_country,3043,Khanh Duong Nguyen,"Nguyen, Khanh Duong",Vietnam,0.8484848485,,2021
+IMO,Thuan Hung Nguyen,"Nguyen, Thuan Hung",Vietnam,2019,same_country,3077,Vĩ Thanh Quang Nguyễn,"Nguyễn, Vĩ Thanh Quang",Vietnam,0.8484848485,,2022
+IMO,Steven Reyes,"Reyes, Steven",Philippines,2021,same_country,1805,Steven Ting Reyes,"Reyes, Steven Ting",Philippines,0.8461538462,2015,
+IMO,Huy Tùng Nguyễn,"Nguyễn, Huy Tùng",Vietnam,2014,same_country,3041,Hữu Tuấn Nguyễn,"Nguyễn, Hữu Tuấn",Vietnam,0.8461538462,,2022
+IMO,Tran Minh Duc Pham,"Pham, Tran Minh Duc",Vietnam,2024,same_country,3083,Minh Duc Pham,"Pham, Minh Duc",Vietnam,0.8461538462,,2013
+IMO,Tran Minh Duc Pham,"Pham, Tran Minh Duc",Vietnam,2024,same_country,3088,Minh Duc Phan,"Phan, Minh Duc",Vietnam,0.8461538462,2013;2014,2015
+IMO,Tran Minh Duc Pham,"Pham, Tran Minh Duc",Vietnam,2024,same_country,3097,Minh Duc Tran,"Tran, Minh Duc",Vietnam,0.8461538462,2018;2019,
+IMO,Tuan Dung Hoang,"Hoang, Tuan Dung",Vietnam,2023,same_country,2998,Xuan Tung Hoang,"Hoang, Xuan Tung",Vietnam,0.8461538462,2017,
+IMO,Chen Yang,"Yang, Chen",People's Republic of China,2026,same_country,1589,Jingchen Yan,"Yan, Jingchen",People's Republic of China,0.8421052632,2015,
+IMO,Cheng Jiang,"Jiang, Cheng",People's Republic of China,2022,same_country,1550,Cheng Wang,"Wang, Cheng",People's Republic of China,0.8421052632,,2016
+IMO,Yunkun Zhou,"Zhou, Yunkun",People's Republic of China,2014,same_country,1629,Yukun Zhao,"Zhao, Yukun",People's Republic of China,0.8421052632,,2016
+IMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2020;2022;2026,same_country,1908,Doyun Kim,"Kim, Doyun",Republic of Korea,0.8421052632,2022,
+IMO,Minhyuk Kim,"Kim, Minhyuk",Republic of Korea,2014,same_country,1918,Mingyu Kim,"Kim, Mingyu",Republic of Korea,0.8421052632,,2014
+IMO,Sangyoun Ko,"Ko, Sangyoun",Republic of Korea,2019;2020,same_country,1928,Sangjun Ko,"Ko, Sangjun",Republic of Korea,0.8421052632,2014,
+IMO,Mashrafdzhon Inomov,"Inomov, Mashrafdzhon",Tajikistan,2023;2024;2025,same_country,2546,Mashraf Inomov,"Inomov, Mashraf",Tajikistan,0.8387096774,2021,2023
+IMO,Tien Nguyen Hoang,"Hoang, Tien Nguyen",Vietnam,2022,same_country,3039,Hoang Trung Nguyen,"Nguyen, Hoang Trung",Vietnam,0.8387096774,2017,
+IMO,Hristo Papazov,"Papazov, Hristo",Bulgaria,2016;2017,same_country,274,Hristo Popov,"Popov, Hristo",Bulgaria,0.8333333333,,2014
+IMO,Kristian Minchev,"Minchev, Kristian",Bulgaria,2019,same_country,218,Kristian Emilov Minchev,"Minchev, Kristian Emilov",Bulgaria,0.8333333333,2013,2017
+IMO,Ehsan Heidari,"Heidari, Ehsan",Islamic Republic of Iran,2023,same_country,865,Mahan Heidari,"Heidari, Mahan",Islamic Republic of Iran,0.8333333333,,2019
+IMO,Jingxun Liang,"Liang, Jingxun",People's Republic of China,2020,same_country,1476,Jiankun Liang,"Liang, Jiankun",People's Republic of China,0.8333333333,2015,
+IMO,Tiancheng He,"He, Tiancheng",People's Republic of China,2017,same_country,1634,Tiancheng Zhou,"Zhou, Tiancheng",People's Republic of China,0.8333333333,,2015
+IMO,Seungyeon Kang,"Kang, Seungyeon",Republic of Korea,2013,same_country,1901,Seungho Kang,"Kang, Seungho",Republic of Korea,0.8333333333,2014,
+IMO,Hung Chiang,"Chiang, Hung",Taiwan,2013,same_country,2376,Chen-Hsiang Hung,"Hung, Chen-Hsiang",Taiwan,0.8333333333,,2013
+IMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2015;2016;2017,same_country,2464,Yu-Cheng Tien,"Tien, Yu-Cheng",Taiwan,0.8333333333,2014,
+IMO,Nhat Minh Tran,"Tran, Nhat Minh",Vietnam,2020,same_country,3092,Binh Minh Tran,"Tran, Binh Minh",Vietnam,0.8333333333,2018,
+IMO,Dai Duong Nguyen,"Nguyen, Dai Duong",Vietnam,2022,same_country,3024,Canh Duong Nguyen,"Nguyen, Canh Duong",Vietnam,0.8275862069,,2021
+IMO,Dang Dung Nguyen,"Nguyen, Dang Dung",Vietnam,2024;2025,same_country,3024,Canh Duong Nguyen,"Nguyen, Canh Duong",Vietnam,0.8275862069,,2021
+IMO,Dinh Tung Nguyen,"Nguyen, Dinh Tung",Vietnam,2025;2026,same_country,3067,Nhat Quang Nguyen,"Nguyen, Nhat Quang",Vietnam,0.8275862069,2014,
+IMO,Huy Hoàng Nguyễn,"Nguyễn, Huy Hoàng",Vietnam,2015,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.8275862069,2014;2015,2016
+IMO,Nguyen Nguyen,"Nguyen, Nguyen",Vietnam,2019,same_country,3025,Dang Huyen My Nguyen,"Nguyen, Dang Huyen My",Vietnam,0.8275862069,2018,
+IMO,Thanh Xuan Truong,"Truong, Thanh Xuan",Vietnam,2025,same_country,3105,Manh Quan Truong,"Truong, Manh Quan",Vietnam,0.8275862069,2023,
+IMO,Van Hoang Nguyen,"Nguyen, Van Hoang",Vietnam,2024,same_country,3024,Canh Duong Nguyen,"Nguyen, Canh Duong",Vietnam,0.8275862069,,2021
+IMO,Chen Wei,"Wei, Chen",People's Republic of China,2021,same_country,1483,Chenwen Liu,"Liu, Chenwen",People's Republic of China,0.8235294118,2021,
+IMO,Yixiao Li,"Li, Yixiao",People's Republic of China,2018,same_country,1489,Xiaoli Liu,"Liu, Xiaoli",People's Republic of China,0.8235294118,2016,
+IMO,Yixuan Wang,"Wang, Yixuan",People's Republic of China,2016,same_country,1560,Xun Wang,"Wang, Xun",People's Republic of China,0.8235294118,2015,
+IMO,Yiyi Chen,"Chen, Yiyi",People's Republic of China,2018,same_country,1414,Yilin Chen,"Chen, Yilin",People's Republic of China,0.8235294118,2015,
+IMO,Yiyi Chen,"Chen, Yiyi",People's Republic of China,2018,same_country,1600,Zhengyi Yi,"Yi, Zhengyi",People's Republic of China,0.8235294118,2013,
+IMO,Yuan Yang,"Yang, Yuan",People's Republic of China,2016,same_country,1590,Zeyuan Yan,"Yan, Zeyuan",People's Republic of China,0.8235294118,,2015
+IMO,Zeyu Wang,"Wang, Zeyu",People's Republic of China,2018,same_country,1559,Wenyu Wang,"Wang, Wenyu",People's Republic of China,0.8235294118,2021,
+IMO,Sehun Kim,"Kim, Sehun",Republic of Korea,2015;2016;2017,same_country,1921,Seojun Kim,"Kim, Seojun",Republic of Korea,0.8235294118,2022;2023,
+IMO,Yu-Pin Chiu,"Chiu, Yu-Pin",Taiwan,2015;2016;2017,same_country,2317,Yu-An Chiu,"Chiu, Yu-An",Taiwan,0.8235294118,2022;2023,
+IMO,Nattakorn Kittisut,"Kittisut, Nattakorn",Thailand,2017,same_country,2665,Natchakoj Kittisut,"Kittisut, Natchakoj",Thailand,0.8235294118,,2015
+IMO,Andrew Gu,"Gu, Andrew",United States of America,2017;2018;2022,same_country,2881,Andrew Lau,"Lau, Andrew",United States of America,0.8235294118,2023,
+IMO,Mohammadermia Ghaseri,"Ghaseri, Mohammadermia",Islamic Republic of Iran,2023,same_country,857,Mohammad Amin Ghasemi,"Ghasemi, Mohammad Amin",Islamic Republic of Iran,0.8205128205,,2017
+IMO,Bandara Hitihami Mudiyanselage Navindu Hansana,"Hitihami Mudiyanselage Navindu Hansana, Bandara",Sri Lanka,2026,same_country,2218,Hitihami Mudiyanselage Mihiru Anushka Bandara,"Bandara, Hitihami Mudiyanselage Mihiru Anushka",Sri Lanka,0.8192771084,,2019
+IMO,Hou Leong Sio,"Sio, Hou Leong",Macau,2014;2015,same_country,1110,Chi Hou Leong,"Leong, Chi Hou",Macau,0.8181818182,,2016;2018
+IMO,Cheng Jiang,"Jiang, Cheng",People's Republic of China,2022,same_country,1576,Chengye Xiang,"Xiang, Chengye",People's Republic of China,0.8181818182,,2015
+IMO,Tiancheng He,"He, Tiancheng",People's Republic of China,2017,same_country,1418,Tianle Cheng,"Cheng, Tianle",People's Republic of China,0.8181818182,,2015
+IMO,Xianbang Wang,"Wang, Xianbang",People's Republic of China,2024,same_country,1554,Jianan Wang,"Wang, Jianan",People's Republic of China,0.8181818182,2018,
+IMO,Seungho Song,"Song, Seungho",Republic of Korea,2018;2019,same_country,1901,Seungho Kang,"Kang, Seungho",Republic of Korea,0.8181818182,2014,
+IMO,Seunguk Hong,"Hong, Seunguk",Republic of Korea,2026,same_country,1901,Seungho Kang,"Kang, Seungho",Republic of Korea,0.8181818182,2014,
+IMO,Nhật Hoàng Lê,"Lê, Nhật Hoàng",Vietnam,2016,same_country,3005,Nhat Quang Le,"Le, Nhat Quang",Vietnam,0.8181818182,2014,
+IMO,Tuan Dung Hoang,"Hoang, Tuan Dung",Vietnam,2023,same_country,2996,Tung Hoang,"Hoang, Tung",Vietnam,0.8181818182,,2014
+IMO,Alireza Sharifi,"Sharifi, Alireza",Islamic Republic of Iran,2026,same_country,936,Alireza Samimi,"Samimi, Alireza",Islamic Republic of Iran,0.8148148148,2017,
+IMO,Prajit Adhikari,"Adhikari, Prajit",Nepal,2018;2019,same_country,1381,Riwaj Adhikari,"Adhikari, Riwaj",Nepal,0.8148148148,,2023
+IMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2015;2016;2017,same_country,2310,Tien-Sheng Cheng,"Cheng, Tien-Sheng",Taiwan,0.8148148148,2014,2015
+IMO,An Thinh Nguyen,"Nguyen, An Thinh",Vietnam,2023,same_country,3061,Nhat Minh Nguyen,"Nguyen, Nhat Minh",Vietnam,0.8148148148,,2018
+IMO,An Thinh Nguyen,"Nguyen, An Thinh",Vietnam,2023,same_country,3062,Nhat Minh Nguyen,"Nguyen, Nhat Minh",Vietnam,0.8148148148,,2022
+IMO,An Thinh Nguyen,"Nguyen, An Thinh",Vietnam,2023,same_country,3063,Nhat Minh Nguyen,"Nguyen, Nhat Minh",Vietnam,0.8148148148,2017,
+IMO,Dang Dung Nguyen,"Nguyen, Dang Dung",Vietnam,2024;2025,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8148148148,2021,
+IMO,Dinh Tung Nguyen,"Nguyen, Dinh Tung",Vietnam,2025;2026,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8148148148,2021,
+IMO,Huy Hoàng Nguyễn,"Nguyễn, Huy Hoàng",Vietnam,2015,same_country,3036,Hoang An Nguyen,"Nguyen, Hoang An",Vietnam,0.8148148148,,2017
+IMO,Van Hoang Nguyen,"Nguyen, Van Hoang",Vietnam,2024,same_country,3019,Anh Hung Nguyen,"Nguyen, Anh Hung",Vietnam,0.8148148148,2021,
+IMO,Konstantin Garov,"Garov, Konstantin",Bulgaria,2017;2018,same_country,167,Konstantin Kamenov,"Kamenov, Konstantin",Bulgaria,0.8125,,2019
+IMO,Việt Hà Nguyễn Thị,"Nguyễn Thị, Việt Hà",Vietnam,2015,same_country,3073,The Viet Hung Nguyen,"Nguyen, The Viet Hung",Vietnam,0.8125,,2018
+IMO,Amirhossein Mohammadzadeh,"Mohammadzadeh, Amirhossein",Islamic Republic of Iran,2024,same_country,826,Amirhossein Alimohammadi,"Alimohammadi, Amirhossein",Islamic Republic of Iran,0.8085106383,,2015;2016
+IMO,Aleksandar Bangachev,"Bangachev, Aleksandar",Bulgaria,2026,same_country,253,Alexandar Panchev,"Panchev, Alexandar",Bulgaria,0.8,2013,
+IMO,Ilia Vassilev,"Vassilev, Ilia",Bulgaria,2025,same_country,355,Iavor Vassilev,"Vassilev, Iavor",Bulgaria,0.8,2019,
+IMO,Victor Kostadinov,"Kostadinov, Victor",Bulgaria,2024,same_country,185,Victor Yassenov Kostadinov,"Kostadinov, Victor Yassenov",Bulgaria,0.8,,2021
+IMO,Viktor Radivchev,"Radivchev, Viktor",Bulgaria,2013;2014,same_country,289,Viktor Shaovchev,"Shaovchev, Viktor",Bulgaria,0.8,2019,
+IMO,Anastasios Stylianou,"Stylianou, Anastasios",Cyprus,2013,same_country,431,Stelios Stylianou,"Stylianou, Stelios",Cyprus,0.8,,2013;2015
+IMO,Evan Nathanael,"Nathanael, Evan",Indonesia,2023,same_country,731,Kyv Nathanael,"Nathanael, Kyv",Indonesia,0.8,2021,
+IMO,Siyang Lin,"Lin, Siyang",Macau,2022,same_country,1121,Si Hang Liang,"Liang, Si Hang",Macau,0.8,,2023
+IMO,Chen Wei,"Wei, Chen",People's Republic of China,2021,same_country,1599,Chenle Yi,"Yi, Chenle",People's Republic of China,0.8,,2023
+IMO,Cheng Jiang,"Jiang, Cheng",People's Republic of China,2022,same_country,1417,Ziyang Chen,"Chen, Ziyang",People's Republic of China,0.8,2014,
+IMO,Chunji Wang,"Wang, Chunji",People's Republic of China,2023;2024,same_country,1553,Huijia Wang,"Wang, Huijia",People's Republic of China,0.8,,2015
+IMO,Hengye Zhang,"Zhang, Hengye",People's Republic of China,2025,same_country,1596,Zheng Yang,"Yang, Zheng",People's Republic of China,0.8,2014,
+IMO,Hengye Zhang,"Zhang, Hengye",People's Republic of China,2025,same_country,1608,Chengyuan Zhang,"Zhang, Chengyuan",People's Republic of China,0.8,,2015
+IMO,Jiayu Liu,"Liu, Jiayu",People's Republic of China,2022,same_country,1496,Ziyu Liu,"Liu, Ziyu",People's Republic of China,0.8,2018,
+IMO,Xiao Liu,"Liu, Xiao",People's Republic of China,2013,same_country,1491,Xinya Liu,"Liu, Xinya",People's Republic of China,0.8,,2016
+IMO,Yuxing Ye,"Ye, Yuxing",People's Republic of China,2024,same_country,1603,Xinze Yu,"Yu, Xinze",People's Republic of China,0.8,,2015
+IMO,Zheng Wang,"Wang, Zheng",People's Republic of China,2015,same_country,1565,Zhixing Wang,"Wang, Zhixing",People's Republic of China,0.8,2023,
+IMO,Dain Kim,"Kim, Dain",Republic of Korea,2017;2018,same_country,1905,Dohan Kim,"Kim, Dohan",Republic of Korea,0.8,,2014
+IMO,Se Hyun Ji,"Ji, Se Hyun",Republic of Korea,2013,same_country,1968,Ji-Hu Yun,"Yun, Ji-Hu",Republic of Korea,0.8,2021,
+IMO,Filip-Alexandru Ion,"Ion, Filip-Alexandru",Romania,2017,same_country,1997,Alexandru Ilie,"Ilie, Alexandru",Romania,0.8,2017,
+IMO,Emmanual Michael Rassou,"Rassou, Emmanual Michael",South Africa,2022,same_country,2179,Emmanuel Rassou,"Rassou, Emmanuel",South Africa,0.8,2017,2018;2019
+IMO,Emmanuel Michael Rassou,"Rassou, Emmanuel Michael",South Africa,2020;2021,same_country,2179,Emmanuel Rassou,"Rassou, Emmanuel",South Africa,0.8,2017,2018;2019
+IMO,Che-An Kang,"Kang, Che-An",Taiwan,2026,same_country,2293,Kai-Ting Chen,"Chen, Kai-Ting",Taiwan,0.8,2015,
+IMO,Che-An Kang,"Kang, Che-An",Taiwan,2026,same_country,2394,Yi-Chen Kuang,"Kuang, Yi-Chen",Taiwan,0.8,2016,
+IMO,Cheng-Ying Chang,"Chang, Cheng-Ying",Taiwan,2020,same_country,2274,Heng-Yu Chang,"Chang, Heng-Yu",Taiwan,0.8,,2013
+IMO,Cheng-Ying Chang,"Chang, Cheng-Ying",Taiwan,2020,same_country,2302,Yi-Chuan Chen,"Chen, Yi-Chuan",Taiwan,0.8,2017,
+IMO,Evan Yiting Chen,"Chen, Evan Yiting",Taiwan,2014,same_country,2293,Kai-Ting Chen,"Chen, Kai-Ting",Taiwan,0.8,2015,
+IMO,Hung Chiang,"Chiang, Hung",Taiwan,2013,same_country,2269,Chi-An Chang,"Chang, Chi-An",Taiwan,0.8,,2021
+IMO,Hung Chiang,"Chiang, Hung",Taiwan,2013,same_country,2327,Chi-En Chung,"Chung, Chi-En",Taiwan,0.8,2016,2018
+IMO,Jung-Tao Cheng,"Cheng, Jung-Tao",Taiwan,2016;2017;2018,same_country,2308,Chung-Yao Cheng,"Cheng, Chung-Yao",Taiwan,0.8,,2013
+IMO,Po-Jui Chen,"Chen, Po-Jui",Taiwan,2014,same_country,2297,Ping-Jui Chen,"Chen, Ping-Jui",Taiwan,0.8,,2017
+IMO,Yu-An Cho,"Cho, Yu-An",Taiwan,2023;2024,same_country,2317,Yu-An Chiu,"Chiu, Yu-An",Taiwan,0.8,2022;2023,
+IMO,Brandon Wang,"Wang, Brandon",United States of America,2019,same_country,2890,Brandon Ni,"Ni, Brandon",United States of America,0.8,2023,
+IMO,Anh Dũng Hoàng,"Hoàng, Anh Dũng",Vietnam,2016,same_country,2990,Hong Minh Duong,"Duong, Hong Minh",Vietnam,0.8,2015,2016
+IMO,Anh Dũng Hoàng,"Hoàng, Anh Dũng",Vietnam,2016,same_country,2998,Xuan Tung Hoang,"Hoang, Xuan Tung",Vietnam,0.8,2017,
+IMO,Dai Duong Nguyen,"Nguyen, Dai Duong",Vietnam,2022,same_country,3038,Hoang Duong Nguyen,"Nguyen, Hoang Duong",Vietnam,0.8,2016,
+IMO,Dai Duong Nguyen,"Nguyen, Dai Duong",Vietnam,2022,same_country,3043,Khanh Duong Nguyen,"Nguyen, Khanh Duong",Vietnam,0.8,,2021
+IMO,Duc Vinh Vu,"Vu, Duc Vinh",Vietnam,2019,same_country,3109,Le Duc Minh Vu,"Vu, Le Duc Minh",Vietnam,0.8,,2023
+IMO,Hồng Quân Trần,"Trần, Hồng Quân",Vietnam,2014,same_country,3096,Hoang Quang Dieu Tran,"Tran, Hoang Quang Dieu",Vietnam,0.8,,2018
+IMO,Minh Hoang Tran,"Tran, Minh Hoang",Vietnam,2024;2025,same_country,3103,Hoang Vu Trinh,"Trinh, Hoang Vu",Vietnam,0.8,2017,
+IMO,Ioannis Charalambous,"Charalambous, Ioannis",Cyprus,2018;2019;2020;2021,same_country,408,Konstantinos Charalampous,"Charalampous, Konstantinos",Cyprus,0.7906976744,,2016;2018
+IMO,Thùy Dương Vương Nguyễn,"Vương Nguyễn, Thùy Dương",Vietnam,2014,same_country,3042,Huy Hoang Long Nguyen,"Nguyen, Huy Hoang Long",Vietnam,0.7894736842,2021,
+IMO,George Nikolov,"Nikolov, George",Bulgaria,2025;2026,same_country,116,Boris Nikolov Georgiev,"Georgiev, Boris Nikolov",Bulgaria,0.7878787879,2023,
+IMO,George Nikolov,"Nikolov, George",Bulgaria,2025;2026,same_country,237,George Stavrev Nikolov,"Nikolov, George Stavrev",Bulgaria,0.7878787879,,2023
+IMO,Amirhossein Zarei,"Zarei, Amirhossein",Islamic Republic of Iran,2025,same_country,876,Amir Hossein Kalabi,"Kalabi, Amir Hossein",Islamic Republic of Iran,0.7878787879,,2017
+IMO,Batyrkhan Sakenov,"Sakenov, Batyrkhan",Kazakhstan,2023,same_country,988,Batyrkhan Baiganov,"Baiganov, Batyrkhan",Kazakhstan,0.7878787879,2023,
+IMO,Mac Nam Trung Nguyen,"Nguyen, Mac Nam Trung",Vietnam,2020,same_country,3039,Hoang Trung Nguyen,"Nguyen, Hoang Trung",Vietnam,0.7878787879,2017,
+IMO,Iliyas Noman,"Noman, Iliyas",Bulgaria,2021;2023,same_country,243,Iliyas Bashir Noman,"Noman, Iliyas Bashir",Bulgaria,0.7857142857,2017;2018,
+IMO,Naoki Watanabe,"Watanabe, Naoki",Japan,2018;2019;2020,same_country,971,Akihiro Watanabe,"Watanabe, Akihiro",Japan,0.7857142857,,2014
+IMO,Ştefan Spătaru,"Spătaru, Ştefan",Romania,2013;2014;2015,same_country,2036,Stefan Strugariu,"Strugariu, Stefan",Romania,0.7857142857,,2018;2019
+IMO,Cheng-Ying Chang,"Chang, Cheng-Ying",Taiwan,2020,same_country,2307,Ching-Hong Cheng,"Cheng, Ching-Hong",Taiwan,0.7857142857,,2013
+IMO,Chung-Chun Huang,"Huang, Chung-Chun",Taiwan,2019,same_country,2376,Chen-Hsiang Hung,"Hung, Chen-Hsiang",Taiwan,0.7857142857,,2013
+IMO,Huy Tùng Nguyễn,"Nguyễn, Huy Tùng",Vietnam,2014,same_country,3067,Nhat Quang Nguyen,"Nguyen, Nhat Quang",Vietnam,0.7857142857,2014,
+IMO,Nguyen Nguyen,"Nguyen, Nguyen",Vietnam,2019,same_country,3057,Ngoc Huy Anh Nguyen,"Nguyen, Ngoc Huy Anh",Vietnam,0.7857142857,2021,
+IMO,Nguyễn Mạnh Phạm,"Phạm, Nguyễn Mạnh",Vietnam,2016,same_country,3023,Canh Chau Nguyen,"Nguyen, Canh Chau",Vietnam,0.7857142857,2022,
+IMO,Nguyễn Mạnh Phạm,"Phạm, Nguyễn Mạnh",Vietnam,2016,same_country,3049,Manh Quan Nguyen,"Nguyen, Manh Quan",Vietnam,0.7857142857,2016,
+IMO,Thanh Xuan Truong,"Truong, Thanh Xuan",Vietnam,2025,same_country,2998,Xuan Tung Hoang,"Hoang, Xuan Tung",Vietnam,0.7857142857,2017,
+IMO,Thế Hoàn Nguyễn,"Nguyễn, Thế Hoàn",Vietnam,2014;2015,same_country,3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",Vietnam,0.7857142857,2014;2015,2016
+IMO,Alireza Haqi,"Haqi, Alireza",Islamic Republic of Iran,2020,same_country,831,Alireza Armid,"Armid, Alireza",Islamic Republic of Iran,0.7826086957,,2014
+IMO,Thomas Chen,"Chen, Thomas",Netherlands,2018,same_country,1393,Thomas Hoekman,"Hoekman, Thomas",Netherlands,0.7826086957,,2016
+IMO,Hengye Zhang,"Zhang, Hengye",People's Republic of China,2025,same_country,1576,Chengye Xiang,"Xiang, Chengye",People's Republic of China,0.7826086957,,2015
+IMO,Tiancheng He,"He, Tiancheng",People's Republic of China,2017,same_country,1576,Chengye Xiang,"Xiang, Chengye",People's Republic of China,0.7826086957,,2015
+IMO,Xingjian Zhou,"Zhou, Xingjian",People's Republic of China,2017,same_country,1630,Zijian Zhong,"Zhong, Zijian",People's Republic of China,0.7826086957,,2013
+IMO,Yuanyang Jiang,"Jiang, Yuanyang",People's Republic of China,2017,same_country,1554,Jianan Wang,"Wang, Jianan",People's Republic of China,0.7826086957,2018,
+IMO,Zhicheng Jiang,"Jiang, Zhicheng",People's Republic of China,2023,same_country,1514,Zhichen Nan,"Nan, Zhichen",People's Republic of China,0.7826086957,,2013
+IMO,Zhicheng Zhang,"Zhang, Zhicheng",People's Republic of China,2022,same_country,1514,Zhichen Nan,"Nan, Zhichen",People's Republic of China,0.7826086957,,2013
+IMO,Donghyun Kim,"Kim, Donghyun",Republic of Korea,2020;2022;2026,same_country,1931,Donghyun Kwon,"Kwon, Donghyun",Republic of Korea,0.7826086957,2014,
+IMO,Hongnyung Kim,"Kim, Hongnyung",Republic of Korea,2018;2019,same_country,1911,Hyeongun Kim,"Kim, Hyeongun",Republic of Korea,0.7826086957,2014;2015,
+IMO,Seunguk Hong,"Hong, Seunguk",Republic of Korea,2026,same_country,1893,Seungun Jeong,"Jeong, Seungun",Republic of Korea,0.7826086957,,2014
+IMO,Pang-Cheng Wu,"Wu, Pang-Cheng",Taiwan,2014;2015,same_country,2358,Bo-Cheng Huang,"Huang, Bo-Cheng",Taiwan,0.7826086957,2021,
+IMO,Pang-Cheng Wu,"Wu, Pang-Cheng",Taiwan,2014;2015,same_country,2371,Yu-Cheng Huang,"Huang, Yu-Cheng",Taiwan,0.7826086957,2021;2022;2023,
+IMO,Tien-Chun Cheng,"Cheng, Tien-Chun",Taiwan,2015;2016;2017,same_country,2327,Chi-En Chung,"Chung, Chi-En",Taiwan,0.7826086957,2016,2018
+IMO,Ting-Chun Lin,"Lin, Ting-Chun",Taiwan,2013,same_country,2422,Siang-Chen Lin,"Lin, Siang-Chen",Taiwan,0.7826086957,,2016
+IMO,Ting-Chun Lin,"Lin, Ting-Chun",Taiwan,2013,same_country,2423,Ting-Kuang Lin,"Lin, Ting-Kuang",Taiwan,0.7826086957,,2021
+IMO,Ting-Feng Lin,"Lin, Ting-Feng",Taiwan,2018,same_country,2423,Ting-Kuang Lin,"Lin, Ting-Kuang",Taiwan,0.7826086957,,2021
+IMO,Tsung-Chen Chen,"Chen, Tsung-Chen",Taiwan,2020,same_country,2327,Chi-En Chung,"Chung, Chi-En",Taiwan,0.7826086957,2016,2018
+IMO,Wei-Ping Huang,"Huang, Wei-Ping",Taiwan,2018,same_country,2460,Ping-Hua Sung,"Sung, Ping-Hua",Taiwan,0.7826086957,2015,
+IMO,Anh Tài Hoàng,"Hoàng, Anh Tài",Vietnam,2015,same_country,2993,Anh Minh Hoang,"Hoang, Anh Minh",Vietnam,0.7826086957,,2014
+IMO,Nhat Minh Tran,"Tran, Nhat Minh",Vietnam,2020,same_country,2999,Minh Tuan Hua,"Hua, Minh Tuan",Vietnam,0.7826086957,,2018
+IMO,Thế Hoàn Nguyễn,"Nguyễn, Thế Hoàn",Vietnam,2014;2015,same_country,3033,Ha An Nguyen,"Nguyen, Ha An",Vietnam,0.7826086957,2016,
+IMO,Trong Khai Vo,"Vo, Trong Khai",Vietnam,2025,same_country,3107,Trong Khoi Van,"Van, Trong Khoi",Vietnam,0.7826086957,2018,
+IMO,Bilyana Dimitrova,"Dimitrova, Bilyana",Bulgaria,2024,same_country,90,Bilyana Dimitrova Dimitrova,"Dimitrova, Bilyana Dimitrova",Bulgaria,0.7804878049,,2021

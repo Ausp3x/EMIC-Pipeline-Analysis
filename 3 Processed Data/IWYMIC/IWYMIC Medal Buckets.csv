@@ -1,0 +1,469 @@
+﻿year,medal,medal_bucket_size,rank_start,rank_end,rank_average,percentile,first_country,last_country,country_sequence
+2013,Gold,1,1,1,1,0.9965986395,Hong Kong,Hong Kong,Hong Kong
+2013,Gold,4,2,5,3.5,0.9880952381,People's Republic of China,Taiwan,People's Republic of China;Japan;Philippines;Taiwan
+2013,Gold,5,6,10,8,0.9727891156,Hong Kong,Thailand,Hong Kong;Japan;Taiwan;Thailand;Thailand
+2013,Gold,5,11,15,13,0.9557823129,People's Republic of China,Taiwan,People's Republic of China;People's Republic of China;Indonesia;Taiwan;Taiwan
+2013,Gold,8,16,23,19.5,0.9336734694,People's Republic of China,Thailand,People's Republic of China;People's Republic of China;Indonesia;Philippines;Taiwan;Taiwan;Taiwan;Thailand
+2013,Silver,13,24,36,30,0.8979591837,Bulgaria,Thailand,Bulgaria;Canada;People's Republic of China;People's Republic of China;People's Republic of China;Hong Kong;Japan;Macau;Philippines;Romania;Taiwan;Thailand;Thailand
+2013,Silver,1,37,37,37,0.8741496599,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2013,Silver,8,38,45,41.5,0.8588435374,Bulgaria,Thailand,Bulgaria;Cyprus;Indonesia;Macau;Mexico;Philippines;Taiwan;Thailand
+2013,Silver,1,46,46,46,0.843537415,Mongolia,Mongolia,Mongolia
+2013,Silver,13,47,59,53,0.8197278912,Bulgaria,Taiwan,Bulgaria;Bulgaria;Bulgaria;Bulgaria;People's Republic of China;People's Republic of China;Islamic Republic of Iran;Islamic Republic of Iran;Japan;Macau;Mongolia;Philippines;Taiwan
+2013,Bronze,13,60,72,66,0.7755102041,Bulgaria,Thailand,Bulgaria;People's Republic of China;Hong Kong;Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Mongolia;Philippines;Philippines;Philippines;Romania;Sri Lanka;Thailand
+2013,Bronze,3,73,75,74,0.7482993197,Bulgaria,Vietnam,Bulgaria;Macau;Vietnam
+2013,Bronze,1,76,76,76,0.7414965986,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2013,Bronze,15,77,91,84,0.7142857143,Bulgaria,United States of America,Bulgaria;People's Republic of China;Indonesia;Mongolia;Philippines;Russian Federation;Sri Lanka;Taiwan;Taiwan;Taiwan;Taiwan;Thailand;Thailand;Thailand;United States of America
+2013,Bronze,1,92,92,92,0.6870748299,Thailand,Thailand,Thailand
+2013,Bronze,14,93,106,99.5,0.6615646259,Bulgaria,Vietnam,Bulgaria;People's Republic of China;Indonesia;Indonesia;Indonesia;Islamic Republic of Iran;Macau;Philippines;Philippines;Romania;Taiwan;Thailand;Thailand;Vietnam
+2013,Bronze,16,107,122,114.5,0.6105442177,Bulgaria,Vietnam,Bulgaria;Bulgaria;Bulgaria;Bulgaria;Canada;People's Republic of China;Indonesia;Indonesia;Macau;Macau;Macau;Macau;Mexico;Sri Lanka;Thailand;Vietnam
+2013,Merit,11,123,133,128,0.5646258503,Bulgaria,United States of America,Bulgaria;Bulgaria;Indonesia;Indonesia;Macau;Mexico;Mexico;Philippines;Russian Federation;Taiwan;United States of America
+2013,Merit,1,134,134,134,0.5442176871,Bulgaria,Bulgaria,Bulgaria
+2013,Merit,2,135,136,135.5,0.5391156463,Bulgaria,Mongolia,Bulgaria;Mongolia
+2013,Merit,13,137,149,143,0.5136054422,Bulgaria,Thailand,Bulgaria;Bulgaria;Indonesia;Indonesia;Republic of Korea;Macau;Macau;Malaysia;Philippines;Romania;Sri Lanka;Thailand;Thailand
+2013,Merit,4,150,153,151.5,0.4846938776,Bulgaria,Macau,Bulgaria;Bulgaria;Bulgaria;Macau
+2013,Merit,12,154,165,159.5,0.4574829932,Bulgaria,Vietnam,Bulgaria;Bulgaria;Bulgaria;Bulgaria;Cyprus;Mexico;Mongolia;Philippines;South Africa;Sri Lanka;United States of America;Vietnam
+2013,Merit,2,166,167,166.5,0.4336734694,Bulgaria,South Africa,Bulgaria;South Africa
+2013,Merit,1,168,168,168,0.4285714286,Bulgaria,Bulgaria,Bulgaria
+2013,Merit,16,169,184,176.5,0.3996598639,Bangladesh,Vietnam,Bangladesh;Bulgaria;Bulgaria;Bulgaria;Bulgaria;Canada;Cyprus;Cyprus;Macau;Malaysia;Malaysia;Mexico;Nepal;Netherlands;Russian Federation;Vietnam
+2013,Merit,1,185,185,185,0.3707482993,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2013,Merit,9,186,194,190,0.3537414966,Bulgaria,Vietnam,Bulgaria;People's Republic of China;People's Republic of China;Kazakhstan;Malaysia;Russian Federation;Russian Federation;Sri Lanka;Vietnam
+2013,Merit,2,195,196,195.5,0.3350340136,Bulgaria,Bulgaria,Bulgaria;Bulgaria
+2014,Gold,2,1,2,1.5,0.9952229299,People's Republic of China,Singapore,People's Republic of China;Singapore
+2014,Gold,3,3,5,4,0.9872611465,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China;People's Republic of China
+2014,Gold,2,6,7,6.5,0.9792993631,Macau,Taiwan,Macau;Taiwan
+2014,Gold,2,8,9,8.5,0.9729299363,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2014,Gold,5,10,14,12,0.9617834395,Japan,Thailand,Japan;Japan;Philippines;Russian Federation;Thailand
+2014,Gold,2,15,16,15.5,0.9506369427,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2014,Gold,6,17,22,19.5,0.9378980892,Hong Kong,Singapore,Hong Kong;Hong Kong;Hong Kong;Philippines;Singapore;Singapore
+2014,Silver,5,23,27,25,0.9203821656,Hong Kong,Vietnam,Hong Kong;Japan;Thailand;Vietnam;Vietnam
+2014,Silver,2,28,29,28.5,0.9092356688,Hong Kong,Taiwan,Hong Kong;Taiwan
+2014,Silver,1,30,30,30,0.9044585987,People's Republic of China,People's Republic of China,People's Republic of China
+2014,Silver,2,31,32,31.5,0.8996815287,Japan,Thailand,Japan;Thailand
+2014,Silver,2,33,34,33.5,0.8933121019,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2014,Silver,6,35,40,37.5,0.8805732484,Hong Kong,Vietnam,Hong Kong;Malaysia;Philippines;Russian Federation;Russian Federation;Vietnam
+2014,Silver,10,41,50,45.5,0.8550955414,Bulgaria,Vietnam,Bulgaria;Indonesia;Indonesia;Indonesia;Singapore;Taiwan;Taiwan;Taiwan;Thailand;Vietnam
+2014,Silver,3,51,53,52,0.8343949045,Hong Kong,Malaysia,Hong Kong;Islamic Republic of Iran;Malaysia
+2014,Silver,9,54,62,58,0.8152866242,Indonesia,Taiwan,Indonesia;Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Macau;Macau;Singapore;Taiwan
+2014,Bronze,2,63,64,63.5,0.7977707006,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2014,Bronze,7,65,71,68,0.7834394904,Indonesia,Thailand,Indonesia;Macau;Mongolia;Philippines;Russian Federation;Singapore;Thailand
+2014,Bronze,13,72,84,78,0.7515923567,Bulgaria,Vietnam,Bulgaria;Indonesia;Islamic Republic of Iran;Kazakhstan;Mexico;Mexico;Philippines;Singapore;Sri Lanka;Sri Lanka;Taiwan;Thailand;Vietnam
+2014,Bronze,2,85,86,85.5,0.7277070064,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2014,Bronze,8,87,94,90.5,0.7117834395,Indonesia,Vietnam,Indonesia;Singapore;Sri Lanka;Sri Lanka;Taiwan;Taiwan;Thailand;Vietnam
+2014,Bronze,3,95,97,96,0.6942675159,Bulgaria,People's Republic of China,Bulgaria;Canada;People's Republic of China
+2014,Bronze,9,98,106,102,0.6751592357,Macau,Vietnam,Macau;Macau;Philippines;Taiwan;Thailand;Thailand;Thailand;Vietnam;Vietnam
+2014,Bronze,1,107,107,107,0.6592356688,Philippines,Philippines,Philippines
+2014,Bronze,7,108,114,111,0.6464968153,Canada,Republic of Korea,Canada;Indonesia;Indonesia;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea
+2014,Bronze,7,115,121,118,0.6242038217,Macau,Thailand,Macau;Macau;Malaysia;Mexico;Romania;Thailand;Thailand
+2014,Bronze,1,122,122,122,0.6114649682,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2014,Merit,2,123,124,123.5,0.6066878981,Australia,People's Republic of China,Australia;People's Republic of China
+2014,Merit,9,125,133,129,0.5891719745,Indonesia,Republic of Korea,Indonesia;Kazakhstan;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea
+2014,Merit,15,134,148,141,0.550955414,Macau,Vietnam,Macau;Malaysia;Mexico;Mexico;Mongolia;Mongolia;Mongolia;Philippines;Philippines;Philippines;Romania;Sri Lanka;Taiwan;Vietnam;Vietnam
+2014,Merit,5,149,153,151,0.5191082803,Bulgaria,People's Republic of China,Bulgaria;Bulgaria;Canada;Canada;People's Republic of China
+2014,Merit,3,154,156,155,0.5063694268,Indonesia,Republic of Korea,Indonesia;Republic of Korea;Republic of Korea
+2014,Merit,8,157,164,160.5,0.4888535032,Macau,Thailand,Macau;Mexico;Netherlands;Philippines;Sri Lanka;Taiwan;Thailand;Thailand
+2014,Merit,1,165,165,165,0.474522293,Hong Kong,Hong Kong,Hong Kong
+2014,Merit,9,166,174,170,0.4585987261,Australia,People's Republic of China,Australia;Bulgaria;Bulgaria;Bulgaria;Bulgaria;Bulgaria;Canada;People's Republic of China;People's Republic of China
+2014,Merit,6,175,180,177.5,0.4347133758,Islamic Republic of Iran,Republic of Korea,Islamic Republic of Iran;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea
+2014,Merit,7,181,187,184,0.4140127389,Macau,Thailand,Macau;Macau;Mexico;Taiwan;Taiwan;Taiwan;Thailand
+2014,Merit,1,188,188,188,0.4012738854,Canada,Canada,Canada
+2014,Merit,4,189,192,190.5,0.3933121019,Australia,People's Republic of China,Australia;Canada;Canada;People's Republic of China
+2014,Merit,8,193,200,196.5,0.3742038217,Indonesia,Republic of Korea,Indonesia;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea;Republic of Korea
+2014,Merit,9,201,209,205,0.347133758,Macau,Vietnam,Macau;Macau;Malaysia;Mongolia;Philippines;South Africa;Sri Lanka;Thailand;Vietnam
+2015,Gold,1,1,1,1,0.9968152866,Singapore,Singapore,Singapore
+2015,Gold,3,2,4,3,0.9904458599,Japan,Vietnam,Japan;Japan;Vietnam
+2015,Gold,1,5,5,5,0.9840764331,Philippines,Philippines,Philippines
+2015,Gold,1,6,6,6,0.9808917197,Japan,Japan,Japan
+2015,Gold,2,7,8,7.5,0.9761146497,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2015,Gold,1,9,9,9,0.9713375796,Japan,Japan,Japan
+2015,Gold,3,10,12,11,0.9649681529,Hong Kong,Singapore,Hong Kong;Hong Kong;Singapore
+2015,Gold,1,13,13,13,0.9585987261,Republic of Korea,Republic of Korea,Republic of Korea
+2015,Gold,6,14,19,16.5,0.9474522293,People's Republic of China,Thailand,People's Republic of China;People's Republic of China;Philippines;Sri Lanka;Thailand;Thailand
+2015,Gold,4,20,23,21.5,0.9315286624,Bulgaria,Taiwan,Bulgaria;Cyprus;People's Republic of China;Taiwan
+2015,Silver,2,24,25,24.5,0.9219745223,Mongolia,Philippines,Mongolia;Philippines
+2015,Silver,2,26,27,26.5,0.9156050955,People's Republic of China,Thailand,People's Republic of China;Thailand
+2015,Silver,1,28,28,28,0.9108280255,Philippines,Philippines,Philippines
+2015,Silver,2,29,30,29.5,0.9060509554,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2015,Silver,4,31,34,32.5,0.8964968153,Islamic Republic of Iran,Thailand,Islamic Republic of Iran;Philippines;Singapore;Thailand
+2015,Silver,1,35,35,35,0.8885350318,Philippines,Philippines,Philippines
+2015,Silver,1,36,36,36,0.8853503185,Indonesia,Indonesia,Indonesia
+2015,Silver,2,37,38,37.5,0.8805732484,Hong Kong,Taiwan,Hong Kong;Taiwan
+2015,Silver,5,39,43,41,0.8694267516,Canada,Vietnam,Canada;People's Republic of China;Taiwan;Thailand;Vietnam
+2015,Silver,2,44,45,44.5,0.8582802548,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2015,Silver,2,46,47,46.5,0.851910828,Indonesia,Singapore,Indonesia;Singapore
+2015,Silver,1,48,48,48,0.847133758,People's Republic of China,People's Republic of China,People's Republic of China
+2015,Silver,3,49,51,50,0.8407643312,Hong Kong,Vietnam,Hong Kong;Taiwan;Vietnam
+2015,Silver,1,52,52,52,0.8343949045,People's Republic of China,People's Republic of China,People's Republic of China
+2015,Silver,3,53,55,54,0.8280254777,Indonesia,Vietnam,Indonesia;Taiwan;Vietnam
+2015,Silver,1,56,56,56,0.821656051,People's Republic of China,People's Republic of China,People's Republic of China
+2015,Silver,2,57,58,57.5,0.8168789809,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2015,Silver,4,59,62,60.5,0.8073248408,Indonesia,Vietnam,Indonesia;Indonesia;Mongolia;Vietnam
+2015,Silver,2,63,64,63.5,0.7977707006,Bulgaria,Bulgaria,Bulgaria;Bulgaria
+2015,Bronze,5,65,69,67,0.7866242038,Cyprus,Singapore,Cyprus;Hong Kong;Mongolia;Singapore;Singapore
+2015,Bronze,2,70,71,70.5,0.775477707,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2015,Bronze,2,72,73,72.5,0.7691082803,Malaysia,Thailand,Malaysia;Thailand
+2015,Bronze,3,74,76,75,0.7611464968,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China;People's Republic of China
+2015,Bronze,2,77,78,77.5,0.7531847134,Indonesia,People's Republic of China,Indonesia;People's Republic of China
+2015,Bronze,3,79,81,80,0.7452229299,Mongolia,Taiwan,Mongolia;Philippines;Taiwan
+2015,Bronze,1,82,82,82,0.7388535032,People's Republic of China,People's Republic of China,People's Republic of China
+2015,Bronze,3,83,85,84,0.7324840764,Mongolia,Philippines,Mongolia;Philippines;Philippines
+2015,Bronze,3,86,88,87,0.7229299363,People's Republic of China,Thailand,People's Republic of China;Singapore;Thailand
+2015,Bronze,4,89,92,90.5,0.7117834395,Islamic Republic of Iran,Vietnam,Islamic Republic of Iran;Mongolia;Philippines;Vietnam
+2015,Bronze,2,93,94,93.5,0.7022292994,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2015,Bronze,2,95,96,95.5,0.6958598726,Macau,Philippines,Macau;Philippines
+2015,Bronze,2,97,98,97.5,0.6894904459,People's Republic of China,Taiwan,People's Republic of China;Taiwan
+2015,Bronze,4,99,102,100.5,0.6799363057,People's Republic of China,Thailand,People's Republic of China;Singapore;Sri Lanka;Thailand
+2015,Bronze,2,103,104,103.5,0.6703821656,Mexico,Taiwan,Mexico;Taiwan
+2015,Bronze,2,105,106,105.5,0.6640127389,People's Republic of China,Taiwan,People's Republic of China;Taiwan
+2015,Bronze,3,107,109,108,0.6560509554,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China;People's Republic of China
+2015,Bronze,2,110,111,110.5,0.648089172,Mexico,People's Republic of China,Mexico;People's Republic of China
+2015,Bronze,4,112,115,113.5,0.6385350318,Mexico,Thailand,Mexico;Taiwan;Taiwan;Thailand
+2015,Bronze,2,116,117,116.5,0.6289808917,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2015,Bronze,4,118,121,119.5,0.6194267516,Hong Kong,Philippines,Hong Kong;Hong Kong;Islamic Republic of Iran;Philippines
+2015,Bronze,2,122,123,122.5,0.6098726115,People's Republic of China,Taiwan,People's Republic of China;Taiwan
+2015,Merit,2,124,125,124.5,0.6035031847,Macau,Taiwan,Macau;Taiwan
+2015,Merit,3,126,128,127,0.5955414013,Bulgaria,Macau,Bulgaria;Hong Kong;Macau
+2015,Merit,3,129,131,130,0.5859872611,Indonesia,Sri Lanka,Indonesia;Islamic Republic of Iran;Sri Lanka
+2015,Merit,5,132,136,134,0.5732484076,Bulgaria,Philippines,Bulgaria;Canada;People's Republic of China;People's Republic of China;Philippines
+2015,Merit,3,137,139,138,0.5605095541,Canada,Taiwan,Canada;Philippines;Taiwan
+2015,Merit,4,140,143,141.5,0.5493630573,Bulgaria,Philippines,Bulgaria;Cyprus;Malaysia;Philippines
+2015,Merit,2,144,145,144.5,0.5398089172,People's Republic of China,Thailand,People's Republic of China;Thailand
+2015,Merit,2,146,147,146.5,0.5334394904,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China
+2015,Merit,2,148,149,148.5,0.5270700637,Indonesia,People's Republic of China,Indonesia;People's Republic of China
+2015,Merit,1,150,150,150,0.5222929936,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2015,Merit,2,151,152,151.5,0.5175159236,Bulgaria,Islamic Republic of Iran,Bulgaria;Islamic Republic of Iran
+2015,Merit,6,153,158,155.5,0.5047770701,Bulgaria,Thailand,Bulgaria;Macau;Macau;Mexico;Sri Lanka;Thailand
+2015,Merit,4,159,162,160.5,0.4888535032,Bulgaria,Vietnam,Bulgaria;People's Republic of China;Taiwan;Vietnam
+2015,Merit,6,163,168,165.5,0.4729299363,Bulgaria,Thailand,Bulgaria;Indonesia;Islamic Republic of Iran;Sri Lanka;Sri Lanka;Thailand
+2015,Merit,2,169,170,169.5,0.4601910828,Republic of Korea,Vietnam,Republic of Korea;Vietnam
+2015,Merit,2,171,172,171.5,0.4538216561,Bulgaria,South Africa,Bulgaria;South Africa
+2015,Merit,3,173,175,174,0.4458598726,People's Republic of China,People's Republic of China,People's Republic of China;People's Republic of China;People's Republic of China
+2015,Merit,6,176,181,178.5,0.4315286624,Cyprus,Thailand,Cyprus;Islamic Republic of Iran;Macau;Mexico;Romania;Thailand
+2015,Merit,2,182,183,182.5,0.4187898089,Islamic Republic of Iran,People's Republic of China,Islamic Republic of Iran;People's Republic of China
+2015,Merit,3,184,186,185,0.4108280255,Macau,Romania,Macau;Macau;Romania
+2015,Merit,2,187,188,187.5,0.402866242,Australia,People's Republic of China,Australia;People's Republic of China
+2015,Merit,1,189,189,189,0.398089172,Mongolia,Mongolia,Mongolia
+2015,Merit,3,190,192,191,0.3917197452,Macau,Taiwan,Macau;Macau;Taiwan
+2015,Merit,6,193,198,195.5,0.377388535,Islamic Republic of Iran,Sri Lanka,Islamic Republic of Iran;Islamic Republic of Iran;Macau;South Africa;South Africa;Sri Lanka
+2015,Merit,2,199,200,199.5,0.3646496815,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2015,Merit,1,201,201,201,0.3598726115,Mexico,Mexico,Mexico
+2015,Merit,1,202,202,202,0.3566878981,Macau,Macau,Macau
+2015,Merit,5,203,207,205,0.347133758,Indonesia,Republic of Korea,Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Republic of Korea
+2015,Merit,2,208,209,208.5,0.3359872611,Netherlands,Netherlands,Netherlands;Netherlands
+2016,Gold,2,1,2,1.5,0.9947735192,Thailand,Thailand,Thailand;Thailand
+2016,Gold,3,3,5,4,0.9860627178,Philippines,Thailand,Philippines;Thailand;Thailand
+2016,Gold,4,6,9,7.5,0.9738675958,Bulgaria,Thailand,Bulgaria;Bulgaria;Philippines;Thailand
+2016,Gold,2,10,11,10.5,0.9634146341,Bulgaria,Thailand,Bulgaria;Thailand
+2016,Gold,1,12,12,12,0.9581881533,Mongolia,Mongolia,Mongolia
+2016,Gold,4,13,16,14.5,0.9494773519,Bulgaria,Taiwan,Bulgaria;Bulgaria;Mongolia;Taiwan
+2016,Gold,6,17,22,19.5,0.9320557491,Bulgaria,Thailand,Bulgaria;Hong Kong;Indonesia;Taiwan;Taiwan;Thailand
+2016,Silver,8,23,30,26.5,0.9076655052,Bulgaria,Vietnam,Bulgaria;Hong Kong;Sri Lanka;Sri Lanka;Thailand;Thailand;Thailand;Vietnam
+2016,Silver,4,31,34,32.5,0.8867595819,People's Republic of China,Vietnam,People's Republic of China;Macau;Thailand;Vietnam
+2016,Silver,6,35,40,37.5,0.8693379791,Hong Kong,Taiwan,Hong Kong;Islamic Republic of Iran;Islamic Republic of Iran;Romania;Taiwan;Taiwan
+2016,Silver,14,41,54,47.5,0.8344947735,Bulgaria,Thailand,Bulgaria;Hong Kong;Indonesia;Indonesia;Indonesia;Mongolia;Philippines;Romania;Sri Lanka;Taiwan;Thailand;Thailand;Thailand;Thailand
+2016,Bronze,15,55,69,62,0.7839721254,Bulgaria,Vietnam,Bulgaria;Bulgaria;People's Republic of China;Indonesia;Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Malaysia;Mexico;Taiwan;Taiwan;Thailand;Vietnam;Vietnam;Vietnam
+2016,Bronze,16,70,85,77.5,0.7299651568,Hong Kong,Thailand,Hong Kong;Indonesia;Islamic Republic of Iran;Mexico;Mexico;Philippines;Romania;Taiwan;Taiwan;Taiwan;Tajikistan;Thailand;Thailand;Thailand;Thailand;Thailand
+2016,Bronze,12,86,97,91.5,0.681184669,People's Republic of China,Vietnam,People's Republic of China;People's Republic of China;People's Republic of China;Indonesia;Macau;Mexico;Mongolia;Philippines;Philippines;Sri Lanka;Thailand;Vietnam
+2016,Bronze,8,98,105,101.5,0.6463414634,Canada,Thailand,Canada;Hong Kong;Indonesia;Indonesia;Mongolia;Sri Lanka;Taiwan;Thailand
+2016,Bronze,4,106,109,107.5,0.6254355401,Islamic Republic of Iran,Vietnam,Islamic Republic of Iran;Romania;Tajikistan;Vietnam
+2016,Bronze,9,110,118,114,0.6027874564,Canada,Thailand,Canada;People's Republic of China;Mongolia;Philippines;Philippines;Philippines;Taiwan;Tajikistan;Thailand
+2016,Merit,2,119,120,119.5,0.5836236934,Romania,Sri Lanka,Romania;Sri Lanka
+2016,Merit,14,121,134,127.5,0.5557491289,Australia,Taiwan,Australia;Canada;People's Republic of China;People's Republic of China;Hong Kong;Islamic Republic of Iran;Islamic Republic of Iran;Macau;Malaysia;Mexico;Mexico;Philippines;Taiwan;Taiwan
+2016,Merit,2,135,136,135.5,0.5278745645,Mongolia,Sri Lanka,Mongolia;Sri Lanka
+2016,Merit,14,137,150,143.5,0.5,People's Republic of China,Tajikistan,People's Republic of China;Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Macau;Macau;Macau;Macau;Mexico;Philippines;Philippines;South Africa;Tajikistan;Tajikistan
+2016,Merit,1,151,151,151,0.4738675958,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2016,Merit,19,152,170,161,0.4390243902,Australia,Taiwan,Australia;Bulgaria;Bulgaria;Canada;People's Republic of China;People's Republic of China;People's Republic of China;Hong Kong;Indonesia;Macau;Malaysia;Mexico;Netherlands;Philippines;Philippines;Philippines;Romania;Sri Lanka;Taiwan
+2016,Merit,2,171,172,171.5,0.4024390244,Romania,Tajikistan,Romania;Tajikistan
+2016,Merit,19,173,191,182,0.3658536585,Bulgaria,Tajikistan,Bulgaria;Bulgaria;Bulgaria;People's Republic of China;People's Republic of China;People's Republic of China;Cyprus;Ghana;Indonesia;Lebanon;Macau;Malaysia;Malaysia;Mongolia;Netherlands;South Africa;South Africa;South Africa;Tajikistan
+2017,Gold,2,1,2,1.5,0.994047619,Mongolia,Thailand,Mongolia;Thailand
+2017,Gold,8,3,10,6.5,0.9742063492,Bulgaria,Thailand,Bulgaria;Mongolia;Singapore;Singapore;Tajikistan;Thailand;Thailand;Thailand
+2017,Gold,6,11,16,13.5,0.9464285714,Bulgaria,Vietnam,Bulgaria;Singapore;Singapore;Tajikistan;Thailand;Vietnam
+2017,Silver,9,17,25,21,0.9166666667,Bulgaria,Vietnam,Bulgaria;Malaysia;Mongolia;Mongolia;Romania;Taiwan;Taiwan;Taiwan;Vietnam
+2017,Silver,1,26,26,26,0.8968253968,Taiwan,Taiwan,Taiwan
+2017,Silver,7,27,33,30,0.880952381,Mexico,Thailand,Mexico;Philippines;Philippines;Singapore;Sri Lanka;Thailand;Thailand
+2017,Silver,5,34,38,36,0.8571428571,Bulgaria,Vietnam,Bulgaria;Tajikistan;Tajikistan;Tajikistan;Vietnam
+2017,Silver,5,39,43,41,0.8373015873,Bulgaria,Taiwan,Bulgaria;Bulgaria;Indonesia;Taiwan;Taiwan
+2017,Silver,2,44,45,44.5,0.8234126984,Bulgaria,Mexico,Bulgaria;Mexico
+2017,Silver,4,46,49,47.5,0.8115079365,Bulgaria,Taiwan,Bulgaria;Bulgaria;Indonesia;Taiwan
+2017,Silver,6,50,55,52.5,0.7916666667,Indonesia,Vietnam,Indonesia;Indonesia;Mongolia;Singapore;Taiwan;Vietnam
+2017,Bronze,4,56,59,57.5,0.7718253968,Bulgaria,Taiwan,Bulgaria;Romania;Taiwan;Taiwan
+2017,Bronze,8,60,67,63.5,0.748015873,Bulgaria,Vietnam,Bulgaria;Mongolia;Philippines;Sri Lanka;Sri Lanka;Sri Lanka;Thailand;Vietnam
+2017,Bronze,3,68,70,69,0.7261904762,Islamic Republic of Iran,Vietnam,Islamic Republic of Iran;Thailand;Vietnam
+2017,Bronze,2,71,72,71.5,0.7162698413,Mexico,Taiwan,Mexico;Taiwan
+2017,Bronze,6,73,78,75.5,0.7003968254,Islamic Republic of Iran,Thailand,Islamic Republic of Iran;Malaysia;Philippines;Philippines;Romania;Thailand
+2017,Bronze,3,79,81,80,0.6825396825,Romania,Thailand,Romania;Romania;Thailand
+2017,Bronze,2,82,83,82.5,0.6726190476,Thailand,Taiwan,Thailand;Taiwan
+2017,Bronze,8,84,91,87.5,0.6527777778,Bulgaria,Thailand,Bulgaria;Bulgaria;Bulgaria;Indonesia;Mexico;Mongolia;Tajikistan;Thailand
+2017,Bronze,3,92,94,93,0.630952381,Philippines,Vietnam,Philippines;Taiwan;Vietnam
+2017,Bronze,7,95,101,98,0.6111111111,Bulgaria,Sri Lanka,Bulgaria;Islamic Republic of Iran;Malaysia;Mongolia;Philippines;Singapore;Sri Lanka
+2017,Bronze,1,102,102,102,0.5952380952,South Africa,South Africa,South Africa
+2017,Bronze,4,103,106,104.5,0.5853174603,Mexico,Sri Lanka,Mexico;Philippines;Singapore;Sri Lanka
+2017,Bronze,2,107,108,107.5,0.5734126984,Philippines,Romania,Philippines;Romania
+2017,Bronze,6,109,114,111.5,0.5575396825,Islamic Republic of Iran,Philippines,Islamic Republic of Iran;Mexico;Nepal;Philippines;Philippines;Philippines
+2017,Bronze,4,115,118,116.5,0.5376984127,Canada,Sri Lanka,Canada;Indonesia;Republic of Korea;Sri Lanka
+2017,Bronze,1,119,119,119,0.5277777778,Bulgaria,Bulgaria,Bulgaria
+2017,Bronze,1,120,120,120,0.5238095238,Canada,Canada,Canada
+2017,Merit,2,121,122,121.5,0.5178571429,Islamic Republic of Iran,Vietnam,Islamic Republic of Iran;Vietnam
+2017,Merit,1,123,123,123,0.5119047619,Republic of Korea,Republic of Korea,Republic of Korea
+2017,Merit,15,124,138,131,0.4801587302,Bulgaria,Thailand,Bulgaria;Canada;India;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Republic of Korea;Malaysia;Nepal;Philippines;Taiwan;Taiwan;Tajikistan;Thailand;Thailand
+2017,Merit,3,139,141,140,0.4444444444,India,Taiwan,India;India;Taiwan
+2017,Merit,5,142,146,144,0.4285714286,India,Thailand,India;South Africa;Sri Lanka;Thailand;Thailand
+2017,Merit,2,147,148,147.5,0.4146825397,Islamic Republic of Iran,Malaysia,Islamic Republic of Iran;Malaysia
+2017,Merit,11,149,159,154,0.3888888889,India,Tajikistan,India;India;India;India;India;Indonesia;Malaysia;Mexico;Philippines;South Africa;Tajikistan
+2017,Merit,3,160,162,161,0.3611111111,Mexico,Romania,Mexico;Romania;Romania
+2017,Merit,3,163,165,164,0.3492063492,Canada,Romania,Canada;Malaysia;Romania
+2017,Merit,1,166,166,166,0.3412698413,Philippines,Philippines,Philippines
+2017,Merit,2,167,168,167.5,0.3353174603,Australia,Islamic Republic of Iran,Australia;Islamic Republic of Iran
+2018,Gold,2,1,2,1.5,0.9949832776,Thailand,Thailand,Thailand;Thailand
+2018,Gold,3,3,5,4,0.9866220736,People's Republic of China,Taiwan,People's Republic of China;Taiwan;Taiwan
+2018,Gold,3,6,8,7,0.9765886288,People's Republic of China,Thailand,People's Republic of China;Macau;Thailand
+2018,Gold,3,9,11,10,0.9665551839,Bulgaria,Thailand,Bulgaria;Thailand;Thailand
+2018,Gold,1,12,12,12,0.9598662207,People's Republic of China,People's Republic of China,People's Republic of China
+2018,Gold,3,13,15,14,0.9531772575,Bulgaria,Thailand,Bulgaria;Bulgaria;Thailand
+2018,Gold,2,16,17,16.5,0.9448160535,Taiwan,Thailand,Taiwan;Thailand
+2018,Gold,2,18,19,18.5,0.9381270903,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China
+2018,Gold,1,20,20,20,0.9331103679,Bulgaria,Bulgaria,Bulgaria
+2018,Silver,3,21,23,22,0.9264214047,Taiwan,Thailand,Taiwan;Taiwan;Thailand
+2018,Silver,4,24,27,25.5,0.9147157191,People's Republic of China,Vietnam,People's Republic of China;Philippines;Romania;Vietnam
+2018,Silver,3,28,30,29,0.9030100334,Bulgaria,Islamic Republic of Iran,Bulgaria;Bulgaria;Islamic Republic of Iran
+2018,Silver,1,31,31,31,0.8963210702,People's Republic of China,People's Republic of China,People's Republic of China
+2018,Silver,3,32,34,33,0.889632107,Bulgaria,Taiwan,Bulgaria;Indonesia;Taiwan
+2018,Silver,3,35,37,36,0.8795986622,Bulgaria,Vietnam,Bulgaria;Philippines;Vietnam
+2018,Silver,1,38,38,38,0.872909699,Thailand,Thailand,Thailand
+2018,Silver,4,39,42,40.5,0.864548495,Malaysia,Vietnam,Malaysia;Tajikistan;Uzbekistan;Vietnam
+2018,Silver,2,43,44,43.5,0.8545150502,Romania,Thailand,Romania;Thailand
+2018,Silver,1,45,45,45,0.8494983278,Taiwan,Taiwan,Taiwan
+2018,Silver,4,46,49,47.5,0.8411371237,People's Republic of China,Thailand,People's Republic of China;Taiwan;Thailand;Thailand
+2018,Silver,2,50,51,50.5,0.8311036789,Taiwan,Taiwan,Taiwan;Taiwan
+2018,Silver,4,52,55,53.5,0.8210702341,Bulgaria,Sri Lanka,Bulgaria;Canada;Philippines;Sri Lanka
+2018,Silver,2,56,57,56.5,0.8110367893,Macau,Macau,Macau;Macau
+2018,Silver,2,58,59,58.5,0.8043478261,Hong Kong,Tajikistan,Hong Kong;Tajikistan
+2018,Silver,2,60,61,60.5,0.7976588629,Bulgaria,Bulgaria,Bulgaria;Bulgaria
+2018,Bronze,4,62,65,63.5,0.7876254181,Bulgaria,Thailand,Bulgaria;Hong Kong;Hong Kong;Thailand
+2018,Bronze,2,66,67,66.5,0.7775919732,Taiwan,Vietnam,Taiwan;Vietnam
+2018,Bronze,5,68,72,70,0.7658862876,Bulgaria,Russian Federation,Bulgaria;Bulgaria;Macau;Macau;Russian Federation
+2018,Bronze,1,73,73,73,0.7558528428,Philippines,Philippines,Philippines
+2018,Bronze,4,74,77,75.5,0.7474916388,Mexico,Vietnam,Mexico;Philippines;Taiwan;Vietnam
+2018,Bronze,3,78,80,79,0.7357859532,Philippines,Vietnam,Philippines;Thailand;Vietnam
+2018,Bronze,5,81,85,83,0.7224080268,Bulgaria,Vietnam,Bulgaria;Bulgaria;Philippines;Taiwan;Vietnam
+2018,Bronze,2,86,87,86.5,0.7107023411,Russian Federation,Sri Lanka,Russian Federation;Sri Lanka
+2018,Bronze,2,88,89,88.5,0.7040133779,Philippines,Taiwan,Philippines;Taiwan
+2018,Bronze,5,90,94,92,0.6923076923,Bulgaria,Sri Lanka,Bulgaria;People's Republic of China;Islamic Republic of Iran;Philippines;Sri Lanka
+2018,Bronze,5,95,99,97,0.6755852843,Bulgaria,Philippines,Bulgaria;Bulgaria;Cyprus;Mexico;Philippines
+2018,Bronze,3,100,102,101,0.6622073579,Bulgaria,Philippines,Bulgaria;Mexico;Philippines
+2018,Bronze,6,103,108,105.5,0.6471571906,Bulgaria,South Africa,Bulgaria;Canada;People's Republic of China;Islamic Republic of Iran;Mexico;South Africa
+2018,Bronze,8,109,116,112.5,0.6237458194,Bulgaria,Vietnam,Bulgaria;Bulgaria;Bulgaria;Malaysia;Sri Lanka;Sri Lanka;Sri Lanka;Vietnam
+2018,Bronze,4,117,120,118.5,0.6036789298,Bulgaria,Tajikistan,Bulgaria;Indonesia;Philippines;Tajikistan
+2018,Merit,2,121,122,121.5,0.5936454849,Macau,Russian Federation,Macau;Russian Federation
+2018,Merit,7,123,129,126,0.5785953177,Bulgaria,Thailand,Bulgaria;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Romania;Thailand
+2018,Merit,3,130,132,131,0.5618729097,Sri Lanka,Tajikistan,Sri Lanka;Taiwan;Tajikistan
+2018,Merit,5,133,137,135,0.5484949833,Indonesia,Vietnam,Indonesia;Islamic Republic of Iran;Russian Federation;Thailand;Vietnam
+2018,Merit,1,138,138,138,0.5384615385,Bulgaria,Bulgaria,Bulgaria
+2018,Merit,6,139,144,141.5,0.5267558528,Bulgaria,Tajikistan,Bulgaria;Bulgaria;Malaysia;Mexico;Romania;Tajikistan
+2018,Merit,6,145,150,147.5,0.5066889632,Bulgaria,Tajikistan,Bulgaria;Macau;Sri Lanka;Taiwan;Tajikistan;Tajikistan
+2018,Merit,2,151,152,151.5,0.4933110368,Republic of Korea,Uzbekistan,Republic of Korea;Uzbekistan
+2018,Merit,2,153,154,153.5,0.4866220736,Bulgaria,Cyprus,Bulgaria;Cyprus
+2018,Merit,5,155,159,157,0.474916388,Bulgaria,Uzbekistan,Bulgaria;Canada;Macau;Romania;Uzbekistan
+2018,Merit,7,160,166,163,0.4548494983,Philippines,Vietnam,Philippines;Romania;South Africa;Uzbekistan;Vietnam;Vietnam;Vietnam
+2018,Merit,1,167,167,167,0.4414715719,Philippines,Philippines,Philippines
+2018,Merit,5,168,172,170,0.4314381271,Bulgaria,Tajikistan,Bulgaria;Bulgaria;Canada;Hong Kong;Tajikistan
+2018,Merit,8,173,180,176.5,0.4096989967,Bulgaria,Vietnam,Bulgaria;Bulgaria;Islamic Republic of Iran;Macau;Malaysia;Mexico;Romania;Vietnam
+2018,Merit,4,181,184,182.5,0.389632107,Bulgaria,Vietnam,Bulgaria;Romania;Russian Federation;Vietnam
+2018,Merit,5,185,189,187,0.3745819398,Bulgaria,Russian Federation,Bulgaria;People's Republic of China;Macau;Philippines;Russian Federation
+2018,Merit,3,190,192,191,0.3612040134,Indonesia,Mexico,Indonesia;Macau;Mexico
+2018,Merit,5,193,197,195,0.347826087,Cyprus,Vietnam,Cyprus;Islamic Republic of Iran;Macau;South Africa;Vietnam
+2018,Merit,1,198,198,198,0.3377926421,Macau,Macau,Macau
+2018,Merit,1,199,199,199,0.3344481605,Romania,Romania,Romania
+2019,Gold,1,1,1,1,0.9957627119,Hong Kong,Hong Kong,Hong Kong
+2019,Gold,3,2,4,3,0.9872881356,Bulgaria,Taiwan,Bulgaria;Taiwan;Taiwan
+2019,Gold,2,5,6,5.5,0.9766949153,Malaysia,Sri Lanka,Malaysia;Sri Lanka
+2019,Gold,8,7,14,10.5,0.9555084746,Bulgaria,Vietnam,Bulgaria;Bulgaria;Bulgaria;People's Republic of China;Republic of Korea;Philippines;Thailand;Vietnam
+2019,Silver,6,15,20,17.5,0.9258474576,Bulgaria,Thailand,Bulgaria;Hong Kong;Taiwan;Taiwan;Thailand;Thailand
+2019,Silver,7,21,27,24,0.8983050847,People's Republic of China,Uzbekistan,People's Republic of China;Macau;Malaysia;Taiwan;Taiwan;Thailand;Uzbekistan
+2019,Silver,11,28,38,33,0.8601694915,People's Republic of China,Thailand,People's Republic of China;Indonesia;Mexico;Sri Lanka;Taiwan;Taiwan;Taiwan;Thailand;Thailand;Thailand;Thailand
+2019,Silver,2,39,40,39.5,0.8326271186,Taiwan,Taiwan,Taiwan;Taiwan
+2019,Silver,8,41,48,44.5,0.811440678,Bulgaria,Thailand,Bulgaria;Bulgaria;Bulgaria;Bulgaria;Hong Kong;Philippines;Thailand;Thailand
+2019,Bronze,2,49,50,49.5,0.7902542373,Canada,Sri Lanka,Canada;Sri Lanka
+2019,Bronze,12,51,62,56.5,0.7605932203,Bulgaria,Thailand,Bulgaria;Canada;People's Republic of China;Malaysia;Mexico;Philippines;Philippines;Sri Lanka;Sri Lanka;Taiwan;Thailand;Thailand
+2019,Bronze,1,63,63,63,0.7330508475,South Africa,South Africa,South Africa
+2019,Bronze,11,64,74,69,0.7076271186,Bulgaria,Uzbekistan,Bulgaria;Hong Kong;Macau;Macau;Philippines;Philippines;Romania;South Africa;Thailand;Thailand;Uzbekistan
+2019,Bronze,1,75,75,75,0.6822033898,Mexico,Mexico,Mexico
+2019,Bronze,5,76,80,78,0.6694915254,Indonesia,Thailand,Indonesia;Philippines;Sri Lanka;Taiwan;Thailand
+2019,Bronze,1,81,81,81,0.656779661,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2019,Bronze,2,82,83,82.5,0.6504237288,Bulgaria,Philippines,Bulgaria;Philippines
+2019,Bronze,5,84,88,86,0.6355932203,Canada,South Africa,Canada;Ghana;Romania;South Africa;South Africa
+2019,Bronze,2,89,90,89.5,0.6207627119,Macau,Mexico,Macau;Mexico
+2019,Bronze,2,91,92,91.5,0.6122881356,Macau,Macau,Macau;Macau
+2019,Bronze,12,93,104,98.5,0.5826271186,Canada,Uzbekistan,Canada;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;Macau;Macau;Philippines;Philippines;Philippines;Sri Lanka;Taiwan;Uzbekistan
+2019,Merit,2,105,106,105.5,0.5529661017,Bulgaria,Islamic Republic of Iran,Bulgaria;Islamic Republic of Iran
+2019,Merit,6,107,112,109.5,0.5360169492,Cyprus,Vietnam,Cyprus;Macau;Romania;South Africa;Taiwan;Vietnam
+2019,Merit,2,113,114,113.5,0.5190677966,Islamic Republic of Iran,Romania,Islamic Republic of Iran;Romania
+2019,Merit,2,115,116,115.5,0.5105932203,Islamic Republic of Iran,South Africa,Islamic Republic of Iran;South Africa
+2019,Merit,11,117,127,122,0.4830508475,Bulgaria,Thailand,Bulgaria;Cyprus;Islamic Republic of Iran;Islamic Republic of Iran;Macau;Malaysia;South Africa;South Africa;South Africa;Sri Lanka;Thailand
+2019,Merit,10,128,137,132.5,0.438559322,Bulgaria,South Africa,Bulgaria;Canada;Canada;Cyprus;Indonesia;Islamic Republic of Iran;Islamic Republic of Iran;Islamic Republic of Iran;South Africa;South Africa
+2019,Merit,2,138,139,138.5,0.4131355932,Australia,South Africa,Australia;South Africa
+2019,Merit,1,140,140,140,0.406779661,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2019,Merit,9,141,149,145,0.3855932203,Australia,Uzbekistan,Australia;Canada;Republic of Korea;Macau;Malaysia;Malaysia;Philippines;South Africa;Uzbekistan
+2019,Merit,1,150,150,150,0.3644067797,Tunisia,Tunisia,Tunisia
+2019,Merit,1,151,151,151,0.3601694915,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2019,Merit,6,152,157,154.5,0.3453389831,Australia,South Africa,Australia;Ghana;Indonesia;Nepal;South Africa;South Africa
+2021,Gold,6,1,6,3.5,0.9876760563,People's Republic of China,United States of America,People's Republic of China;People's Republic of China;People's Republic of China;Singapore;Taiwan;United States of America
+2021,Gold,2,7,8,7.5,0.9735915493,Taiwan,United States of America,Taiwan;United States of America
+2021,Gold,3,9,11,10,0.9647887324,Indonesia,United States of America,Indonesia;Thailand;United States of America
+2021,Gold,4,12,15,13.5,0.9524647887,Bulgaria,Taiwan,Bulgaria;Singapore;Taiwan;Taiwan
+2021,Gold,2,16,17,16.5,0.9419014085,Bulgaria,Tajikistan,Bulgaria;Tajikistan
+2021,Silver,2,18,19,18.5,0.9348591549,Indonesia,Mexico,Indonesia;Mexico
+2021,Silver,5,20,24,22,0.9225352113,Malaysia,Vietnam,Malaysia;Philippines;Thailand;Uzbekistan;Vietnam
+2021,Silver,1,25,25,25,0.911971831,Thailand,Thailand,Thailand
+2021,Silver,3,26,28,27,0.9049295775,Bulgaria,Singapore,Bulgaria;Philippines;Singapore
+2021,Silver,3,29,31,30,0.8943661972,Bulgaria,Tajikistan,Bulgaria;Bulgaria;Tajikistan
+2021,Silver,2,32,33,32.5,0.8855633803,Taiwan,Taiwan,Taiwan;Taiwan
+2021,Silver,2,34,35,34.5,0.8785211268,Bangladesh,Uzbekistan,Bangladesh;Uzbekistan
+2021,Silver,2,36,37,36.5,0.8714788732,Macau,Vietnam,Macau;Vietnam
+2021,Silver,3,38,40,39,0.8626760563,Cyprus,Vietnam,Cyprus;Thailand;Vietnam
+2021,Silver,2,41,42,41.5,0.8538732394,Philippines,Thailand,Philippines;Thailand
+2021,Silver,4,43,46,44.5,0.8433098592,Bulgaria,Vietnam,Bulgaria;Taiwan;Uzbekistan;Vietnam
+2021,Silver,1,47,47,47,0.8345070423,Singapore,Singapore,Singapore
+2021,Silver,5,48,52,50,0.823943662,Bulgaria,Thailand,Bulgaria;Indonesia;Indonesia;Singapore;Thailand
+2021,Silver,1,53,53,53,0.8133802817,Singapore,Singapore,Singapore
+2021,Silver,2,54,55,54.5,0.8080985915,Mexico,Thailand,Mexico;Thailand
+2021,Silver,1,56,56,56,0.8028169014,Philippines,Philippines,Philippines
+2021,Bronze,6,57,62,59.5,0.7904929577,Indonesia,United States of America,Indonesia;Indonesia;Macau;Macau;Mexico;United States of America
+2021,Bronze,5,63,67,65,0.7711267606,Bulgaria,Taiwan,Bulgaria;Mexico;Philippines;Philippines;Taiwan
+2021,Bronze,1,68,68,68,0.7605633803,Romania,Romania,Romania
+2021,Bronze,1,69,69,69,0.7570422535,Macau,Macau,Macau
+2021,Bronze,2,70,71,70.5,0.7517605634,Bulgaria,Sri Lanka,Bulgaria;Sri Lanka
+2021,Bronze,2,72,73,72.5,0.7447183099,Mexico,Thailand,Mexico;Thailand
+2021,Bronze,2,74,75,74.5,0.7376760563,Taiwan,Tajikistan,Taiwan;Tajikistan
+2021,Bronze,2,76,77,76.5,0.7306338028,Indonesia,Sri Lanka,Indonesia;Sri Lanka
+2021,Bronze,4,78,81,79.5,0.7200704225,Singapore,United Arab Emirates,Singapore;Taiwan;Taiwan;United Arab Emirates
+2021,Bronze,5,82,86,84,0.7042253521,Bulgaria,United States of America,Bulgaria;Indonesia;Macau;Macau;United States of America
+2021,Bronze,4,87,90,88.5,0.6883802817,Cyprus,Uzbekistan,Cyprus;Indonesia;Philippines;Uzbekistan
+2021,Bronze,2,91,92,91.5,0.6778169014,Indonesia,Taiwan,Indonesia;Taiwan
+2021,Bronze,2,93,94,93.5,0.6707746479,Mexico,Romania,Mexico;Romania
+2021,Bronze,5,95,99,97,0.6584507042,Macau,Vietnam,Macau;Macau;Philippines;Tajikistan;Vietnam
+2021,Bronze,1,100,100,100,0.6478873239,Romania,Romania,Romania
+2021,Bronze,4,101,104,102.5,0.639084507,Bulgaria,Philippines,Bulgaria;Philippines;Philippines;Philippines
+2021,Bronze,5,105,109,107,0.6232394366,Cyprus,Vietnam,Cyprus;Islamic Republic of Iran;Philippines;Romania;Vietnam
+2021,Bronze,1,110,110,110,0.6126760563,South Africa,South Africa,South Africa
+2021,Bronze,1,111,111,111,0.6091549296,Bulgaria,Bulgaria,Bulgaria
+2021,Bronze,2,112,113,112.5,0.6038732394,Bangladesh,Mexico,Bangladesh;Mexico
+2021,Bronze,1,114,114,114,0.5985915493,Indonesia,Indonesia,Indonesia
+2021,Merit,2,115,116,115.5,0.5933098592,Singapore,Taiwan,Singapore;Taiwan
+2021,Merit,2,117,118,117.5,0.5862676056,Malaysia,Philippines,Malaysia;Philippines
+2021,Merit,2,119,120,119.5,0.5792253521,Indonesia,Sri Lanka,Indonesia;Sri Lanka
+2021,Merit,4,121,124,122.5,0.5686619718,Macau,Vietnam,Macau;Philippines;Tajikistan;Vietnam
+2021,Merit,3,125,127,126,0.5563380282,Bulgaria,Romania,Bulgaria;Indonesia;Romania
+2021,Merit,4,128,131,129.5,0.5440140845,Bulgaria,Vietnam,Bulgaria;Tajikistan;United States of America;Vietnam
+2021,Merit,2,132,133,132.5,0.5334507042,Hong Kong,United States of America,Hong Kong;United States of America
+2021,Merit,2,134,135,134.5,0.5264084507,Indonesia,Islamic Republic of Iran,Indonesia;Islamic Republic of Iran
+2021,Merit,4,136,139,137.5,0.5158450704,Indonesia,Taiwan,Indonesia;Macau;Malaysia;Taiwan
+2021,Merit,1,140,140,140,0.5070422535,Islamic Republic of Iran,Islamic Republic of Iran,Islamic Republic of Iran
+2021,Merit,2,141,142,141.5,0.5017605634,Bulgaria,Uzbekistan,Bulgaria;Uzbekistan
+2021,Merit,3,143,145,144,0.4929577465,Indonesia,Macau,Indonesia;Indonesia;Macau
+2021,Merit,5,146,150,148,0.4788732394,Bolivia,Romania,Bolivia;Islamic Republic of Iran;Islamic Republic of Iran;Romania;Romania
+2021,Merit,3,151,153,152,0.4647887324,Islamic Republic of Iran,Taiwan,Islamic Republic of Iran;Romania;Taiwan
+2021,Merit,3,154,156,155,0.4542253521,Cyprus,Mexico,Cyprus;Islamic Republic of Iran;Mexico
+2021,Merit,2,157,158,157.5,0.4454225352,Islamic Republic of Iran,Philippines,Islamic Republic of Iran;Philippines
+2021,Merit,4,159,162,160.5,0.4348591549,Bangladesh,United States of America,Bangladesh;Islamic Republic of Iran;Macau;United States of America
+2021,Merit,2,163,164,163.5,0.4242957746,South Africa,South Africa,South Africa;South Africa
+2021,Merit,1,165,165,165,0.4190140845,Philippines,Philippines,Philippines
+2021,Merit,5,166,170,168,0.4084507042,Ghana,Taiwan,Ghana;Indonesia;Indonesia;Indonesia;Taiwan
+2021,Merit,4,171,174,172.5,0.3926056338,Indonesia,Macau,Indonesia;Macau;Macau;Macau
+2021,Merit,2,175,176,175.5,0.3820422535,Bulgaria,Malaysia,Bulgaria;Malaysia
+2021,Merit,3,177,179,178,0.3732394366,Bangladesh,Sri Lanka,Bangladesh;Indonesia;Sri Lanka
+2021,Merit,1,180,180,180,0.3661971831,South Africa,South Africa,South Africa
+2021,Merit,1,181,181,181,0.3626760563,Indonesia,Indonesia,Indonesia
+2021,Merit,5,182,186,184,0.3521126761,India,Tajikistan,India;India;Macau;Philippines;Tajikistan
+2021,Merit,1,187,187,187,0.3415492958,South Africa,South Africa,South Africa
+2021,Merit,2,188,189,188.5,0.3362676056,Indonesia,Indonesia,Indonesia;Indonesia
+2022,Gold,1,1,1,1,0.9961089494,United States of America,United States of America,United States of America
+2022,Gold,3,2,4,3,0.9883268482,Bulgaria,United States of America,Bulgaria;Thailand;United States of America
+2022,Gold,2,5,6,5.5,0.9785992218,Singapore,Vietnam,Singapore;Vietnam
+2022,Gold,1,7,7,7,0.9727626459,United States of America,United States of America,United States of America
+2022,Gold,4,8,11,9.5,0.9630350195,People's Republic of China,United States of America,People's Republic of China;Indonesia;Mongolia;United States of America
+2022,Gold,4,12,15,13.5,0.9474708171,People's Republic of China,Vietnam,People's Republic of China;People's Republic of China;Thailand;Vietnam
+2022,Gold,1,16,16,16,0.9377431907,Thailand,Thailand,Thailand
+2022,Silver,6,17,22,19.5,0.9241245136,Bulgaria,Vietnam,Bulgaria;People's Republic of China;Mongolia;Singapore;United States of America;Vietnam
+2022,Silver,5,23,27,25,0.9027237354,Bulgaria,Vietnam,Bulgaria;Mongolia;Mongolia;Thailand;Vietnam
+2022,Silver,7,28,34,31,0.8793774319,Bulgaria,United States of America,Bulgaria;People's Republic of China;Macau;Mongolia;Thailand;Thailand;United States of America
+2022,Silver,10,35,44,39.5,0.8463035019,Bulgaria,United States of America,Bulgaria;People's Republic of China;Macau;Macau;Mexico;Mongolia;Singapore;Thailand;Thailand;United States of America
+2022,Silver,12,45,56,50.5,0.8035019455,Bulgaria,Vietnam,Bulgaria;Bulgaria;Bulgaria;People's Republic of China;Malaysia;Philippines;Singapore;Singapore;Thailand;Thailand;Thailand;Vietnam
+2022,Bronze,10,57,66,61.5,0.7607003891,Bulgaria,Vietnam,Bulgaria;Mexico;Mexico;Mexico;Mongolia;Romania;Singapore;Thailand;Vietnam;Vietnam
+2022,Bronze,1,67,67,67,0.7392996109,Tajikistan,Tajikistan,Tajikistan
+2022,Bronze,1,68,68,68,0.7354085603,Mongolia,Mongolia,Mongolia
+2022,Bronze,15,69,83,76,0.7042801556,Bulgaria,Vietnam,Bulgaria;Bulgaria;Indonesia;Indonesia;Philippines;Philippines;Philippines;Russian Federation;Thailand;Thailand;Thailand;Uzbekistan;Vietnam;Vietnam;Vietnam
+2022,Bronze,5,84,88,86,0.6653696498,Bulgaria,Sri Lanka,Bulgaria;Bulgaria;Indonesia;Indonesia;Sri Lanka
+2022,Bronze,7,89,95,92,0.6420233463,Macau,Vietnam,Macau;Philippines;Philippines;Philippines;Singapore;Thailand;Vietnam
+2022,Bronze,1,96,96,96,0.626459144,South Africa,South Africa,South Africa
+2022,Bronze,1,97,97,97,0.6225680934,Bulgaria,Bulgaria,Bulgaria
+2022,Bronze,3,98,100,99,0.6147859922,Bolivia,Indonesia,Bolivia;People's Republic of China;Indonesia
+2022,Bronze,2,101,102,101.5,0.6050583658,India,Sri Lanka,India;Sri Lanka
+2022,Bronze,1,103,103,103,0.5992217899,Mexico,Mexico,Mexico
+2022,Bronze,5,104,108,106,0.5875486381,Malaysia,Tajikistan,Malaysia;Philippines;Russian Federation;Singapore;Tajikistan
+2022,Merit,2,109,110,109.5,0.5739299611,Bulgaria,Philippines,Bulgaria;Philippines
+2022,Merit,3,111,113,112,0.5642023346,Indonesia,Sri Lanka,Indonesia;Indonesia;Sri Lanka
+2022,Merit,8,114,121,117.5,0.5428015564,Macau,Vietnam,Macau;Macau;Mexico;Russian Federation;Russian Federation;Tajikistan;Uzbekistan;Vietnam
+2022,Merit,5,122,126,124,0.5175097276,South Africa,United Arab Emirates,South Africa;South Africa;South Africa;Sri Lanka;United Arab Emirates
+2022,Merit,3,127,129,128,0.5019455253,Bangladesh,Bulgaria,Bangladesh;Bulgaria;Bulgaria
+2022,Merit,18,130,147,138.5,0.4610894942,Bolivia,Vietnam,Bolivia;Ghana;Ghana;Indonesia;Indonesia;Indonesia;Indonesia;Macau;Macau;Macau;Mexico;Philippines;Philippines;Philippines;Philippines;Tajikistan;Uzbekistan;Vietnam
+2022,Merit,4,148,151,149.5,0.4182879377,South Africa,South Africa,South Africa;South Africa;South Africa;South Africa
+2022,Merit,1,152,152,152,0.4085603113,India,India,India
+2022,Merit,4,153,156,154.5,0.3988326848,Bulgaria,Trinidad and Tobago,Bulgaria;Ghana;Ghana;Trinidad and Tobago
+2022,Merit,14,157,170,163.5,0.3638132296,Indonesia,United States of America,Indonesia;Indonesia;Indonesia;Indonesia;Indonesia;Republic of Korea;Macau;Macau;Philippines;Philippines;Romania;Romania;Tajikistan;United States of America
+2022,Merit,1,171,171,171,0.3346303502,Romania,Romania,Romania
+2023,Gold,6,1,6,3.5,0.9889589905,People's Republic of China,Hong Kong,People's Republic of China;People's Republic of China;People's Republic of China;People's Republic of China;People's Republic of China;Hong Kong
+2023,Gold,2,7,8,7.5,0.976340694,People's Republic of China,Vietnam,People's Republic of China;Vietnam
+2023,Gold,5,9,13,11,0.9652996845,Hong Kong,United States of America,Hong Kong;Thailand;Thailand;United States of America;United States of America
+2023,Gold,6,14,19,16.5,0.9479495268,People's Republic of China,Uzbekistan,People's Republic of China;Singapore;Thailand;Thailand;United States of America;Uzbekistan
+2023,Gold,1,20,20,20,0.9369085174,Thailand,Thailand,Thailand
+2023,Silver,9,21,29,25,0.9211356467,Hong Kong,Vietnam,Hong Kong;Mongolia;Singapore;Singapore;Taiwan;United States of America;United States of America;United States of America;Vietnam
+2023,Silver,1,30,30,30,0.905362776,South Africa,South Africa,South Africa
+2023,Silver,6,31,36,33.5,0.8943217666,Bulgaria,Taiwan,Bulgaria;Indonesia;Macau;Singapore;Singapore;Taiwan
+2023,Silver,3,37,39,38,0.880126183,Hong Kong,United States of America,Hong Kong;Taiwan;United States of America
+2023,Silver,1,40,40,40,0.8738170347,Taiwan,Taiwan,Taiwan
+2023,Silver,3,41,43,42,0.8675078864,Macau,Vietnam,Macau;United States of America;Vietnam
+2023,Silver,6,44,49,46.5,0.8533123028,Bulgaria,Sri Lanka,Bulgaria;Bulgaria;Bulgaria;People's Republic of China;Indonesia;Sri Lanka
+2023,Silver,6,50,55,52.5,0.834384858,Macau,Thailand,Macau;Macau;Mexico;Russian Federation;Thailand;Thailand
+2023,Silver,2,56,57,56.5,0.8217665615,Taiwan,Vietnam,Taiwan;Vietnam
+2023,Silver,2,58,59,58.5,0.8154574132,Singapore,Uzbekistan,Singapore;Uzbekistan
+2023,Silver,3,60,62,61,0.8075709779,Cyprus,Peru,Cyprus;Mongolia;Peru
+2023,Silver,1,63,63,63,0.8012618297,Bulgaria,Bulgaria,Bulgaria
+2023,Bronze,4,64,67,65.5,0.7933753943,Bulgaria,Thailand,Bulgaria;Bulgaria;Bulgaria;Thailand
+2023,Bronze,1,68,68,68,0.785488959,Mexico,Mexico,Mexico
+2023,Bronze,6,69,74,71.5,0.7744479495,Bulgaria,Thailand,Bulgaria;Macau;Mexico;Thailand;Thailand;Thailand
+2023,Bronze,4,75,78,76.5,0.7586750789,Taiwan,Taiwan,Taiwan;Taiwan;Taiwan;Taiwan
+2023,Bronze,1,79,79,79,0.7507886435,Sri Lanka,Sri Lanka,Sri Lanka
+2023,Bronze,2,80,81,80.5,0.7460567823,Bulgaria,Philippines,Bulgaria;Philippines
+2023,Bronze,11,82,92,87,0.7255520505,Bangladesh,Thailand,Bangladesh;Bulgaria;Hong Kong;Indonesia;Macau;Mexico;Mongolia;Peru;Philippines;Russian Federation;Thailand
+2023,Bronze,2,93,94,93.5,0.7050473186,Taiwan,Vietnam,Taiwan;Vietnam
+2023,Bronze,3,95,97,96,0.6971608833,Bulgaria,People's Republic of China,Bulgaria;People's Republic of China;People's Republic of China
+2023,Bronze,4,98,101,99.5,0.6861198738,Bulgaria,Uzbekistan,Bulgaria;Bulgaria;Bulgaria;Uzbekistan
+2023,Bronze,2,102,103,102.5,0.6766561514,Romania,Singapore,Romania;Singapore
+2023,Bronze,6,104,109,106.5,0.6640378549,Bangladesh,Tajikistan,Bangladesh;Bulgaria;Bulgaria;Kyrgyzstan;Mexico;Tajikistan
+2023,Bronze,2,110,111,110.5,0.6514195584,Taiwan,Uzbekistan,Taiwan;Uzbekistan
+2023,Bronze,4,112,115,113.5,0.641955836,Mongolia,Uzbekistan,Mongolia;Peru;Taiwan;Uzbekistan
+2023,Bronze,1,116,116,116,0.6340694006,Taiwan,Taiwan,Taiwan
+2023,Bronze,6,117,122,119.5,0.6230283912,Bulgaria,Thailand,Bulgaria;People's Republic of China;Hong Kong;Singapore;Thailand;Thailand
+2023,Bronze,3,123,125,124,0.6088328076,Taiwan,Vietnam,Taiwan;Uzbekistan;Vietnam
+2023,Merit,2,126,127,126.5,0.6009463722,Mongolia,Uzbekistan,Mongolia;Uzbekistan
+2023,Merit,2,128,129,128.5,0.594637224,Macau,Sri Lanka,Macau;Sri Lanka
+2023,Merit,2,130,131,130.5,0.5883280757,Macau,Romania,Macau;Romania
+2023,Merit,5,132,136,134,0.5772870662,Macau,United Arab Emirates,Macau;Romania;Romania;United Arab Emirates;United Arab Emirates
+2023,Merit,6,137,142,139.5,0.5599369085,Bulgaria,Thailand,Bulgaria;People's Republic of China;Mexico;Russian Federation;Thailand;Thailand
+2023,Merit,2,143,144,143.5,0.547318612,Tajikistan,Vietnam,Tajikistan;Vietnam
+2023,Merit,3,145,147,146,0.5394321767,South Africa,South Africa,South Africa;South Africa;South Africa
+2023,Merit,1,148,148,148,0.5331230284,Mongolia,Mongolia,Mongolia
+2023,Merit,4,149,152,150.5,0.5252365931,Kyrgyzstan,Taiwan,Kyrgyzstan;Romania;Romania;Taiwan
+2023,Merit,4,153,156,154.5,0.5126182965,Bulgaria,Romania,Bulgaria;People's Republic of China;Cyprus;Romania
+2023,Merit,1,157,157,157,0.5047318612,Indonesia,Indonesia,Indonesia
+2023,Merit,9,158,166,162,0.4889589905,India,Taiwan,India;Macau;Macau;Mexico;Mongolia;Peru;Peru;Romania;Taiwan
+2023,Merit,2,167,168,167.5,0.4716088328,Bulgaria,Tajikistan,Bulgaria;Tajikistan
+2023,Merit,3,169,171,170,0.4637223975,Mongolia,United Arab Emirates,Mongolia;Romania;United Arab Emirates
+2023,Merit,13,172,184,178,0.4384858044,Bangladesh,Tajikistan,Bangladesh;Bulgaria;Bulgaria;Bulgaria;Cyprus;India;Kazakhstan;Mongolia;Peru;Philippines;Philippines;Philippines;Tajikistan
+2023,Merit,4,185,188,186.5,0.4116719243,Bulgaria,Vietnam,Bulgaria;Macau;Uzbekistan;Vietnam
+2023,Merit,5,189,193,191,0.3974763407,Macau,South Africa,Macau;Philippines;Philippines;Romania;South Africa
+2023,Merit,3,194,196,195,0.3848580442,Cyprus,United Arab Emirates,Cyprus;United Arab Emirates;United Arab Emirates
+2023,Merit,2,197,198,197.5,0.3769716088,Bulgaria,Bulgaria,Bulgaria;Bulgaria
+2023,Merit,8,199,206,202.5,0.3611987382,Bolivia,Tajikistan,Bolivia;Botswana;People's Republic of China;Indonesia;Philippines;Russian Federation;Tajikistan;Tajikistan
+2023,Merit,1,207,207,207,0.3470031546,South Africa,South Africa,South Africa
+2023,Merit,4,208,211,209.5,0.3391167192,Macau,South Africa,Macau;Nepal;South Africa;South Africa

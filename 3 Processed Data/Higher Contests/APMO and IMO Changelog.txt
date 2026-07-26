@@ -1,0 +1,182 @@
+APMO / IMO higher-contest changelog
+
+Changelog:
+- 2026-07-19: Added official APMO and IMO result extraction for the fixed EMIC/IWYMIC identity universe.
+- 2026-07-19: Added global score-tie rank averages and percentiles using 1 - rank_average / total_participants.
+- 2026-07-19: Added matched-appearance CSVs, a year-level source audit, and a conservative near-match review file.
+- 2026-07-19: Kept all official-only contestants outside the combined roster; no APMO/IMO name can create a new combined ID.
+- 2026-07-19: Used the APMO 2024 year report's corrected 355-participant total; the timeline summary remains stale at 345 while the year report and both complete score files agree on 355.
+- 2026-07-19: Corrected the IMO 2014 12-point tie to positions 367-374; the official page labels that group rank 366 even though the adjacent 13-point and 11-point groups establish starts of 361 and 375.
+- 2026-07-19: Expanded the official IMO delegation codes GER and NGA to Germany and Nigeria in supporting rows; a blank delegation remains blank for the 2022 independent appearance.
+- 2026-07-22: Rebuilt higher-contest matches after the final EMIC/IWYMIC identity deduplication and added reviewed APMO short-name aliases for six Sri Lankan official full names.
+- 2026-07-23: Added official 2026 score-level data for APMO and IMO. The APMO source remains explicitly preliminary and is marked as such in the audit.
+- 2026-07-23: Reviewed twelve 2026 omitted-middle-name and romanization alias rules, resolving sixteen APMO/IMO appearances while retaining ambiguous common-name candidates for review.
+- 2026-07-23: Retained APMO 2026 contestant Đăng Nguyên Phạm's official total of 25 for ranking; the source problem columns sum to 18 and the discrepancy is recorded as a source anomaly.
+
+Coverage:
+- APMO: 2016-2026 inclusive. The 2016-2025 reports are final; the complete 2026 score-level report is included with its official preliminary status retained.
+- APMO 2013-2015 are excluded because the archive does not provide complete contestant-level score tables for those years; incomplete data cannot support the requested global tie ranks and percentiles.
+- IMO: 2013-2026 inclusive, using the official individual-results pages.
+
+Identity policy:
+- Fixed base roster: 3112 EMIC/IWYMIC identities.
+- Primary matching requires the same normalized country and an exact canonical/variant name, token set, or character-order-preserving compact name.
+- A globally unique exact ordered name may match across a later delegation change; this is explicitly labeled in match_method.
+- IMO contestant IDs propagate an already established exact match across that same person's other IMO editions.
+- Same-country fuzzy similarity never merges automatically; candidates remain in APMO and IMO Match Review.csv until reviewed.
+
+Ranking and award validation:
+- Ties are grouped by total score across the complete field for that contest-year.
+- rank_average = (rank_start + rank_end) / 2.
+- percentile = 1 - rank_average / total_participants.
+- The official total field is authoritative for ranking; any disagreement with the displayed problem-score sum is retained as a source anomaly in the audit.
+- APMO Gold/Silver/Bronze labels are checked against the official yearly cutoffs and within-country rank limits; official Honourable Mention labels are preserved because their criteria may vary by year.
+- APMO source status is read from each official year report; a preliminary report receives a distinct passing audit status.
+- IMO recomputed rank_start values are checked against every official rank value.
+
+Output counts:
+- APMO: 3825 official appearances parsed; 634 appearances matched to 360 combined identities.
+- IMO: 8443 official appearances parsed; 742 appearances matched to 375 combined identities.
+- Near-match candidate rows retained for review: 352.
+
+Match methods:
+- global_exact_country_change: 4
+- imo_person_id_propagation: 6
+- reviewed_alias: 218
+- same_country_compact: 8
+- same_country_exact: 1114
+- same_country_token: 26
+
+Reviewed non-exact aliases:
+- BOTH Philippines: Alvann Walter Paredes Dy -> Alvann Walter W. Paredes Dy (Philippines); Alvann Walter Paredes Dy -> Alvann Walter W. Paredes Dy
+- BOTH Philippines: Mark Justin Villafuerte -> Mark Justin M. Villafuerte (Philippines); Mark Justin Villafuerte -> Mark Justin M. Villafuerte
+- BOTH Philippines: Immanuel Josiah Balete -> Immanuel Josiah Ang Balete (Philippines); Immanuel Josiah Balete -> Immanuel Josiah Ang Balete
+- BOTH Philippines: Bryce Ainsley Sanchez -> Bryce Ainsley Ang Sanchez (Philippines); Bryce Ainsley Sanchez -> Bryce Ainsley Ang Sanchez
+- BOTH Philippines: Ervin Joshua Bautista -> Ervin Joshua V. Bautista (Philippines); Ervin Joshua Bautista -> Ervin Joshua V. Bautista
+- BOTH Philippines: Albert John Patupat -> Albert John L. Patupat (Philippines); Albert John Patupat -> Albert John L. Patupat
+- BOTH Philippines: Farrell Eldrian Wu -> Farrell Eldrian S. Wu (Philippines); Farrell Eldrian Wu -> Farrell Eldrian S. Wu
+- BOTH Philippines: Filbert Ephraim Wu -> Filbert Ephraim S. Wu (Philippines); Filbert Ephraim Wu -> Filbert Ephraim S. Wu
+- BOTH Philippines: Mohammad Nur Casib -> Mohammad Nur G. Casib (Philippines); Mohammad Nur Casib -> Mohammad Nur G. Casib
+- BOTH Philippines: Shaquille Wyan Que -> Shaquille Wyan T. Que (Philippines); Shaquille Wyan Que -> Shaquille Wyan T. Que
+- BOTH Thailand: Krittitee Naulkhao -> Krittitee Naulhao (Thailand); Krittitee Naulkhao -> Krittitee Naulhao
+- BOTH Philippines: Luke Sebastian Sy -> Luke Sebastian C. Sy (Philippines); Luke Sebastian Sy -> Luke Sebastian C. Sy
+- BOTH Philippines: Rickson Caleb Tan -> Rickson Caleb Y. Tan (Philippines); Rickson Caleb Tan -> Rickson Caleb Y. Tan
+- BOTH Philippines: Sarji Elijah Bona -> Sarji Elijah S. Bona (Philippines); Sarji Elijah Bona -> Sarji Elijah S. Bona
+- BOTH Philippines: Clyde Wesley Ang -> Clyde Wesley S. Ang (Philippines); Clyde Wesley Ang -> Clyde Wesley S. Ang
+- BOTH Philippines: Vince Jan Torres -> Vince Jan Faustino Torres (Philippines); Vince Jan Torres -> Vince Jan Faustino Torres
+- BOTH Thailand: Nitiwit Sirimalaisuwan -> Nitiwit Sirimaraisuwan (Thailand); Nitiwit Sirimalaisuwan -> Nitiwit Sirimaraisuwan
+- BOTH Uzbekistan: Asadbek Bobokulov -> Asadbek Boboqulov (Uzbekistan); Asadbek Bobokulov -> Asadbek Boboqulov
+- BOTH Tajikistan: Sino Khayridinov -> Sino Khairidinov (Tajikistan); Sino Khayridinov -> Sino Khairidinov
+- BOTH Philippines: Nathan Gabriel Neria -> Nathan Gabriel Ang Neria (Philippines); Nathan Gabriel Neria -> Nathan Gabriel Ang Neria
+- BOTH Philippines: Sean Anderson Ty -> Sean Anderson Lim Ty (Philippines); Sean Anderson Ty -> Sean Anderson Lim Ty
+- BOTH Uzbekistan: Ozodbek Akhtamov -> Ozod Akhtamov (Uzbekistan); Ozodbek Akhtamov -> Ozod Akhtamov
+- APMO Mexico: Luis Edardo Martinez Aguirre -> Luis Eduardo Martinez Aguirre (Mexico); Luis Edardo Martinez Aguirre -> Luis Eduardo Martinez Aguirre
+- APMO Thailand: Kornpholkrit Weraarchakul -> Kornpholkrit Weeraarchakul (Thailand); Kornpholkrit Weraarchakul -> Kornpholkrit Weeraarchakul
+- APMO Bolivia: Luis Andre Villlan Gabriel -> Luis Andre Villan Gabriel (Bolivia); Luis Andre Villlan Gabriel -> Luis Andre Villan Gabriel
+- APMO Islamic Republic of Iran: Alireza Rezaei Moghaddam -> Alireza Rezaeimoghadam (Islamic Republic of Iran); Alireza Rezaei Moghaddam -> Alireza Rezaeimoghadam
+- APMO Philippines: Patric Xamwell Legaspi -> Patric Xamwell C. Legaspi (Philippines); Patric Xamwell Legaspi -> Patric Xamwell C. Legaspi
+- APMO Tajikistan: Naimdzhon Khonddzhonov -> Naimdzhon Khondzhonov (Tajikistan); Naimdzhon Khonddzhonov -> Naimdzhon Khondzhonov
+- APMO Philippines: Neo Angelo Gatlabayan -> Neo Angelo G. Gatlabayan (Philippines); Neo Angelo Gatlabayan -> Neo Angelo G. Gatlabayan
+- APMO Kazakhstan: Asylbek Olzhabayev -> Assylbek Olzhabayev (Kazakhstan); Asylbek Olzhabayev -> Assylbek Olzhabayev
+- APMO Kazakhstan: Raimbek Akshulakov -> Raiymbek Akshulakov (Kazakhstan); Raimbek Akshulakov -> Raiymbek Akshulakov
+- APMO Kazakhstan: Kuanysh Zholdasov -> Kuanysh Zholdassov (Kazakhstan); Kuanysh Zholdasov -> Kuanysh Zholdassov
+- APMO Philippines: Kristen Steffi Teh -> Kristen Steffi S. Teh (Philippines); Kristen Steffi Teh -> Kristen Steffi S. Teh
+- APMO Tajikistan: Bakhtovar Khotami -> Bakhtovari Khotami (Tajikistan); Bakhtovar Khotami -> Bakhtovari Khotami
+- APMO Tajikistan: Mehron Bobokhonov -> Mekhron Bobokhonov (Tajikistan); Mehron Bobokhonov -> Mekhron Bobokhonov
+- APMO Tajikistan: Mekron Bobokhonov -> Mekhron Bobokhonov (Tajikistan); Mekron Bobokhonov -> Mekhron Bobokhonov
+- APMO Uzbekistan: Abdulaziz Radjabov -> Abdulaziz Rajabov (Uzbekistan); Abdulaziz Radjabov -> Abdulaziz Rajabov
+- APMO Islamic Republic of Iran: Ahmad Ramezanpour -> Ahmad Ramzan Pour (Islamic Republic of Iran); Ahmad Ramezanpour -> Ahmad Ramzan Pour
+- APMO Islamic Republic of Iran: Hosein Zakerinia -> Hossein Zakerinia (Islamic Republic of Iran); Hosein Zakerinia -> Hossein Zakerinia
+- APMO Mexico: Jonatan Alejandro Gonzalez Cazarez -> Jonatan Alejandro Gonzalez Cazares (Mexico); Jonatan Alejandro Gonzalez Cazarez -> Jonatan Alejandro Gonzalez Cazares
+- APMO Philippines: Cassidy Kyler Tan -> Cassidy Kyler L. Tan (Philippines); Cassidy Kyler Tan -> Cassidy Kyler L. Tan
+- APMO Philippines: Jose Lorenzo Abad -> Jose Lorenzo P. Abad (Philippines); Jose Lorenzo Abad -> Jose Lorenzo P. Abad
+- APMO Philippines: Julian Raymund Yu -> Julian Raymund C. Yu (Philippines); Julian Raymund Yu -> Julian Raymund C. Yu
+- APMO Philippines: Sedrick Scott Keh -> Sedrick Scott S. Keh (Philippines); Sedrick Scott Keh -> Sedrick Scott S. Keh
+- APMO Philippines: Enzo Rafael Chan -> Enzo Rafael S. Chan (Philippines); Enzo Rafael Chan -> Enzo Rafael S. Chan
+- APMO Philippines: Stephen James Ty -> Stephen James Lim Ty (Philippines); Stephen James Ty -> Stephen James Lim Ty
+- APMO Tajikistan: Vazirdzon Pirov -> Vazirdzhon Pirov (Tajikistan); Vazirdzon Pirov -> Vazirdzhon Pirov
+- APMO Indonesia: Bennet Clement -> Bennett Clement (Indonesia); Bennet Clement -> Bennett Clement
+- BOTH Tajikistan: Muhammadidris Saimuhudinzoda -> Muhammadidris Saymuhudinzoda (Tajikistan); Muhammadidris Saimuhudinzoda -> Muhammadidris Saymuhudinzoda
+- APMO Thailand: Chatchanun Suriyaamaranont -> Chatchanun Suriyaammaranon (Thailand); Chatchanun Suriyaamaranont -> Chatchanun Suriyaammaranon
+- APMO Malaysia: Tan Ming Heng -> Min Heng Tan (Malaysia); Tan Ming Heng -> Min Heng Tan
+- APMO Tajikistan: Muhammadikbol Mahmadov -> Muhammadiqbol Mahmadov (Tajikistan); Muhammadikbol Mahmadov -> Muhammadiqbol Mahmadov
+- APMO Islamic Republic of Iran: Farhoud Rostamkhani -> Farhood Rostamkhani (Islamic Republic of Iran); Farhoud Rostamkhani -> Farhood Rostamkhani
+- APMO Kazakhstan: Tamerlan Burambayev -> Tamerlan Burumbayev (Kazakhstan); Tamerlan Burambayev -> Tamerlan Burumbayev
+- APMO Uzbekistan: Anvarbek Sadullayev -> Anvarbek Sadulloyev (Uzbekistan); Anvarbek Sadullayev -> Anvarbek Sadulloyev
+- BOTH Kazakhstan: Beiganov Batyrkhan -> Batyrkhan Baiganov (Kazakhstan); Beiganov Batyrkhan -> Batyrkhan Baiganov
+- APMO Malaysia: Brandon Choo Tze How -> Brandon Choo Sze How (Malaysia); Brandon Choo Tze How -> Brandon Choo Sze How
+- APMO Indonesia: Nathaniel Lukas Christanto -> Nathanael Lukas Christianto (Indonesia); Nathaniel Lukas Christanto -> Nathanael Lukas Christianto
+- APMO Sri Lanka: Nadesamurthy Sivamynthan -> Nadesamoorthy Sivamynthan (Sri Lanka); Nadesamurthy Sivamynthan -> Nadesamoorthy Sivamynthan
+- APMO Uzbekistan: Yusufjon Ortikov -> Yusufjon Ortiqov (Uzbekistan); Yusufjon Ortikov -> Yusufjon Ortiqov
+- APMO Tajikistan: Abubakr Usmonov -> Abubakr Usmanov (Tajikistan); Abubakr Usmonov -> Abubakr Usmanov
+- APMO Tajikistan: Muhamahammadrasul Shernazarov -> Muhammadrasul Shernazarov (Tajikistan); Muhamahammadrasul Shernazarov -> Muhammadrasul Shernazarov
+- APMO Uzbekistan: Begzod Khoshimjonov -> Begzod Xoshimjonov (Uzbekistan); Begzod Khoshimjonov -> Begzod Xoshimjonov
+- APMO Islamic Republic of Iran: Aryan Zamani -> Arian Zamani (Islamic Republic of Iran); Aryan Zamani -> Arian Zamani
+- APMO Philippines: Stefan Marcus Ong -> Stefan Marcus Ang Ong (Philippines); Stefan Marcus Ong -> Stefan Marcus Ang Ong
+- APMO Tajikistan: Olimjon Tukhtarov -> Olimdzhon Tukhtarov (Tajikistan); Olimjon Tukhtarov -> Olimdzhon Tukhtarov
+- APMO Uzbekistan: Anvarbek Raxmatov -> Anvarbek Rakhmatov (Uzbekistan); Anvarbek Raxmatov -> Anvarbek Rakhmatov
+- APMO Thailand: Paramutb Samuthrsindb -> Paramuth Samuthrsindh (Thailand); Paramutb Samuthrsindb -> Paramuth Samuthrsindh
+- APMO Tajikistan: Mashrafjon Inomov -> Mashraf Inomov (Tajikistan); Mashrafjon Inomov -> Mashraf Inomov
+- APMO Tajikistan: Parviz Aliev -> Parvizjon Aliev (Tajikistan); Parviz Aliev -> Parvizjon Aliev
+- APMO Islamic Republic of Iran: Faraz Ghahremani Koure -> Faraz Ghahremany Kooreh (Islamic Republic of Iran); Faraz Ghahremani Koure -> Faraz Ghahremany Kooreh
+- APMO Hong Kong: Alfin Cheak Hin Tse -> Alvin Cheuk Hin Tse (Hong Kong); Alfin Cheak Hin Tse -> Alvin Cheuk Hin Tse
+- APMO Tajikistan: Jakhongir Urakov -> Dzhakhongir Urakov (Tajikistan); Jakhongir Urakov -> Dzhakhongir Urakov
+- APMO Tajikistan: Raufjon Dadabaev -> Raufdzhon Dadabaev (Tajikistan); Raufjon Dadabaev -> Raufdzhon Dadabaev
+- APMO Peru: Kevin Andres Pomasoncco Sulca -> Kevin Pomasoncco Sulca (Peru); Kevin Andres Pomasoncco Sulca -> Kevin Pomasoncco Sulca
+- APMO Kazakhstan: Altynbek Erasyl -> Yerassyl Altinbek (Kazakhstan); Altynbek Erasyl -> Yerassyl Altinbek
+- APMO Tajikistan: Bejan Asoev -> Bezhan Asoev (Tajikistan); Bejan Asoev -> Bezhan Asoev
+- APMO Bulgaria: Alexandar Stefanov -> Alexander Rossen Stefanov (Bulgaria); Alexandar Stefanov -> Alexander Rossen Stefanov
+- APMO Philippines: Jaden Nathan Hernandez -> Jaden Nathan Tanking Hernandez (Philippines); Jaden Nathan Hernandez -> Jaden Nathan Tanking Hernandez
+- APMO Philippines: Jared Cobe Ng -> Jared Cobe Woo Ng (Philippines); Jared Cobe Ng -> Jared Cobe Woo Ng
+- APMO Philippines: Robert Henrik Uy -> Robert Henrik Diaz Uy (Philippines); Robert Henrik Uy -> Robert Henrik Diaz Uy
+- BOTH Philippines: Shaun Lawrence Poh Leung -> Shaun Lawrence Tiong Poh Leung (Philippines); Shaun Lawrence Poh Leung -> Shaun Lawrence Tiong Poh Leung
+- BOTH Philippines: Zion Skye Earl Carmelo Uy -> Zion Skye Earl Carmelo C. Uy (Philippines); Zion Skye Earl Carmelo Uy -> Zion Skye Earl Carmelo C. Uy
+- APMO Sri Lanka: Praveen Athauda-Arachchi -> Praveen Charuka Athauda Arachchi (Sri Lanka); Praveen Athauda-Arachchi -> Praveen Charuka Athauda Arachchi
+- APMO Tajikistan: Olimdzhon Tuhtarov -> Olimdzhon Tukhtarov (Tajikistan); Olimdzhon Tuhtarov -> Olimdzhon Tukhtarov
+- IMO Bulgaria: Kiril Zulyamski -> Kiril Ivanov Zulyamski (Bulgaria); Kiril Zulyamski -> Kiril Ivanov Zulyamski
+- IMO Peru: Kevin Pomasoncco -> Kevin Pomasoncco Sulca (Peru); Kevin Pomasoncco -> Kevin Pomasoncco Sulca
+- IMO South Africa: Noah Karl Rassou -> Noah Rassou (South Africa); Noah Karl Rassou -> Noah Rassou
+- IMO South Africa: Noah Moshe Greenblatt -> Noah Greenblatt (South Africa); Noah Moshe Greenblatt -> Noah Greenblatt
+- APMO Tajikistan: Muhammad Boboev -> Muhammadjon Boboev (Tajikistan); Muhammad Boboev -> Muhammadjon Boboev (same 2016-2017 IMO contestant)
+- APMO Sri Lanka: Shenal Kotuwewatta -> Shenal Santhush Kotuwewatta (Sri Lanka); Shenal Kotuwewatta -> Shenal Santhush Kotuwewatta (official IMO full name)
+- APMO Sri Lanka: Mihiru Anushka Bandara -> Hitihami Mudiyanselage Mihiru Anushka Bandara (Sri Lanka); Mihiru Anushka Bandara -> Hitihami Mudiyanselage Mihiru Anushka Bandara (official IMO full name)
+- APMO Sri Lanka: Maneth Perera -> Gonaduwage Maneth Banula Perera (Sri Lanka); Maneth Perera -> Gonaduwage Maneth Banula Perera (official IMO full name)
+- APMO Sri Lanka: Maneth Banula Perera -> Gonaduwage Maneth Banula Perera (Sri Lanka); Maneth Banula Perera -> Gonaduwage Maneth Banula Perera (official IMO full name)
+- APMO Sri Lanka: Nelushi Vithanachchi -> Thellabura Vithanachchige Nelushi Vithanachchi (Sri Lanka); Nelushi Vithanachchi -> Thellabura Vithanachchige Nelushi Vithanachchi (official IMO full name)
+- APMO Sri Lanka: Thidas Bandara Wanasinghe -> Chandhopama Thidas Bandara Wanasinghe (Sri Lanka); Thidas Bandara Wanasinghe -> Chandhopama Thidas Bandara Wanasinghe (official IMO full name)
+- APMO Sri Lanka: Luchitha Disal Pathirana -> Pathirannehelage Luchitha Disal Pathirana (Sri Lanka); Luchitha Disal Pathirana -> Pathirannehelage Luchitha Disal Pathirana (official IMO full name)
+- IMO Sri Lanka: Thenura Dilruk Wickramaratna -> Thenura Dilruk Wickramarathna (Sri Lanka); Thenura Dilruk Wickramaratna -> Thenura Dilruk Wickramarathna
+- IMO Uzbekistan: Anvarbek Sadulloev -> Anvarbek Sadulloyev (Uzbekistan); Anvarbek Sadulloev -> Anvarbek Sadulloyev
+- IMO Tajikistan: Mekhrubon Yusupov -> Mehrubon Yusupov (Tajikistan); Mekhrubon Yusupov -> Mehrubon Yusupov
+- IMO Indonesia: Farras Mohammad Hibban Faddila -> Farras Mohammad Hibban Fadilla (Indonesia); Farras Mohammad Hibban Faddila -> Farras Mohammad Hibban Fadilla
+- IMO Islamic Republic of Iran: Parnia Dabbagh -> Parnia Dabagh (Islamic Republic of Iran); Parnia Dabbagh -> Parnia Dabagh
+- IMO Sri Lanka: Mohamed Afham Mohamed Aflal -> Mohammed Aflal Mohammed Afham (Sri Lanka); Mohamed Afham Mohamed Aflal -> Mohammed Aflal Mohammed Afham
+- IMO Kazakhstan: Yerassyl Altynbek -> Yerassyl Altinbek (Kazakhstan); Yerassyl Altynbek -> Yerassyl Altinbek
+- IMO Bulgaria: Evgeni Kayryakov -> Evgeni Staev Kayryakov (Bulgaria); Evgeni Kayryakov -> Evgeni Staev Kayryakov
+
+Year-level validation:
+- APMO 2016: 330 participants, 60 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2017: 353 participants, 58 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2018: 352 participants, 64 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 1 (pass_with_source_anomaly).
+- APMO 2019: 359 participants, 69 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2020: 337 participants, 51 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2021: 344 participants, 54 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2022: 318 participants, 52 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2023: 345 participants, 56 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2024: 355 participants, 57 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2025: 335 participants, 58 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- APMO 2026: 397 participants, 55 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 1 (pass_preliminary_source_with_anomaly).
+- IMO 2013: 527 participants, 5 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2014: 560 participants, 19 matched; rank mismatches 8, award mismatches 0, problem-total mismatches 0 (pass_with_source_anomaly).
+- IMO 2015: 577 participants, 35 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2016: 602 participants, 62 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2017: 615 participants, 68 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2018: 594 participants, 70 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2019: 621 participants, 65 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2020: 616 participants, 66 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2021: 619 participants, 64 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2022: 589 participants, 57 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2023: 618 participants, 57 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2024: 609 participants, 64 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2025: 630 participants, 55 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).
+- IMO 2026: 666 participants, 55 matched; rank mismatches 0, award mismatches 0, problem-total mismatches 0 (pass).

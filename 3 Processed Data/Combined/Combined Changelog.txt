@@ -1,0 +1,127 @@
+Combined EMIC / IWYMIC unique-contestant changelog
+
+Changelog:
+- 2026-07-18: Created the combined unique-contestant dataset from the reviewed Keystage II and Keystage III outputs.
+- 2026-07-18: Kept EMIC and IWYMIC appearance histories in separate prefixed columns for future contest expansion.
+- 2026-07-18: Required cross-stage matches to be mutual one-to-one candidates with no overlapping contest year.
+- 2026-07-18: Applied shared reviewed full-name/spelling identities before combining; source alternatives remain in name_variants.
+- 2026-07-18: Re-ran within-stage and cross-stage near-match review; merged only supported aliases and retained substantive or same-name ambiguities as separate records.
+- 2026-07-18: Wrote the combined CSV as plain UTF-8 without a byte-order mark so the first header imports exactly as id.
+- 2026-07-19: Added five APMO and five IMO history columns while keeping the EMIC/IWYMIC-derived identity roster fixed.
+- 2026-07-19: Attached only official higher-contest appearances matched to an existing combined ID; unmatched official contestants cannot create rows.
+- 2026-07-19: Computed higher-contest average ranks from global total-score tie spans and percentiles as 1 - rank_average / total_participants.
+- 2026-07-22: Completed a final country-by-country duplicate review across the combined roster and canonicalized 24 supported duplicate identities, including initials, omitted patronymics, and reviewed romanization variants.
+- 2026-07-22: Preserved same-year official-ID homonyms and unresolved common-name collisions as separate records rather than forcing an unsupported merge.
+- 2026-07-22: Corrected two exact-name over-merges by applying stage-age span guards: Ivan Safonov (EMIC 2013/2023) and Nhat Minh Nguyen (IWYMIC 2018/2022) are now separate identities.
+- 2026-07-22: Added a forward-stage chronology gate for automatic EMIC/IWYMIC matching and documented Ivan Guan Yu Chan as the sole reviewed reverse-stage exception, supported by the same full name in official APMO 2022 and IMO 2024-2025 records.
+- 2026-07-23: Extended attached APMO and IMO histories through 2026; the official APMO 2026 source is still marked preliminary.
+
+Inputs:
+- 3 Processed Data\EMIC\EMIC Unique Contestants.csv: 1814 unique records, 2008 appearances
+- 3 Processed Data\IWYMIC\IWYMIC Unique Contestants.csv: 1646 unique records, 1900 appearances
+- 3 Processed Data\Higher Contests\APMO Matched Appearances.csv: 634 matched appearances
+- 3 Processed Data\Higher Contests\IMO Matched Appearances.csv: 742 matched appearances
+
+Output:
+- 3 Processed Data\Combined\EMIC and IWYMIC Unique Contestants.csv: 3112 combined records
+- Records with both EMIC and IWYMIC histories: 348
+- Cross-stage records merged: 348
+- Exact canonical/variant mutual matches: 348
+- Token-order mutual matches: 0
+- Records with APMO histories: 360
+- Records with IMO histories: 375
+- Attached APMO appearances: 634
+- Attached IMO appearances: 742
+
+Identity policy:
+- Country must match exactly after IMO country-name normalization.
+- A shared canonical name or observed name variant is the primary match key.
+- A token-order match is considered only after primary matching and only when unique in both directions.
+- Any same-year EMIC/IWYMIC overlap is rejected because one contestant cannot be assumed to occupy both keystages in the same contest.
+- Automatic cross-stage matches require the EMIC history to precede the IWYMIC history; Ivan Guan Yu Chan is the sole reviewed exception (IWYMIC 2021 / EMIC 2022), corroborated by official APMO and IMO records.
+- Ivan Guan Yu Chan reference: https://www.apmo-official.org/country_report/MYS/2022
+- Ivan Guan Yu Chan reference: https://www.imo-official.org/country_individual_r.aspx?code=MAS
+- Ambiguous one-to-many candidates remain separate rather than assigning an unsupported identity.
+- Run python "2 Processing Scripts/review_duplicate_name_candidates.py" to reproduce the final all-country duplicate-candidate review and its dispositions.
+- APMO/IMO matching never expands the roster: it resolves official names only against IDs already created from EMIC and IWYMIC.
+- Non-exact higher-contest aliases require an explicit reviewed rule; unresolved fuzzy candidates remain in 3 Processed Data/Higher Contests/APMO and IMO Match Review.csv.
+
+Shared reviewed canonical identities:
+- Philippines: Trisha Danielle K. Sia -> Trisha Danielle Ko Sia
+- Philippines: Fedrick Lance R. Lim -> Fredrick Lance R. Lim (source spelling conflict; earlier full source retained)
+- Philippines: Sean Kendrick N. Yeo -> Sean Kendrick Ng Yeo
+- Philippines: Immanuel Josiah A. Balete -> Immanuel Josiah Ang Balete
+- Philippines: Bryce Ainsley A. Sanchez -> Bryce Ainsley Ang Sanchez
+- Philippines: Stephen James L. Ty -> Stephen James Lim Ty
+- Philippines: Jaymi Mae L. Ching -> Jaymi Mae Lim Ching
+- Philippines: Jared Cobe W. Ng -> Jared Cobe Woo Ng
+- Philippines: Kate Dominique K. Siaco -> Kate Dominique Kung Siaco
+- Philippines: Ryan Mark Shao -> Ryan Mark L. Shao
+- Philippines: Kei Hang Derek Chan -> Kei Hang Derek Hao Chan
+- Philippines: Ambrose James G. Torreon -> Ambrose James Garcia Torreon
+- Philippines: Alyana Zoie S. Chua -> Alyana Zoie Siytiu Chua
+- Philippines: Ethan Jared Chan -> Ethan Jared Reyes Chan
+- Philippines: Neo A. Gatlabayan -> Neo Angelo G. Gatlabayan
+- Indonesia: Luthfi Bimaputra -> Luthfi Bima Putra (Indonesian school records)
+- Indonesia: Felicia Grace Angelyn F -> Felicia Grace Angelyn Ferdianto (Indonesian government/school records)
+- Uzbekistan: Jahongir Norboev -> Jakhongir Norboev (IMO spelling)
+- Bulgaria: Deyan Deyanov Hadji-Manich / Hadzhi Manich -> Deyan Deyanov Hadzhi-Manich (official IOAI spelling)
+- Bulgaria: Geohgi Atanasov -> Georgi Atanasov
+- Bulgaria: Evgeni Staev Kairakov -> Evgeni Staev Kayryakov (official RMM spelling)
+- Bulgaria: Ivan-Aleksandar Mavrov -> Ivan-Aleksandar Veselinov Mavrov
+- Bulgaria: Aleksandar Georgiev -> Aleksandar Georgiev Georgiev
+- Bulgaria: Kaloyan Fachikov -> Kaloyan Todorov Fachikov
+- Bulgaria: Vanesa Kalinkova -> Vanesa Angelova Kalinkova
+- Bulgaria: Marin Hristov -> Marin Hristov Hristov
+- Thailand: Kittipong Ruemsub -> Kittipong Ruamsub (later source spelling)
+- Thailand: Nattaphat Pathanapiradech -> Nattaphat Phattanapiradech
+- Thailand: Thanakorn Auttawatchakui -> Thanakorn Auttawetchakul
+- Romania: Razvan Morariu -> Răzvan Andrei Morariu
+- Romania: Bogdan Duminica -> Bogdan-Stelian Duminică (same ROU2A01 contestant ID in consecutive years)
+- Mongolia: Nyamdavaa Amar / Amar Nyamdavaa -> Amar Nyamdavaa (cross-stage source-order reversal; official IMO display order confirms Nyamdavaa Amar)
+- Tajikistan: Doriush Khairidinov -> Doriush Khayridinov (IMO spelling; shared cross-stage identity)
+- Bulgaria: Dobromir Angelov -> Dobromir Dobromirov Angelov (full patronymic source; EMIC 2019 to IWYMIC 2021-2023 progression)
+- Bulgaria: Kiril Bangachev -> Kiril Atanasov Bangachev (full patronymic source; later IMO short form confirms the identity)
+- Bulgaria: Boris Barbov -> Boris Aleksandrov Barbov (full patronymic source; consecutive age-stage progression)
+- Bulgaria: Martin Dimitrov -> Martin Dimitrov Dimitrov (full patronymic source; consecutive IWYMIC appearances)
+- Bulgaria: Ivan Georgiev -> Ivan Ventsislavov Georgiev (full patronymic source; EMIC-to-IWYMIC progression; Ivan Todorov Georgiev remains distinct)
+- Bulgaria: Boris Gerginov -> Boris Velkov Gerginov (full patronymic source; EMIC-to-IWYMIC progression)
+- Bulgaria: Asel Ismoldaeva -> Asel Irlanovna Ismoldaeva (full patronymic source; non-overlapping IWYMIC appearances)
+- Bulgaria: Zlatina Mileva -> Zlatina Todorova Mileva (full patronymic source; independently listed in Mathematics Without Borders results)
+- Bulgaria: Irina Sofronova -> Irina Julianova Sofronova (full patronymic source; EMIC-to-IWYMIC progression)
+- Bulgaria: Kaloyan Tsanev -> Kaloyan Vladislavov Tsanev (full patronymic source; independently listed in Bulgarian mathematics results)
+- Bulgaria: Neli Tsokanova -> Neli Tsvetanova Tsokanova (full patronymic source; EMIC-to-IWYMIC progression)
+- Canada: Andrew Carlson -> Andrew Chunwing Carlson (full middle-name source; EMIC 2014 to IWYMIC 2016-2018 progression)
+- Indonesia: M. Abdurrahman B. -> Muhammad Abdurrahman Basyah (initials expand exactly; consecutive EMIC/IWYMIC source progression)
+- Macau: Iek Hin Ng -> Iek Hin Bosco Ng (full English middle-name source; EMIC-to-IWYMIC progression)
+- Macau: Chi Hou Leung -> Chi Hou Leong (Leung/Leong surname romanization; exact given name in non-overlapping IWYMIC appearances)
+- Republic of Korea: Seongjoon Jo -> Seongjoon Cho (Jo/Cho surname romanization; exact given name in consecutive IWYMIC appearances)
+- Sri Lanka: H.M.M.A. Bandara -> Hitihami Mudiyanselage Mihiru Anushka Bandara (official IMO full name; APMO short form)
+- Sri Lanka: R.M.M. Manuja Jayasekara -> Ramanayake Mudiyanselage Minindu Manuja Jayasekara (Sri Lanka Olympiad Mathematics Foundation full name)
+- Sri Lanka: R.T.U. Jayasena -> Tharaka Udayanga Jayasena (official APMO and FIDE full name)
+- Sri Lanka: W.S. Nethmina Perera -> Welikadage Sithusha Nethmina Perera (Sri Lanka Olympiad Mathematics Foundation full name)
+- Sri Lanka: S.A. Kotuwewatta -> Sithija Abhishek Kotuwewatta (initials, chronology, and official APMO/IMO records)
+- Sri Lanka: S.B. Marapana -> Sanupa Bimsath Marapana (initials, chronology, and official APMO record)
+- Sri Lanka: P.L.D. Pathirana / Luchitha Disal Pathirana -> Pathirannehelage Luchitha Disal Pathirana (initials, chronology, and official APMO/IMO records)
+- Sri Lanka: G.M.B. Perera -> Gonaduwage Maneth Banula Perera (initials, chronology, and official APMO/IMO records)
+- Sri Lanka: T.V.N. Vithanachchi -> Thellabura Vithanachchige Nelushi Vithanachchi (initials, chronology, and official APMO/IMO records)
+- Sri Lanka: C.T.B. Wanasinghe -> Chandhopama Thidas Bandara Wanasinghe (initials, chronology, and official APMO/IMO records)
+- Tajikistan: Abdurauf Abdurasulov -> Abdurauf Zinatulloevich Abdurasulov (full patronymic source; EMIC-to-IWYMIC progression)
+
+Rejected same-year candidate pairs:
+- Vietnam: Nhat Minh Nguyen (EMIC 2022; IWYMIC 2022); overlapping year(s): 2022.
+
+Rejected reverse-stage candidate pairs:
+- Vietnam: Nhat Minh Nguyen (EMIC 2021; IWYMIC 2018); the older-stage history precedes the younger-stage history.
+- Vietnam: Nhat Minh Nguyen (EMIC 2022; IWYMIC 2018); the older-stage history precedes the younger-stage history.
+
+Ambiguous non-overlapping candidate pairs kept separate:
+- Vietnam: Nhat Minh Nguyen (EMIC 2017) / Nhat Minh Nguyen (IWYMIC 2018).
+
+Column notes:
+- Empty contest-history fields mean the contestant has no reviewed appearance in that contest dataset.
+- Missing-contest appearance_count is 0; all other missing-contest fields are blank.
+- Semicolons separate multiple years, medals, ranks, percentiles, and name variants.
+- APMO coverage is 2016-2026; complete contestant-level official scores were not available for earlier public editions, and the official 2026 report remains preliminary.
+- IMO coverage is 2013-2026, the completed editions overlapping and following the EMIC/IWYMIC study period.
+- A higher-contest medal value of None records an appearance without an official award.
