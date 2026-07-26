@@ -1,0 +1,123 @@
+Contest Data Analysis changelog
+
+Changelog:
+- 2026-07-23: Created the country-level analysis export.
+- 2026-07-23: Generated 42 CSVs in each of five folders (210 country CSVs total).
+- 2026-07-23: Copied the reviewed combined roster byte-for-byte to Master.csv.
+- 2026-07-23: Added source-projection, schema, row-count, filename, ID, and appearance-total validation.
+- 2026-07-23: Migrated the complete project into a self-contained Proper Case folder structure with Source Data, Processing Scripts, Processed Data, Country Analysis, and Documentation.
+- 2026-07-23: Renamed human-facing datasets and country exports for readability while retaining snake_case Python and raw-cache filenames for stable automation.
+- 2026-07-23: Added Winner Progression by Country.csv with chronological EMIC/IWYMIC-to-APMO/IMO award and medal rates.
+- 2026-07-23: Added a reproducible Statistical Analysis stage with complete-window cohorts, forward-year model validation, survival summaries, and six figures.
+- 2026-07-23: Extended official higher-contest coverage through 2026 and added a consolidated LaTeX and PDF statistical report.
+
+Source:
+- 3 Processed Data\Combined\EMIC and IWYMIC Unique Contestants.csv
+- SHA-256: 7b76093383216306f75fb8a217b8bf3460a12a24593f8758d20ad77e4ab0e04c
+- Master.csv SHA-256: 7b76093383216306f75fb8a217b8bf3460a12a24593f8758d20ad77e4ab0e04c
+- Exact-copy verification: passed
+
+Output organization:
+- 4 Country Analysis/1 Master: every EMIC/IWYMIC roster identity in the country, with frequency and year summaries for all four contests.
+- 4 Country Analysis/2 EMIC: country identities with at least one EMIC appearance.
+- 4 Country Analysis/3 IWYMIC: country identities with at least one IWYMIC appearance.
+- 4 Country Analysis/4 APMO: country identities from the fixed EMIC/IWYMIC roster with at least one matched APMO appearance.
+- 4 Country Analysis/5 IMO: country identities from the fixed EMIC/IWYMIC roster with at least one matched IMO appearance.
+- 4 Country Analysis/Winner Progression by Country.csv: one row per roster country with later APMO and IMO award/medal counts and percentages.
+- 6 Statistical Analysis: generated cohort, descriptive and model tables, Markdown report, LaTeX source, compiled PDF, validation changelog, and six figures.
+- A header-only CSV is retained when a country has no matched contestant in a contest.
+
+Schemas:
+- 1 Master country files: id, name_clean, name_first_last, EMIC_freq, EMIC_years, IWYMIC_freq, IWYMIC_years, APMO_freq, APMO_years, IMO_freq, IMO_years
+- Contest country files: id, name_clean, name_first_last, freq, years, medals_by_year, rank_averages_by_year, percentiles_by_year
+- Winner progression summary: country_clean, emic_iwymic_unique_award_recipients, later_apmo_award_recipients, emic_iwymic_to_apmo_award_percent, later_apmo_medalists, emic_iwymic_to_apmo_medal_percent, later_imo_award_recipients, emic_iwymic_to_imo_award_percent, later_imo_medalists, emic_iwymic_to_imo_medal_percent
+- Master.csv preserves all source columns and source encoding exactly.
+
+Naming and identity conventions:
+- Country filenames use the readable form '<Contest> - <Country>.csv', e.g. EMIC - South Africa.csv.
+- Country display names are preserved in filenames unless a Windows-invalid filename character must be replaced.
+- id remains the global combined-roster ID; IDs are not renumbered within countries or contests.
+- name_clean is the reviewed given-name-first canonical display value.
+- The requested name_first_last output header is populated from the source name_last_first field and therefore contains the reviewed 'Surname, Given names' sortable value.
+- freq is the corresponding source appearance_count, not a newly computed score or rank.
+- years and all by-year fields are copied without alteration from the combined source.
+
+Winner progression conventions:
+- The denominator is the number of unique reviewed roster identities in the country; every roster identity has at least one EMIC or IWYMIC award result.
+- A higher-contest result is later only when its calendar year is strictly greater than the identity's earliest EMIC/IWYMIC award year; same-year and earlier results are excluded.
+- Award recipient means Gold, Silver, Bronze, or Honourable Mention. Medalist means Gold, Silver, or Bronze only.
+- Each identity is counted at most once per destination contest and outcome, regardless of repeat appearances or awards.
+- Percent columns are 0-100 numeric values: 100 * later unique recipients / EMIC-IWYMIC unique award recipients.
+- Source coverage currently ends in 2026; rates are descriptive and right-censored for recent EMIC/IWYMIC cohorts. The official APMO 2026 source remains preliminary.
+
+Validated totals:
+- Countries: 42
+- Master identities: 3112
+- EMIC: 1814 contestant rows, 2008 appearances
+- IWYMIC: 1646 contestant rows, 1900 appearances
+- APMO: 360 contestant rows, 634 appearances
+- IMO: 375 contestant rows, 742 appearances
+- Progression denominator: 3112 unique EMIC/IWYMIC award recipients
+- Later APMO award recipients: 332
+- Later APMO medalists: 247
+- Later IMO award recipients: 351
+- Later IMO medalists: 269
+
+Per-country contestant rows:
+- Country | filename component | 1 Master | 2 EMIC | 3 IWYMIC | 4 APMO | 5 IMO
+- Australia | Australia | 10 | 0 | 10 | 0 | 0
+- Bangladesh | Bangladesh | 17 | 9 | 9 | 1 | 2
+- Bolivia | Bolivia | 6 | 3 | 3 | 2 | 1
+- Botswana | Botswana | 4 | 3 | 1 | 0 | 2
+- Bulgaria | Bulgaria | 336 | 217 | 171 | 5 | 12
+- Canada | Canada | 30 | 7 | 25 | 2 | 1
+- Cyprus | Cyprus | 37 | 25 | 19 | 0 | 17
+- Ghana | Ghana | 8 | 2 | 6 | 0 | 5
+- Hong Kong | Hong Kong | 142 | 112 | 37 | 25 | 18
+- India | India | 38 | 23 | 15 | 0 | 0
+- Indonesia | Indonesia | 193 | 123 | 94 | 23 | 17
+- Islamic Republic of Iran | Islamic Republic of Iran | 138 | 63 | 80 | 19 | 16
+- Japan | Japan | 12 | 0 | 12 | 7 | 5
+- Kazakhstan | Kazakhstan | 66 | 62 | 4 | 14 | 8
+- Kyrgyzstan | Kyrgyzstan | 2 | 0 | 2 | 2 | 2
+- Lebanon | Lebanon | 3 | 2 | 1 | 0 | 0
+- Macau | Macau | 128 | 48 | 98 | 8 | 33
+- Malaysia | Malaysia | 67 | 47 | 30 | 16 | 9
+- Mexico | Mexico | 71 | 23 | 55 | 33 | 24
+- Mongolia | Mongolia | 70 | 44 | 38 | 7 | 20
+- Nepal | Nepal | 11 | 6 | 5 | 0 | 0
+- Netherlands | Netherlands | 6 | 0 | 6 | 0 | 0
+- People's Republic of China | People's Republic of China | 252 | 126 | 130 | 0 | 2
+- Peru | Peru | 12 | 6 | 6 | 1 | 1
+- Philippines | Philippines | 208 | 134 | 120 | 35 | 19
+- Republic of Korea | Republic of Korea | 101 | 68 | 35 | 0 | 1
+- Romania | Romania | 74 | 47 | 43 | 0 | 0
+- Russian Federation | Russian Federation | 41 | 23 | 21 | 2 | 3
+- Singapore | Singapore | 46 | 7 | 42 | 24 | 17
+- South Africa | South Africa | 82 | 47 | 44 | 0 | 11
+- Sri Lanka | Sri Lanka | 55 | 36 | 42 | 18 | 24
+- Taiwan | Taiwan | 259 | 149 | 133 | 25 | 19
+- Tajikistan | Tajikistan | 57 | 35 | 34 | 34 | 21
+- Thailand | Thailand | 262 | 142 | 146 | 43 | 34
+- Trinidad and Tobago | Trinidad and Tobago | 1 | 0 | 1 | 0 | 0
+- Tunisia | Tunisia | 2 | 1 | 1 | 0 | 0
+- Uganda | Uganda | 1 | 1 | 0 | 0 | 0
+- Ukraine | Ukraine | 5 | 5 | 0 | 0 | 0
+- United Arab Emirates | United Arab Emirates | 11 | 6 | 7 | 0 | 1
+- United States of America | United States of America | 42 | 22 | 22 | 0 | 1
+- Uzbekistan | Uzbekistan | 55 | 42 | 21 | 12 | 21
+- Vietnam | Vietnam | 151 | 98 | 77 | 2 | 8
+
+Validation results:
+- Exactly 42 distinct source countries: passed
+- Exactly 42 CSVs in every output folder: passed
+- Exactly 210 country CSVs overall: passed
+- Filename country components are non-empty and unique: passed
+- Every generated header matches its requested schema: passed
+- Every generated row exactly matches its combined-source projection: passed
+- All source IDs are unique and sequential: passed
+- Every master identity has an EMIC or IWYMIC history: passed
+- Contestant and appearance totals reconcile to the combined source: passed
+- Master.csv is an exact byte copy of the combined source: passed
+- Winner progression summary has exactly one validated row per country: passed
+- Winner progression counts and percentages reconcile to individual histories: passed

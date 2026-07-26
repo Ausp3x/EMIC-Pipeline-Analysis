@@ -1,0 +1,44 @@
+old_path,new_path,category,purpose,generated_by,notes
+README.md,README.md,Documentation,Main project overview,Maintained manually,Moved into the self-contained project root
+Contest Data Analysis/master.csv,Master.csv,Analysis,Convenience copy of the combined roster,build_contest_data_analysis.py,Renamed to Proper Case
+Contest Data Analysis/changelog.txt,Changelog.txt,Documentation,Project-level export and migration history,build_contest_data_analysis.py,Renamed to Proper Case and migration history added
+data/raw_html,1 Source Data/EMIC and IWYMIC,Source Data,Cached official IMC category and result HTML,EMIC and IWYMIC extractors,Raw cache filenames retained
+data/raw_higher_contests/apmo,1 Source Data/APMO,Source Data,Cached official APMO reports and score CSVs,extract_apmo_imo_results.py,Raw cache filenames retained
+data/raw_higher_contests/imo,1 Source Data/IMO,Source Data,Cached official IMO result HTML,extract_apmo_imo_results.py,Raw cache filenames retained
+data/name_reference/imo_name_reference.csv,1 Source Data/Name References/IMO Name Reference.csv,Reference Data,Official IMO given-name and surname reference,build_imo_name_reference.py,Human-facing file renamed
+data/keystage2/emic_keystage2_awarded_full.csv,3 Processed Data/EMIC/EMIC Awarded Appearances.csv,Processed Data,One row per awarded EMIC appearance,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage2/emic_keystage2_unique_contestants.csv,3 Processed Data/EMIC/EMIC Unique Contestants.csv,Processed Data,Conservative EMIC identities,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage2/emic_keystage2_medal_summary.csv,3 Processed Data/EMIC/EMIC Medal Summary.csv,Processed Data,EMIC medal and bucket totals,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage2/emic_keystage2_medal_buckets.csv,3 Processed Data/EMIC/EMIC Medal Buckets.csv,Processed Data,EMIC tie-bucket details,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage2/emic_keystage2_audit.csv,3 Processed Data/EMIC/EMIC Participant Audit.csv,Audit,EMIC participant denominator audit,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage2/emic_keystage2_changelog.txt,3 Processed Data/EMIC/EMIC Changelog.txt,Provenance,EMIC extraction and cleaning history,extract_emic_keystage2_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_awarded_full.csv,3 Processed Data/IWYMIC/IWYMIC Awarded Appearances.csv,Processed Data,One row per awarded IWYMIC appearance,extract_emic_keystage3_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_unique_contestants.csv,3 Processed Data/IWYMIC/IWYMIC Unique Contestants.csv,Processed Data,Conservative IWYMIC identities,extract_emic_keystage3_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_medal_summary.csv,3 Processed Data/IWYMIC/IWYMIC Medal Summary.csv,Processed Data,IWYMIC medal and bucket totals,extract_emic_keystage3_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_medal_buckets.csv,3 Processed Data/IWYMIC/IWYMIC Medal Buckets.csv,Processed Data,IWYMIC tie-bucket details,extract_emic_keystage3_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_audit.csv,3 Processed Data/IWYMIC/IWYMIC Participant Audit.csv,Audit,IWYMIC participant denominator audit,extract_emic_keystage3_results.py,Human-facing file renamed
+data/keystage3/emic_keystage3_changelog.txt,3 Processed Data/IWYMIC/IWYMIC Changelog.txt,Provenance,IWYMIC extraction and cleaning history,extract_emic_keystage3_results.py,Human-facing file renamed
+data/combined/emic_iwymic_unique_contestants.csv,3 Processed Data/Combined/EMIC and IWYMIC Unique Contestants.csv,Processed Data,Fixed combined identity roster,combine_emic_iwymic_contestants.py,Human-facing file renamed
+data/combined/duplicate_name_candidates.csv,3 Processed Data/Combined/Duplicate Name Review.csv,Audit,Reviewed residual near-name candidates,review_duplicate_name_candidates.py,Renamed to describe completed review
+data/combined/emic_iwymic_changelog.txt,3 Processed Data/Combined/Combined Changelog.txt,Provenance,Combined identity history and policy,combine_emic_iwymic_contestants.py,Human-facing file renamed
+data/higher_contests/apmo_matched_appearances.csv,3 Processed Data/Higher Contests/APMO Matched Appearances.csv,Processed Data,Matched official APMO appearances,extract_apmo_imo_results.py,Human-facing file renamed
+data/higher_contests/imo_matched_appearances.csv,3 Processed Data/Higher Contests/IMO Matched Appearances.csv,Processed Data,Matched official IMO appearances,extract_apmo_imo_results.py,Human-facing file renamed
+data/higher_contests/apmo_imo_audit.csv,3 Processed Data/Higher Contests/APMO and IMO Audit.csv,Audit,Higher-contest source validation,extract_apmo_imo_results.py,Human-facing file renamed
+data/higher_contests/apmo_imo_match_candidates.csv,3 Processed Data/Higher Contests/APMO and IMO Match Review.csv,Audit,Unmatched fuzzy higher-contest candidates,extract_apmo_imo_results.py,Human-facing file renamed
+data/higher_contests/apmo_imo_changelog.txt,3 Processed Data/Higher Contests/APMO and IMO Changelog.txt,Provenance,Higher-contest extraction and matching history,extract_apmo_imo_results.py,Human-facing file renamed
+scripts/audit_emic_name_outputs.py,2 Processing Scripts/audit_emic_name_outputs.py,Code,Full structural and identity audit,Maintained manually,Python filename retained
+scripts/build_contest_data_analysis.py,2 Processing Scripts/build_contest_data_analysis.py,Code,Country export generator,Maintained manually,Python filename retained
+scripts/build_imo_name_reference.py,2 Processing Scripts/build_imo_name_reference.py,Code,IMO name-reference cache builder,Maintained manually,Python filename retained
+scripts/combine_emic_iwymic_contestants.py,2 Processing Scripts/combine_emic_iwymic_contestants.py,Code,Combined roster builder,Maintained manually,Python filename retained
+scripts/emic_name_review.py,2 Processing Scripts/emic_name_review.py,Code,Shared name review rules,Maintained manually,Python filename retained
+scripts/extract_apmo_imo_results.py,2 Processing Scripts/extract_apmo_imo_results.py,Code,Higher-contest extractor and matcher,Maintained manually,Python filename retained
+scripts/extract_emic_keystage2_results.py,2 Processing Scripts/extract_emic_keystage2_results.py,Code,EMIC extractor,Maintained manually,Python filename retained
+scripts/extract_emic_keystage3_results.py,2 Processing Scripts/extract_emic_keystage3_results.py,Code,IWYMIC extractor,Maintained manually,Python filename retained
+scripts/review_cross_stage_name_candidates.py,2 Processing Scripts/review_cross_stage_name_candidates.py,Code,Auxiliary near-name scoring,Maintained manually,Python filename retained
+scripts/review_duplicate_name_candidates.py,2 Processing Scripts/review_duplicate_name_candidates.py,Code,Final duplicate review report,Maintained manually,Python filename retained
+scripts/project_paths.py,2 Processing Scripts/project_paths.py,Code,Central canonical project paths,Maintained manually,Added during migration
+Contest Data Analysis/1-Master,4 Country Analysis/1 Master,Country Analysis,All roster identities split by country,build_contest_data_analysis.py,Folder and files renamed for readability
+Contest Data Analysis/2-EMIC,4 Country Analysis/2 EMIC,Country Analysis,EMIC identities split by country,build_contest_data_analysis.py,Folder and files renamed for readability
+Contest Data Analysis/3-IWYMIC,4 Country Analysis/3 IWYMIC,Country Analysis,IWYMIC identities split by country,build_contest_data_analysis.py,Folder and files renamed for readability
+Contest Data Analysis/4-APMO,4 Country Analysis/4 APMO,Country Analysis,APMO identities split by country,build_contest_data_analysis.py,Folder and files renamed for readability
+Contest Data Analysis/5-IMO,4 Country Analysis/5 IMO,Country Analysis,IMO identities split by country,build_contest_data_analysis.py,Folder and files renamed for readability
