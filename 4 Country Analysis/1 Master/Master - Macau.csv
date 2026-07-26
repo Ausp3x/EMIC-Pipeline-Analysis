@@ -1,0 +1,129 @@
+id,name_clean,name_first_last,EMIC_freq,EMIC_years,IWYMIC_freq,IWYMIC_years,APMO_freq,APMO_years,IMO_freq,IMO_years
+1043,Ioi Hang Ao,"Ao, Ioi Hang",1,2023,0,,0,,0,
+1044,Wai Hon Ao,"Ao, Wai Hon",0,,2,2014;2015,0,,0,
+1045,Cheok Him Chan,"Chan, Cheok Him",0,,1,2023,0,,1,2026
+1046,Iat In Chan,"Chan, Iat In",0,,1,2023,1,2025,0,
+1047,Kun Wang Chan,"Chan, Kun Wang",0,,1,2016,0,,0,
+1048,Meng Hou Chan,"Chan, Meng Hou",0,,1,2015,0,,0,
+1049,Tik Fei Chan,"Chan, Tik Fei",0,,1,2021,0,,0,
+1050,Tin Chak Chan,"Chan, Tin Chak",1,2021,1,2023,0,,0,
+1051,Wai Chong Chan,"Chan, Wai Chong",0,,1,2021,0,,1,2024
+1052,Kuong Hou Chang,"Chang, Kuong Hou",1,2021,1,2023,1,2026,0,
+1053,Hou Tin Chau,"Chau, Hou Tin",0,,1,2014,0,,4,2014;2015;2016;2017
+1054,Ka Hou Chau,"Chau, Ka Hou",0,,1,2018,0,,0,
+1055,Cheok Lam Cheang,"Cheang, Cheok Lam",3,2021;2022;2023,0,,0,,0,
+1056,Ho Yau Cheang,"Cheang, Ho Yau",1,2018,0,,0,,0,
+1057,Ngou Hin Cheang,"Cheang, Ngou Hin",0,,1,2019,0,,1,2023
+1058,Zeming Chen,"Chen, Zeming",0,,1,2013,0,,0,
+1059,Zhan Lin Chen,"Chen, Zhan Lin",0,,1,2021,0,,0,
+1060,Weng Chi Cheng,"Cheng, Weng Chi",0,,1,2015,0,,1,2018
+1061,Chi Cheng Cheong,"Cheong, Chi Cheng",0,,1,2022,0,,0,
+1062,Ngok Pan Cheong,"Cheong, Ngok Pan",0,,1,2014,0,,0,
+1063,Cheng In Cheung,"Cheung, Cheng In",1,2015,2,2018;2019,0,,3,2020;2021;2022
+1064,Keng Fai Chin,"Chin, Keng Fai",0,,1,2013,0,,0,
+1065,Chi Lok Choi,"Choi, Chi Lok",2,2022;2023,0,,0,,0,
+1066,Hoi Fong Choi,"Choi, Hoi Fong",1,2019,0,,0,,0,
+1067,Kai Cheong Choi,"Choi, Kai Cheong",0,,1,2014,0,,0,
+1068,Sek Hou Chong,"Chong, Sek Hou",0,,1,2021,0,,0,
+1069,Chi Hang Chu,"Chu, Chi Hang",1,2023,0,,0,,0,
+1070,Chi Ieong Fok,"Fok, Chi Ieong",0,,2,2021;2022,0,,0,
+1071,Io Tong Fong,"Fong, Io Tong",1,2021,0,,0,,0,
+1072,Kai Chou Fong,"Fong, Kai Chou",1,2013,0,,0,,0,
+1073,Ngai Hin Fong,"Fong, Ngai Hin",0,,1,2023,0,,0,
+1074,Pak Io Fong,"Fong, Pak Io",2,2022;2023,0,,0,,0,
+1075,Alex Hong Gu,"Gu, Alex Hong",1,2014,0,,0,,0,
+1076,Seng Lok Guan,"Guan, Seng Lok",0,,1,2019,0,,0,
+1077,Chun I Ho,"Ho, Chun I",0,,1,2016,0,,1,2019
+1078,Hou In Ho,"Ho, Hou In",0,,1,2015,0,,0,
+1079,In Lok Ho,"Ho, In Lok",1,2021,0,,1,2026,1,2026
+1080,Ion Keng Ho,"Ho, Ion Keng",0,,1,2015,0,,0,
+1081,Chi Chong Hong,"Hong, Chi Chong",0,,1,2018,0,,0,
+1082,Man Hou Hong,"Hong, Man Hou",0,,1,2013,0,,0,
+1083,Song Pok Hong,"Hong, Song Pok",1,2018,1,2021,0,,2,2023;2024
+1084,Hoi Cheong Iam,"Iam, Hoi Cheong",0,,1,2013,0,,2,2014;2016
+1085,Hou Ieong,"Ieong, Hou",0,,1,2018,0,,0,
+1086,Iat Long Iong,"Iong, Iat Long",1,2014,1,2016,0,,0,
+1087,Seng Chit Ip,"Ip, Seng Chit",1,2021,0,,0,,0,
+1088,Zhi Mo Ji,"Ji, Zhi Mo",0,,1,2022,0,,0,
+1089,Wai Seng Kou,"Kou, Wai Seng",0,,1,2016,0,,0,
+1090,Ka Hou Kuong,"Kuong, Ka Hou",0,,2,2013;2014,0,,0,
+1091,Cheok Kit Lai,"Lai, Cheok Kit",0,,1,2015,0,,0,
+1092,Cheok Lam Lai,"Lai, Cheok Lam",1,2015,1,2018,0,,3,2019;2020;2021
+1093,Hio Wang Lai,"Lai, Hio Wang",0,,1,2018,0,,0,
+1094,Wai Neng Lai,"Lai, Wai Neng",0,,1,2014,0,,1,2016
+1095,Chon Wai Lam,"Lam, Chon Wai",0,,1,2013,0,,0,
+1096,Pok Hong Lam,"Lam, Pok Hong",1,2019,3,2021;2022;2023,0,,0,
+1097,Chi Pang Lao,"Lao, Chi Pang",1,2016,0,,0,,3,2020;2021;2022
+1098,Chon Hang Lao,"Lao, Chon Hang",1,2023,0,,0,,0,
+1099,Chong Man Lao,"Lao, Chong Man",0,,2,2013;2014,0,,0,
+1100,Hio Hang Lao,"Lao, Hio Hang",1,2019,0,,0,,0,
+1101,Kin Nam Lao,"Lao, Kin Nam",0,,1,2022,2,2025;2026,1,2024
+1102,Pak In Lao,"Lao, Pak In",0,,1,2023,0,,0,
+1103,Pok Tou Lau,"Lau, Pok Tou",0,,1,2021,0,,0,
+1104,Chak Seng Lei,"Lei, Chak Seng",0,,1,2014,0,,0,
+1105,Chi In Lei,"Lei, Chi In",1,2013,2,2015;2016,0,,2,2018;2019
+1106,Chon Kit Lei,"Lei, Chon Kit",0,,2,2015;2016,0,,2,2018;2019
+1107,Meng Leong Lei,"Lei, Meng Leong",0,,1,2014,0,,0,
+1108,Wai In Lei,"Lei, Wai In",1,2018,0,,0,,0,
+1109,Cheng Long Leong,"Leong, Cheng Long",1,2018,0,,0,,1,2024
+1110,Chi Hou Leong,"Leong, Chi Hou",0,,2,2016;2018,0,,0,
+1111,Hei Chit Leong,"Leong, Hei Chit",0,,1,2021,0,,1,2024
+1112,Pak Lim Leong,"Leong, Pak Lim",1,2022,0,,0,,0,
+1113,Pak Man Leong,"Leong, Pak Man",1,2018,0,,0,,0,
+1114,Pak Tou Leong,"Leong, Pak Tou",0,,2,2018;2019,0,,0,
+1115,Ka Hei Li,"Li, Ka Hei",0,,1,2022,0,,0,
+1116,Ka Hou Li,"Li, Ka Hou",0,,1,2022,0,,0,
+1117,Yongshi Li,"Li, Yongshi",0,,1,2018,0,,0,
+1118,Jia Hao Liang,"Liang, Jia Hao",1,2019,2,2021;2022,0,,1,2025
+1119,Jinxuan Liang,"Liang, Jinxuan",0,,1,2013,0,,0,
+1120,Ka Shing Liang,"Liang, Ka Shing",0,,2,2021;2022,1,2025,1,2025
+1121,Si Hang Liang,"Liang, Si Hang",0,,1,2023,0,,0,
+1122,Ming Xin Lin,"Lin, Ming Xin",0,,1,2021,0,,0,
+1123,Wang Iok Lin,"Lin, Wang Iok",0,,1,2019,0,,3,2021;2022;2023
+1124,Chon Long Lio,"Lio, Chon Long",0,,1,2015,0,,1,2018
+1125,Jiade Liu,"Liu, Jiade",0,,1,2014,0,,2,2015;2017
+1126,Kuan I Liu,"Liu, Kuan I",0,,1,2023,0,,0,
+1127,Zi Peng Liu,"Liu, Zi Peng",0,,1,2018,0,,0,
+1128,Chi Hei Lo,"Lo, Chi Hei",1,2022,0,,0,,0,
+1129,Kiros Lu,"Lu, Kiros",0,,1,2023,1,2026,0,
+1130,Kuan Kun Mak,"Mak, Kuan Kun",1,2022,0,,1,2026,1,2026
+1131,Iek Hin Bosco Ng,"Ng, Iek Hin Bosco",1,2021,1,2023,0,,0,
+1132,Ka Chon Ng,"Ng, Ka Chon",1,2014,1,2016,0,,1,2020
+1133,Ho Ieng Ngai,"Ngai, Ho Ieng",0,,2,2013;2014,0,,2,2016;2017
+1134,Ian Meng Si,"Si, Ian Meng",1,2019,1,2022,0,,0,
+1135,Ian Wai Si,"Si, Ian Wai",1,2018,1,2021,0,,0,
+1136,Kin Chon Sin,"Sin, Kin Chon",0,,1,2013,0,,0,
+1137,Kok Lai Sit,"Sit, Kok Lai",0,,1,2023,0,,0,
+1138,Wai Sam Sou,"Sou, Wai Sam",1,2022,0,,0,,0,
+1139,Weng Nga Tai,"Tai, Weng Nga",0,,1,2015,0,,0,
+1140,Chin Seng Tam,"Tam, Chin Seng",1,2018,0,,0,,0,
+1141,Hou Tam,"Tam, Hou",0,,1,2014,0,,2,2016;2017
+1142,Hou Wa Tam,"Tam, Hou Wa",0,,1,2023,0,,0,
+1143,Son Tai Tam,"Tam, Son Tai",1,2021,0,,0,,0,
+1144,Hou Tan,"Tan, Hou",0,,1,2013,0,,0,
+1145,Chi Chon Tang,"Tang, Chi Chon",0,,1,2013,0,,1,2014
+1146,Cho Hou Tang,"Tang, Cho Hou",0,,2,2013;2014,0,,4,2014;2015;2016;2017
+1147,Song Hei Tang,"Tang, Song Hei",0,,1,2021,0,,0,
+1148,Frankie That,"That, Frankie",1,2019,1,2021,0,,0,
+1149,Kin Wai Tong,"Tong, Kin Wai",0,,1,2016,0,,3,2018;2019;2020
+1150,Chong Un Un,"Un, Chong Un",1,2016,1,2019,0,,1,2023
+1151,Hou Hin Un,"Un, Hou Hin",2,2013;2014,1,2015,0,,0,
+1152,Cheng Hou Wong,"Wong, Cheng Hou",0,,2,2018;2019,0,,0,
+1153,Chi Ian Wong,"Wong, Chi Ian",0,,1,2019,0,,1,2020
+1154,Chon Him Wong,"Wong, Chon Him",1,2023,0,,0,,0,
+1155,Chon In Wong,"Wong, Chon In",0,,1,2013,0,,0,
+1156,Hou Cheng Wong,"Wong, Hou Cheng",1,2018,1,2021,0,,0,
+1157,Ieng Lon Wong,"Wong, Ieng Lon",1,2018,0,,0,,0,
+1158,Kam Ieong Wong,"Wong, Kam Ieong",0,,1,2015,0,,0,
+1159,Seng In Wong,"Wong, Seng In",0,,1,2014,0,,0,
+1160,Sui Hung Wong,"Wong, Sui Hung",0,,1,2019,0,,0,
+1161,U Pan Wong,"Wong, U Pan",1,2023,0,,0,,0,
+1162,Ut Kei Wong,"Wong, Ut Kei",0,,1,2018,0,,0,
+1163,Zi Ning Wu,"Wu, Zi Ning",0,,1,2023,0,,0,
+1164,Kuong Fai Xu,"Xu, Kuong Fai",1,2016,0,,0,,0,
+1165,Rason Xu,"Xu, Rason",1,2019,1,2022,0,,0,
+1166,Shuo Yang,"Yang, Shuo",1,2022,0,,0,,0,
+1167,Chon Hou Ye,"Ye, Chon Hou",0,,1,2019,0,,3,2021;2022;2023
+1168,Haoxiang Ye,"Ye, Haoxiang",2,2018;2019,0,,1,2025,0,
+1169,Tong Sam Zheng,"Zheng, Tong Sam",0,,1,2018,0,,0,
+1170,Ganwen Zuo,"Zuo, Ganwen",0,,1,2019,0,,0,
