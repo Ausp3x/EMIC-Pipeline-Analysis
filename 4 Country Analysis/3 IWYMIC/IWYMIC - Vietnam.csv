@@ -1,0 +1,78 @@
+id,name_clean,name_first_last,freq,years,medals_by_year,rank_averages_by_year,percentiles_by_year
+2963,Le Nhat Minh Bui,"Bui, Le Nhat Minh",1,2018,2018:Bronze,2018:112.5,2018:0.6237458194
+2965,Nhat Minh Bui,"Bui, Nhat Minh",1,2023,2023:Merit,2023:186.5,2023:0.4116719243
+2966,Trung Hieu Bui,"Bui, Trung Hieu",1,2018,2018:Merit,2018:182.5,2018:0.389632107
+2967,Thuy An Cao,"Cao, Thuy An",1,2018,2018:Silver,2018:25.5,2018:0.9147157191
+2968,Cong Thanh Chu,"Chu, Cong Thanh",2,2016;2017,2016:Bronze;2017:Bronze,2016:107.5;2017:69,2016:0.6254355401;2017:0.7261904762
+2969,Minh Hieu Chu,"Chu, Minh Hieu",1,2014,2014:Silver,2014:45.5,2014:0.8550955414
+2971,Chi Kien Dam,"Dam, Chi Kien",1,2021,2021:Merit,2021:129.5,2021:0.5440140845
+2973,Minh Trung Dang,"Dang, Minh Trung",1,2018,2018:Bronze,2018:66.5,2018:0.7775919732
+2975,Duc Vinh Dao,"Dao, Duc Vinh",1,2022,2022:Silver,2022:50.5,2022:0.8035019455
+2980,Vu Quang Dao,"Dao, Vu Quang",1,2014,2014:Silver,2014:25,2014:0.9203821656
+2981,Phuc Hung Dinh,"Dinh, Phuc Hung",1,2013,2013:Merit,2013:159.5,2013:0.4574829932
+2982,Thanh Hung Dinh,"Dinh, Thanh Hung",1,2014,2014:Merit,2014:141,2014:0.550955414
+2983,Vu Tung Lam Dinh,"Dinh, Vu Tung Lam",1,2017,2017:Silver,2017:21,2017:0.9166666667
+2985,Hoang Nam Hieu Do,"Do, Hoang Nam Hieu",1,2014,2014:Bronze,2014:90.5,2014:0.7117834395
+2986,Hoang Quoc Bao Do,"Do, Hoang Quoc Bao",2,2018;2019,2018:Bronze;2019:Gold,2018:75.5;2019:10.5,2018:0.7474916388;2019:0.9555084746
+2988,Manh Dat Doan,"Doan, Manh Dat",1,2022,2022:Bronze,2022:92,2022:0.6420233463
+2990,Hong Minh Duong,"Duong, Hong Minh",1,2016,2016:Bronze,2016:62,2016:0.7839721254
+2991,Manh Hung Ha,"Ha, Manh Hung",2,2022;2023,2022:Gold;2023:Gold,2022:5.5;2023:7.5,2022:0.9785992218;2023:0.976340694
+2992,Minh Loc Ho,"Ho, Minh Loc",1,2014,2014:Merit,2014:141,2014:0.550955414
+2993,Anh Minh Hoang,"Hoang, Anh Minh",1,2014,2014:Bronze,2014:102,2014:0.6751592357
+2996,Tung Hoang,"Hoang, Tung",1,2014,2014:Bronze,2014:102,2014:0.6751592357
+2999,Minh Tuan Hua,"Hua, Minh Tuan",1,2018,2018:Merit,2018:163,2018:0.4548494983
+3001,Trieu Duong La,"La, Trieu Duong",1,2018,2018:Silver,2018:36,2018:0.8795986622
+3003,Dinh Anh Le,"Le, Dinh Anh",1,2018,2018:Merit,2018:135,2018:0.5484949833
+3004,Hong Hanh Le,"Le, Hong Hanh",1,2013,2013:Bronze,2013:114.5,2013:0.6105442177
+3007,Quy Duc Le,"Le, Quy Duc",1,2023,2023:Merit,2023:143.5,2023:0.547318612
+3008,Tran Cong Hung Le,"Le, Tran Cong Hung",1,2017,2017:Gold,2017:13.5,2017:0.9464285714
+3012,Thanh Chuong Luong,"Luong, Thanh Chuong",1,2018,2018:Bronze,2018:79,2018:0.7357859532
+3014,Thien An Mai,"Mai, Thien An",2,2014;2015,2014:Bronze;2015:Bronze,2014:78;2015:90.5,2014:0.7515923567;2015:0.7117834395
+3016,Le Bach Ngo,"Ngo, Le Bach",2,2017;2018,2017:Silver;2018:Silver,2017:36;2018:40.5,2017:0.8571428571;2018:0.864548495
+3017,Minh Son Ngo,"Ngo, Minh Son",1,2023,2023:Silver,2023:56.5,2023:0.8217665615
+3018,Tien Hung Ngo,"Ngo, Tien Hung",1,2018,2018:Merit,2018:163,2018:0.4548494983
+3021,Bao Ngan Giang Nguyen,"Nguyen, Bao Ngan Giang",1,2021,2021:Bronze,2021:107,2021:0.6232394366
+3022,Bui Duc Dung Nguyen,"Nguyen, Bui Duc Dung",1,2022,2022:Silver,2022:25,2022:0.9027237354
+3024,Canh Duong Nguyen,"Nguyen, Canh Duong",1,2021,2021:Silver,2021:22,2021:0.9225352113
+3026,Dang Khanh Nguyen,"Nguyen, Dang Khanh",1,2023,2023:Silver,2023:25,2023:0.9211356467
+3027,Dang Khoi Nguyen,"Nguyen, Dang Khoi",2,2014;2015,2014:Silver;2015:Silver,2014:25;2015:41,2014:0.9203821656;2015:0.8694267516
+3028,Dinh Bach Nguyen,"Nguyen, Dinh Bach",1,2013,2013:Bronze,2013:74,2013:0.7482993197
+3031,Duc Huy Nguyen,"Nguyen, Duc Huy",1,2015,2015:Silver,2015:50,2015:0.8407643312
+3035,Hai Nam Nguyen,"Nguyen, Hai Nam",1,2018,2018:Merit,2018:176.5,2018:0.4096989967
+3036,Hoang An Nguyen,"Nguyen, Hoang An",1,2017,2017:Bronze,2017:93,2017:0.630952381
+3037,Hoang An Nguyen,"Nguyen, Hoang An",1,2017,2017:Silver,2017:52.5,2017:0.7916666667
+3040,Hoang Tung Lam Nguyen,"Nguyen, Hoang Tung Lam",1,2016,2016:Bronze,2016:91.5,2016:0.681184669
+3041,Hữu Tuấn Nguyễn,"Nguyễn, Hữu Tuấn",1,2022,2022:Silver,2022:19.5,2022:0.9241245136
+3043,Khanh Duong Nguyen,"Nguyen, Khanh Duong",1,2021,2021:Silver,2021:44.5,2021:0.8433098592
+3047,Le Nhat Nam Nguyen,"Nguyen, Le Nhat Nam",1,2022,2022:Bronze,2022:61.5,2022:0.7607003891
+3051,Minh Tuan Nguyen,"Nguyen, Minh Tuan",1,2015,2015:Silver,2015:54,2015:0.8280254777
+3052,Nam Son Nguyen,"Nguyen, Nam Son",1,2021,2021:Silver,2021:36.5,2021:0.8714788732
+3053,Nam Viet Nguyen,"Nguyen, Nam Viet",1,2014,2014:Merit,2014:205,2014:0.347133758
+3054,Nga Nhi Nguyen,"Nguyen, Nga Nhi",1,2015,2015:Silver,2015:60.5,2015:0.8073248408
+3059,Ngoc Minh Duy Nguyen,"Nguyen, Ngoc Minh Duy",1,2019,2019:Merit,2019:109.5,2019:0.5360169492
+3061,Nhat Minh Nguyen,"Nguyen, Nhat Minh",1,2018,2018:Merit,2018:163,2018:0.4548494983
+3062,Nhat Minh Nguyen,"Nguyen, Nhat Minh",1,2022,2022:Bronze,2022:76,2022:0.7042801556
+3069,Phuc Lam Nguyen,"Nguyen, Phuc Lam",1,2023,2023:Silver,2023:42,2023:0.8675078864
+3070,Phuong Thao Vy Nguyen,"Nguyen, Phuong Thao Vy",1,2016,2016:Silver,2016:32.5,2016:0.8867595819
+3072,Quoc Minh Thanh Nguyen,"Nguyen, Quoc Minh Thanh",1,2022,2022:Merit,2022:138.5,2022:0.4610894942
+3073,The Viet Hung Nguyen,"Nguyen, The Viet Hung",1,2018,2018:Bronze,2018:83,2018:0.7224080268
+3074,Tien Minh Nguyen,"Nguyen, Tien Minh",2,2022;2023,2022:Bronze;2023:Bronze,2022:76;2023:93.5,2022:0.7042801556;2023:0.7050473186
+3075,Tuan Hoang Nguyen,"Nguyen, Tuan Hoang",1,2016,2016:Bronze,2016:62,2016:0.7839721254
+3076,Van Viet Dung Nguyen,"Nguyen, Van Viet Dung",1,2022,2022:Bronze,2022:61.5,2022:0.7607003891
+3077,Vĩ Thanh Quang Nguyễn,"Nguyễn, Vĩ Thanh Quang",1,2022,2022:Bronze,2022:76,2022:0.7042801556
+3078,Ca Dat Pham,"Pham, Ca Dat",1,2017,2017:Merit,2017:121.5,2017:0.5178571429
+3079,Dang Nguyen Pham,"Pham, Dang Nguyen",1,2022,2022:Gold,2022:13.5,2022:0.9474708171
+3081,Ha My Pham,"Pham, Ha My",1,2013,2013:Merit,2013:176.5,2013:0.3996598639
+3083,Minh Duc Pham,"Pham, Minh Duc",1,2013,2013:Merit,2013:190,2013:0.3537414966
+3085,Nam Khánh Phạm,"Phạm, Nam Khánh",1,2014,2014:Silver,2014:37.5,2014:0.8805732484
+3086,Quang Nam Pham,"Pham, Quang Nam",1,2013,2013:Bronze,2013:99.5,2013:0.6615646259
+3087,Quoc Viet Pham,"Pham, Quoc Viet",2,2015;2016,2015:Merit;2016:Silver,2015:160.5;2016:26.5,2015:0.4888535032;2016:0.9076655052
+3088,Minh Duc Phan,"Phan, Minh Duc",1,2015,2015:Gold,2015:3,2015:0.9904458599
+3089,Quang Anh Phan,"Phan, Quang Anh",1,2017,2017:Bronze,2017:63.5,2017:0.748015873
+3090,Viet Tan Phan,"Phan, Viet Tan",1,2015,2015:Merit,2015:169.5,2015:0.4601910828
+3096,Hoang Quang Dieu Tran,"Tran, Hoang Quang Dieu",1,2018,2018:Merit,2018:195,2018:0.347826087
+3098,Ngoc Nhat Minh Tran,"Tran, Ngoc Nhat Minh",1,2021,2021:Silver,2021:39,2021:0.8626760563
+3099,Quoc Viet Tran,"Tran, Quoc Viet",1,2021,2021:Merit,2021:122.5,2021:0.5686619718
+3102,Duc Viet Trinh,"Trinh, Duc Viet",1,2016,2016:Bronze,2016:62,2016:0.7839721254
+3109,Le Duc Minh Vu,"Vu, Le Duc Minh",1,2023,2023:Bronze,2023:124,2023:0.6088328076
+3110,Nguyen Nam Anh Vu,"Vu, Nguyen Nam Anh",2,2021;2022,2021:Bronze;2022:Merit,2021:97;2022:117.5,2021:0.6584507042;2022:0.5428015564
