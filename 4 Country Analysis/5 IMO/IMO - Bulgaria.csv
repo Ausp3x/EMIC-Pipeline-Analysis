@@ -1,0 +1,13 @@
+id,name_clean,name_first_last,freq,years,medals_by_year,rank_averages_by_year,percentiles_by_year
+47,Daniel Atanasov,"Atanasov, Daniel",1,2016,2016:Silver,2016:72.5,2016:0.8795681063
+58,Kiril Atanasov Bangachev,"Bangachev, Kiril Atanasov",2,2017;2018,2017:Silver;2018:Silver,2017:126.5;2018:138.5,2017:0.7943089431;2018:0.7668350168
+71,Aleksandar Cherganski,"Cherganski, Aleksandar",2,2015;2016,2015:Bronze;2016:Silver,2015:149.5;2016:72.5,2015:0.7409012132;2016:0.8795681063
+136,Angel Antonov Hristov,"Hristov, Angel Antonov",3,2023;2024;2025,2023:Bronze;2024:Silver;2025:Silver,2023:163.5;2024:112;2025:76.5,2023:0.7354368932;2024:0.816091954;2025:0.8785714286
+139,Marin Hristov Hristov,"Hristov, Marin Hristov",3,2022;2023;2024,2022:Silver;2023:Gold;2024:Silver,2022:52.5;2023:25;2024:94.5,2022:0.9108658744;2023:0.9595469256;2024:0.8448275862
+173,Evgeni Staev Kayryakov,"Kayryakov, Evgeni Staev",2,2019;2020,2019:Silver;2020:Bronze,2019:82.5;2020:171,2019:0.8671497585;2020:0.7224025974
+176,Borislav Kirilov Kirilov,"Kirilov, Borislav Kirilov",4,2019;2020;2021;2022,2019:Silver;2020:Silver;2021:Gold;2022:Gold,2019:111;2020:125.5;2021:27.5;2022:34.5,2019:0.8212560386;2020:0.7962662338;2021:0.9555735057;2022:0.941426146
+204,Denitsa Markova,"Markova, Denitsa",2,2014;2015,2014:Honourable Mention;2015:Honourable Mention,2014:340.5;2015:294.5,2014:0.3919642857;2015:0.4896013865
+208,Vesselin Markovich,"Markovich, Vesselin",3,2023;2024;2025,2023:Bronze;2024:Bronze;2025:Silver,2023:247.5;2024:221;2025:133,2023:0.5995145631;2024:0.6371100164;2025:0.7888888889
+212,Ivan-Aleksandar Veselinov Mavrov,"Mavrov, Ivan-Aleksandar Veselinov",1,2018,2018:Silver,2018:54.5,2018:0.9082491582
+228,Violeta Naydenova,"Naydenova, Violeta",3,2015;2016;2017,2015:Silver;2016:Bronze;2017:Silver,2015:81.5;2016:194.5;2017:92,2015:0.8587521664;2016:0.676910299;2017:0.8504065041
+373,Kiril Ivanov Zulyamski,"Zulyamski, Kiril Ivanov",1,2026,2026:Bronze,2026:182.5,2026:0.725975976
